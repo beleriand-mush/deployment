@@ -1,0 +1,141 @@
+#!/bin/sh
+#
+
+# usage: restart
+
+#-- options
+
+# You will almost definitely want to change this. In general, it
+#  should be the directory this script is in. Provide a full pathname.
+#  This is usually something like /home/lwl/pennmush/game
+GAMEDIR=$HOME/Beleriand
+
+# The config file
+CONF_FILE=Beleriand.cnf
+
+# The error log file
+LOG=log/netmush.log
+
+#
+# Read the cnf file and set some variables.
+#
+cd $GAMEDIR
+INDB=`egrep "^input_database" $CONF_FILE | sed "s/.*[ 	][ 	]*.*\/\(.*\)/\1/"`
+OUTDB=`egrep "^output_database" $CONF_FILE | sed "s/.*[ 	][ 	]*.*\/\(.*\)/\1/"`
+PANICDB=`egrep "^crash_database" $CONF_FILE | sed "s/.*[ 	][ 	]*.*\/\(.*\)/\1/"`
+PANICDIR=`egrep "^crash_database" $CONF_FILE | sed "s/.*[ 	][ 	]*\(.*\)\/.*/\1/"`
+COMPRESSOR="cat"
+
+# Find out what the compression program is, if any
+egrep -s "^dbcomp.*yes" $CONF_FILE
+nocompress=$?
+if [ $nocompress -eq 0 ]; then
+  # We're using compression
+  echo $INDB | egrep -s "\.(Z|z|gz)"
+  nomatch=$?
+  if [ $nomatch -eq 0 ]; then
+    # We got a match
+    COMPRESSOR=`egrep "^compress_program" $CONF_FILE | sed "s/[^ 	]*[ 	]*\(.*\)/\1/"`
+  fi
+fi
+  
+# check extracted options
+
+if [ "x$INDB" = "x" -o "x$OUTDB" = "x" -o
+     "x$PANICDB" = "x" -o "x$PANICDIR" = "x" -o
+     "x$COMPRESSOR" = "x" ]; then
+  echo Failed to extract vital configuration data.
+  exit 1
+fi
+
+#-- start up everything
+
+# Prevent double-starting things. You may need to provide a pathname for
+#  some of the commands. System V flavors need "ps -f" instead of "ps uwx".
+mush=`ps uwx`
+mush=`echo $mush | egrep $CONF_FILE | wc -l`
+
+# Uncomment the following only if you are RUNNING an RWHO server and want to 
+#  restart it as well
+#mwhod=`ps uwx`
+#mwhod=`echo $mwhod | egrep mwhod | wc -l`
+
+cd $GAMEDIR
+
+# Uncomment the following only to restart the RWHO server
+#if [ $mwhod -eq 1]; then
+#  echo restarting mud who daemon
+#  ./mwhod -f muds.dat -n FooWHO >mwhod.log 2>&1 &
+#fi
+
+if [ $mush -gt 0 ]; then
+  echo Mush already active.
+  exit 0
+fi
+
+echo Building text file indexes.
+(cd txt; make)
+
+echo Restarting Mush.
+
+if [ -r $PANICDIR/$PANICDB ]; then
+   end="`tail -1 $PANICDIR/$PANICDB`"
+   if [ "$end" = "***END OF DUMP***" ]; then
+      echo "Recovering PANIC dump."
+      cat $PANICDIR/$PANICDB | $COMPRESSOR > data/$OUTDB
+      rm $PANICDIR/$PANICDB
+      echo "PANIC dump successfully recovered."
+   else
+      mv $PANICDIR/$PANICDB save/$PANICDB.corrupt
+      echo "Warning: PANIC dump corrupt. Using older db."
+   fi
+fi
+
+# XXX should save old logs
+# for log in log/*.log; do
+#   mv -f $log $log.old
+# done
+
+if [ -r data/$OUTDB ]; then
+   rm -f save/$INDB.old
+   mv -f data/$INDB save/$INDB.old
+   mv data/$OUTDB data/$INDB
+else
+   echo "No $OUTDB found."
+   if [ -r data/$INDB ]; then
+      echo "Using $INDB."
+   else
+      echo "No $INDB found."
+      if [ -r save/$INDB.old ]; then
+	 echo "Using save/$INDB.old."
+	 cp save/$INDB.old data/$INDB
+      else
+	echo "No save/$INDB.old found."
+	if [ -r data/minimal.db ]; then
+	   echo "Using data/minimal.db."
+	   cat data/minimal.db | $COMPRESSOR > data/$INDB
+	else
+	 if [ -r data/minimal.db.Z ]; then
+	    echo "Using data/minimal.db.Z."
+	    zcat data/minimal.db.Z | $COMPRESSOR > data/$INDB
+	 else
+	    echo "No minimal.db.Z found."
+	    if [ -r data/minimal.db.gz ]; then
+	      echo "Using data/minimal.db.gz."
+	      gzip -d -c data/minimal.db.gz | $COMPRESSOR > data/$INDB
+	    else
+	      echo "No minimal.db.gz found."
+	      echo "I can't find any usable database."
+	    fi
+	 fi
+	fi
+      fi
+   fi
+fi
+
+if [ -r reboot.db ]; then
+  rm -f reboot.db
+fi
+./netmush 
+#$CONF_FILE $LOG &
+
