@@ -1,0 +1,23 @@
+-----------------------------------------------------------------------------
+Beleriand - the Tolkien MUSH       M      These are names of current Wizards:
+Middle-earth of First Age        MMMM.                   Melkor Nienna Tulkas
+PennMUSH 1.7.1 pl3             .MMMSSSS.                       Royals: Sauron
+with Local Mods             .SSSMSSSSSSSSS.                 Site admin: Argon
+                    .S.  .SSSSS;;;;S;;;;;SSSS;.         .                    
+Founded Feb 95    .SSSSS;SSS;;;%;;;;S;;;;;;;;;;;;;%;.  .SS.     Please, don't
+Opened Oct 96    .SSSSSS;;%%;;;%;;;;;;%;;;;;;;%;;;;%%;;;SSSS;.    use Tolkien
+WELCOME         .SS;;;;%%;;;;%%;%;;;;;;%;;;;;;;;%;;%%%;;;;SSSS;..      names!
+HERE!      .  .;%%;;;;%%;;;;%%;;;%;;;;;%%%%;;;;;;%;;;;%%%;;;;;;;%;;.         
+         ;;;;%%%;;;%%;;;;;%%%;;;%%%;;;;;;%%%;;;%;;%;;;;%%%%;;%%;%;;;         
+       .;####;;;#####;;#;;;;;#####;;####;;;###;;;###;;;#;;;;#;;####;;.       
+    .;;;;#;;;#;;#;;;;;;#;;;;;#;;;;;;#;;;#;;;#;;;#;;;#;;##;;;#;;#;;;#;;;.     
+   .;;;;;####;;;####;;;#;;;;;####;;;####;;;;#;;;#####;;#;#;;#;;#;;;#;;%;.    
+  .;;%;;;#;;;#;;#;;;;;;#;;;;;#;;;;;;#;;#;;;;#;;;#;;;#;;#;;#;#;;#;;;#;;%%;;.  
+ .;;%%%;;####;;;#####;;####;;#####;;#;;;#;;###;;#;;;#;;#;;;##;;####;;%%%%;;. 
+-----------------------------------------------------------------------------
+To connect to an existing character type............connect <name> <password>
+To create a new character type.......................create <name> <password>
+Do you just want to look around? Type.....................connect Guest guest
+Who is online? Type.....WHO                       To logout type.........QUIT
+-----------------------------------------------------------------------------
+
