@@ -1,28 +1,23 @@
-Welcome to...             beleriand.mux.net:4739                     *
- >-----<                http://www.mux.net/~bele/                   /^\
-| ,___. |       +========================================+         /|\|\
-|  <|>  |       | ._  .__ .   .__ ._  _._   .   .  . ._  |        / ' ' \
-|  '|`  TOLKIEN'S |_) |_  |   |_  |_)  |   / \  |\ | | \ |BasedOn/W<-+->E\
-| (_|   |       | |_) |__ |__ |__ | \ _|_ /```\ | \| |_/ |      /====S====\
-|       |       +========================================+          |T|
- >-----<                         /\/^\/\                            |h|
-   |X|                          /Angband\                           |e|
-   |X|  ./\             /\/\/\_/ /  n  \ \_/\/\/\                   | |
-   |X| /\~~.~~~~~~.~~/\                          .                  |S|
-   |X| \    Mithrim /\       ,._________.     oxx|Feanoria>     /\  |i|
-   |X|  \   /\_/\_/\. /\ "  / Dorthonion \.      '             /\   |l|
-   |X|   \ Dor-lomin /\  " (*)            \..          Belegost/\/\ |m|
-   |X| ~  :        /\/\ " /Gondolin.______/\                 /\/\   |a|
-   |X|~~~ |_/\/\/\/\    "~`:..     /\/\/\/\             Nogrod/\/\  |r|
-   |X| ~~ / Nargothrond "     ~~~                         /\/\ /\/\ |i|
-   |X|~~ /               "              Doriath              /\ /\  |l|
-   |X|~~ /      4. Brethil .4 "           4                  /\/\   |l|
-   |X| ~|Falas                       4 4  4 4             /\/\      |i|
-   |X|                                                              |o|
-+--|X|--<To Connect>----------+              +-----<Global Admins>--|n|--+
-| connect <name> <password>   | Do not use   |Melkor Tulkas Mandos Orome |
-| connect Guest     guest     | book names   |      Este Vaire Arien     |
-|  create <name> <password> <-+-for new      |                           |
-|  WHO    -HELP    QUIT       | characters!  |    Site Admin: Argon      |
-+------------------------------------------------------------------------+
-
+------------------------------------------------------------------------------
+Beleriand - the Tolkien MUSH          _     These are the names of the Wizards
+Middle-earth's First Age    .-.  ^^  / \        _                  MELKOR ULMO
+PennMUSH 1.7.1p3 local     /   \    /^./\__   _/ \              ALDARON TULKAS
+              _        .--'\/\_ \__/.      \ /    \  ^^  ___
+Founded in   / \_    _/ ^      \/  __  :'   /\/\  /\  __/   \   Site hosted by
+Feb 1995    /    \  /    .'   _/  /  \   ^ /    \/  \/ .`'\_/\           ARGON
+           /\/\  /\/ :' __  ^/  ^/    `--./.'  ^  `-.\ _    _:\ _
+WELCOME   /    \/  \  _/  \-' __/.' ^ _   \_   .'\   _/ \ .  __/ \   Please do
+HERE!   /\  .-   `._\/     \ / -.   _/ \ -. `_/   \ /    `._/  ^  \    not use
+       /  `-.__ ^    \.-'.--'    . /    `--./ .-'  `-.  `-. `.  -  `.  Tolkien
+^^  __/__   ______  _ \     ______/ _____  /______'___\__  _  \   -__\__ names
+   (  __ \ (  ___ \( \ `--.(  ___ \(  __ \'\_   _/(  __  )( (  `/|(  _  \
+   | (__) )| (__ \/| (     | (__ \/| (__) )  ) (  | (__) ||  \ ( || ( \  )
+   |  __ ( |  __)  | |     |  __)  | __ ./   | |  |  __  || (\\) || |  ) |
+  /| )__) )| (___/\| (___/\| (___/\| ) \ \___) (__| )  ( || ) \  || (_/  )
+ /`|/ \__/.(______/(______/(______/|/. .\_/\_____/|/.. .\||/.. )_)(_____/.\
+------------------------------------------------------------------------------
+.. create <name> <password> ..... Type to create a new character .............
+.. connect <name> <password> .... Type to connect to an existing character ...
+.. connect Guest ................ Type if you just wish to look around .......
+------------------------------------------------------------------------------
+                          http://beleriand.mux.net/
