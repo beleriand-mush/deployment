@@ -1,0 +1,124 @@
+#!/usr/bin/perl
+
+if ($#ARGV != 0) {
+  die("usage: dbgrep REGEXP\n");
+}
+
+$pattern = $ARGV[0];
+
+$h1 = <STDIN>;
+$h2 = <STDIN>;
+if (! ($h1 =~ /^\+V[0-9]+$/) || ! ($h2 =~ /^~[0-9]+$/)) {
+  die("ERROR [1] corrupted input\n");
+}
+
+$line = 3;
+$dbref = -1;
+$objname = '';
+$atrname = '';
+
+sub getline
+{
+  my $tmp;
+  ++$line;
+  if (!defined($line_put_back)) {
+    $tmp = <STDIN>;
+    chomp($tmp) if(defined($tmp));
+    return $tmp;
+  }
+  else {
+    $tmp = $line_put_back;
+    undef($line_put_back);
+    return $tmp;
+  }
+}
+
+sub peekline
+{
+  my $tmp = getline();
+  if (defined($tmp)) {
+    --$line;
+    $line_put_back = $tmp;
+  }
+  return $tmp;
+}
+
+sub getstring
+{
+  my $tmp = getline();
+  if (! ($tmp =~ /^"/)) {
+    die("ERROR [$line] invalid string: $tmp\n");
+  }
+  while (! ($tmp =~ /"$/)) {
+    if (! ($tmp =~ /\\$/)) {
+      die("ERROR [$line] invalid string: $tmp\n");
+    }
+    chop($tmp);
+    $tmp .= getline();
+  }
+  return substr($tmp, 1, -1);
+}
+
+sub hilite
+{
+  my ($txt) = @_;
+  return "\033[1m" . $txt . "\033[m";
+}
+
+sub inverse
+{
+  my ($txt) = @_;
+  return "\033[7m" . $txt . "\033[m";
+}
+
+sub examine
+{
+  my ($text, $msg) = @_;
+  if ($text =~ /$pattern/i) {
+    print("[$line] ", hilite("$objname(#$dbref)$msg"), ": ",
+          $`, inverse($&), $', "\n\n");
+  }
+}
+
+while (!eof(STDIN)) {
+  $_ = getline();
+  if ($_ eq '***END OF DUMP***') {
+    exit;
+  }
+  if (/^\!([0-9]+)$/) {
+    $dbref = $1;
+  } else {
+    die("ERROR [$line] !dbref expected: $_\n");
+  }
+  $objname = getstring();
+  # print("DEBUG [$line] $objname(#$dbref)\n");
+  examine($objname, "/object_name");
+  while (defined($_ = getline())) {
+    last if (/^<$/);
+    if (/^(-??[0-9]+)$/) {
+      $value = $1;
+      examine($value, "/num_attr");
+      next;
+    }
+    if (/^_([A-Za-z0-9_]+)(\^[0-9]+)??\|(.*)$/) {
+      $lockname = $1;
+      $value = $3;
+      # boolexps are too hard for parsing
+      while ($_ = peekline(), ! /^[0-9-_]/) {
+        $value .= getline();
+      }
+      examine($value, "/lock:$lockname");
+      next;
+    }
+    if (/^\]([^^]+)\^[0-9]+\^[0-9]+$/) {
+      $atrname = $1;
+      $value = getstring();
+      examine($value, "/$atrname");
+      next;
+    }
+    die("ERROR [$line] text not recognized: $_\n");
+  }
+}
+
+die("ERROR [$line] preliminary eof\n");
+
