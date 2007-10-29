@@ -8,7 +8,7 @@
 # You will almost definitely want to change this. In general, it
 #  should be the directory this script is in. Provide a full pathname.
 #  This is usually something like /home/lwl/pennmush/game
-GAMEDIR=$HOME/Beleriand
+GAMEDIR=$HOME/Beleriand/game
 
 # The config file
 CONF_FILE=Beleriand.cnf
@@ -41,8 +41,8 @@ fi
   
 # check extracted options
 
-if [ "x$INDB" = "x" -o "x$OUTDB" = "x" -o
-     "x$PANICDB" = "x" -o "x$PANICDIR" = "x" -o
+if [ "x$INDB" = "x" -o "x$OUTDB" = "x" -o \
+     "x$PANICDB" = "x" -o "x$PANICDIR" = "x" -o \
      "x$COMPRESSOR" = "x" ]; then
   echo Failed to extract vital configuration data.
   exit 1
@@ -136,6 +136,5 @@ fi
 if [ -r reboot.db ]; then
   rm -f reboot.db
 fi
-./netmush 
-#$CONF_FILE $LOG &
+./netmush $CONF_FILE $LOG &
 
