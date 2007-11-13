@@ -1,0 +1,199 @@
+& CHAT
+  CHAT SYSTEM
+
+  The MUSH has a built-in chat system with many different channels.
+  These channels vary from MUSH to MUSH; ask at your local site or
+  use @channel/list to see which ones are available.
+
+  You can talk to many people on the MUSH via the chat system, without
+  needing to be in the same room as them. Use the "@channel" command
+  to join, leave, or check who is on a channel, and use the "@chat"
+  or "+" command to communicate.
+
+  If you examine yourself, you will see a list of channels that you are
+  currently listening to. Some channels are restricted to wizards or
+  administrators only. See the following help topics for details:
+    @chat, @channel, @cemit, @clock, cwho()
+
+& +
+& @chat
+  @chat <channel> = <message>
+  +<channel> <message>
+
+  This tells everyone on <channel> your <message>. You can prepend
+  <message> with ':' or ';' to pose instead of talk. This command can
+  also be formatted:  +<channel> <message>
+  You do not need to type the complete name of the channel, only as
+  many letters as needed to make it distinct from another channel.
+
+  Note: if you use the '+' form of this command, and you do not
+  use the name of a known channel, your command will be processed
+  as normal, preventing user-defined commands like "+last" from
+  being clobbered by the chat system.
+
+& @cemit
+  @cemit <channel>=<message>
+
+  This command allows <message> to be directly broadcasted
+  to the players on <channel>. No channel-prefix is prepended. This
+  command is intended for use in writing extended chat systems.
+  The command can be used only by admin and those with the CEMIT power.
+
+& @channel
+  @channel/list [<channel-prefix>]
+  @channel/what [<channel-prefix>]
+  @channel/on <channel>[=<player>]
+  @channel/off <channel>[=<player>]
+
+  The basic form of this command allows you to see the available
+  channels, and join or leave a channel. You do not need to type the
+  complete name of the channel, only as many letters as needed to make
+  it distinct from other channels.
+
+  Wizards may add and remove other players from channels by providing
+  a player name as a second argument.
+
+  Some channels may be restricted in who can join them and/or speak
+  on them. If the Extended Chat System is enabled, @channel/list will
+  show you the channel's name, number of users, number of message
+  since last restart, access information, and your status. See
+  "help channel-list" for an explanation of how to read the listing.
+  @channel/what will show you the channel's name, access information,
+  and a description of the channel's purpose.
+
+  More details are provided in "help @channel2".
+& @channel2
+  @channel/who <channel>
+  @channel/hide <channel> = <yes|no>
+  @channel/title <channel> = <string>
+
+  The @channel/who command shows you who is currently on a channel,
+  if you are permitted to see it.
+
+  Some channels allow their users to hide from the @channel/who list.
+  If you're on such a channel and are permitted to hide, you can
+  use @channel/hide <channel>=yes to hide yourself, and
+  @channel/hide <channel>=no to reappear.
+
+  @channel/title lets you set a title to appear before your name
+  when you speak on the channel. If you leave the channel, your
+  title is cleared; use @channel/gag instead (see help @channel3).
+
+  See "help @channel3" for more.
+& @channel3
+  @channel/mute <channel> = <yes|no>
+  @channel/gag <channel> = <yes|no>
+
+  Some channels broadcast messages when players connect or disconnect
+  from the MUSH. If you're on such a channel and don't want to hear
+  those messages, use @channel/mute <channel>=yes. To resume hearing
+  the messages, use @channel/mute <channel>=no.
+
+  If you want to remain on a channel but not receive any messages
+  on the channel, use @channel/gag <channel>=yes. To resume hearing,
+  use @channel/gag <channel>=no. If you disconnect, the channel
+  will be automatically ungagged for you.
+
+  See "help @channel4" for more.
+& @channel4
+  @channel/add <channel> [= <access>]
+  @channel/delete <channel>
+  @channel/desc <channel> = <desc>
+  @channel/rename <channel> = <new name>
+
+  The "add" switch creates a new channel. On some MUSHes, any player
+  can create a new channel, though there will be a cost associated
+  with creation (see @config/costs). The possible access specifications
+  are "player" (players may use the channel), "object" (objects may
+  use the channel), "admin" (you must be royalty to use the channel),
+  "wizard" (you must be a wizard to use the channel), "quiet" (the
+  channel will not broadcast connection messages), and "hide_ok"
+  (users can hide from the who list). Combinations are allowed.
+  If none are given, "player" is used as the default.
+
+  @channel/delete allows a Wizard or the channel's owner to
+  delete the channel.
+  @channel/desc sets the channel's description, shown on @channel/what.
+  Descriptions are limited to 256 characters.
+  @channel/rename is used to rename a channel.
+
+  See "help @channel5" for more. See also "help @clock".
+& @channel5
+  @channel/priv <channel> = <new priv level>
+  @channel/quiet <channel> = <yes | no>
+  @channel/wipe <channel>
+  @channel/decompile <channel>
+  @channel/chown <channel> = <new owner>
+
+  The "priv" switch changes the channel's access privileges.
+  The "quiet" switch turns the quiet status of a channel on and off.
+  The "wipe" switch clears a channel of players without deleting it.
+
+  The "decompile" and "chown" switches can only be used by Wizards.
+  @channel/decompile produces a decompile of matching channels.
+  @channel/chown allows a Wizard to change the owner of a channel.
+
+& channel-list
+Here's the legend for reading the @channel/list output:
+
+Channel Name               Num Users Num Msgs  Access Locks   Status
+Sample                             1        0 [DPOWQH jsmvh*] [On  QH]
+                                               |||||| ||||||   |   ||
+Channel is DISABLED----------------------------/||||| ||||||   |   ||
+Channel allows PLAYERS--------------------------/|||| ||||||   |   ||
+Channel allows OBJECTS---------------------------/||| ||||||   |   ||
+Channel is Wizard-only (W) or Admin-only (A)------/|| ||||||   |   ||
+Channel is QUIET-----------------------------------/| ||||||   |   ||
+Channel is HIDE_OK----------------------------------/ ||||||   |   ||
+Channel has @clock/join set---------------------------||||||   |   ||
+Channel has @clock/speak set---------------------------/||||   |   ||
+Channel has @clock/mod set------------------------------/|||   |   ||
+Channel has @clock/see set-------------------------------/||   |   ||
+Channel has @clock/hide set-------------------------------/|   |   ||
+Player is the owner of the channel-------------------------/   |   ||
+Player is currently on/off the channel-------------------------/   ||
+If on, player has the channel muted--------------------------------/|
+If on, player is hiding on the channel------------------------------/
+
+& @clock
+  @clock/join <channel> [= <key>]
+  @clock/speak <channel> [= <key>]
+  @clock/see <channel> [= <key>]
+  @clock/hide <channel> [= <key>]
+  @clock/mod <channel> [= <key>]
+
+  The @clock command modifies the a lock on a chat channel if the
+  extended chat system is in use. If no key is specified, the
+  lock is unlocked. Evaluation locks will not work with @clock. 
+  See help @clock2 for information on using indirect locks.
+
+  The "join" lock restricts who can join the channel.
+  The "speak" lock restricts who can speak to the channel.
+  The "see" lock restricts who can see the channel on @channel/list
+  The "hide" lock restricts @channel/hide if the channel is hide_ok.
+  The "mod" lock restricts who can modify the channel. If you pass the
+  mod lock on the channel, you can do anything short of deleting it.
+
+  When new channels are added, the mod lock is set to the creator/owner,
+  and all other locks are unlocked.
+
+  See help @clock2 for how to use indirect locks to lock a channel to
+  anything.
+
+& @clock2
+If user-defined locks are available, you can use indirect @clocks
+to lock a channel to a lock of any type (including evaluation locks)
+on a VISUAL object. This channel can only be joined by an UNFINDABLE player:
+
+  >@clock/join unfindchannel=@#10
+  >@lock/user:ChanJoinLock #10=isunfind/1
+  >&isunfind #10=[hasflag(%0,unfindable)]
+  >@set #10 = VISUAL
+
+@clock                  Corresponding user: lock for object
+join                    ChanJoinLock
+speak                   ChanSpeakLock
+see                     ChanSeeLock
+hide                    ChanHideLock
+mod                     ChanModLock
+
