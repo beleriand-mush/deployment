@@ -1,0 +1,696 @@
+& help
+===== NEWS HELP ===========================================================
+ Topic:         Updated:   Description:
+---------------------------------------------------------------------------
+ ADMIN          19 Oct 07  administrator ranks, chain of command, ZMO's
+ BUILDING       15 Nov 96  descriptions, exits, rooms, tips
+ CODING         15 Nov 96  tips for coding (puppets)
+ COMBAT         Aug 01 01  our combat system, player stats
+ ENTRIES        automated
+ POLICY         12 Apr 04  binding policy statements
+ SPECIES        28 Mar 04  the various kinds of beings in Beleriand
+ THEME          26 Oct 07  Beleriand theme, player species, cultures
+ MISC           19 Oct 07  clients (TinyFugue) and miscellaneous matters
+
+Type NEWS <topic> for information on a particular topic.
+
+Topic and subtopic names can be abbreviated (ambiguous abbreviations will
+simply result in the first matching thing being displayed), for example:
+"NEWS BUILDING EXITS" can be abbreviated to "NEWS BU EX").
+===========================================================================
+& admin
+===== NEWS ADMIN ==========================================================
+ Topic:         Updated:   Description:
+---------------------------------------------------------------------------
+ GENERAL        27 Feb 00  Definition of admin duties, levels, etc.
+ CULTURES       27 Feb 00  Important information for culture admins
+ ARBITERS       19 Oct 07  Combat and theme referees.
+ SITE           19 Oct 07  About the machine this game runs on
+ EMERITUS       19 Oct 07  Past Wizards and Royals of the game
+
+Type NEWS ADMIN <topic> for more information.
+===========================================================================
+& admin general
+===== NEWS ADMIN GENERAL ==================================================
+ Topic:         Updated:   Description:
+---------------------------------------------------------------------------
+ DEFINITION     27 Feb 00  What are admins?
+ CONDUCT        27 Feb 00  Expected conduct of all admins
+ DUTIES         27 Feb 00  What are admins' duties and responsibilities?
+ LEVELS         27 Feb 00  The admin ranks and their powers and duties
+ ADVANCEMENT    27 Feb 00  How to become an admin and how to move up
+ RESOURCES      27 Feb 00  Who can help out with various problems
+ RESIGNING      27 Feb 00  When an admin no longer can do the job
+
+Type NEWS ADMIN <topic> for more information.          
+===========================================================================
+& admin definition
+===== NEWS ADMIN DEFINITION ===============================================
+The administrators of this MUSH are the ones who work both in the cultures
+and on a global level to keep this MUSH running as smoothly as possible and
+to support players to make RP as easy and interesting as possible for them.
+The admins on the MUSH do their work voluntarily, they do not get paid for
+their work. They work as admins here simply because they want to improve
+the environment that they play in themselves, and their only reward is to
+see that their work is successful, or of course a pat on the back from
+others who appreciate their work.
+
+(continued in NEWS ADMIN CONDUCT)
+===========================================================================
+& admin conduct
+===== NEWS ADMIN CONDUCT ==================================================
+Beleriand admins of all levels are expected to set the example for proper
+conduct in our community. From the longest tenured Wizard to the newest of
+newbie helper Culture Support admins we all share a duty to act in a
+manner that is ethical, constructive, friendly and above all in a way that
+serves the best interests of the Beleriand community. Players will look up
+to you, seeing in you an example of proper behaviour in Beleriand, both IC
+and OOC. It is essential to remember this, that others will follow the
+path you mark. A good admin inspires confidence, trust, and a desire to
+keep in mind the common good of the MUSH. 
+
+(continued in NEWS ADMIN CONDUCT 2)
+===========================================================================
+&admin conduct 2 
+===== NEWS ADMIN CONDUCT 2 ================================================
+It is worth taking a moment here to talk a little about interaction with
+players. Admins must remember that they have a tremendous amount of
+authority and control over the MUSH lives of the Beleriand players. When
+dealing with a player in an official capacity it is vital that admins
+demonstrate a professional demeanor that should include patience,
+consideration, courtesy and above all a spirit of public service, rather
+than a display of arbitrary power. These are people on the other side of
+the terminals. Remember that and remember the Golden Rule when you are
+dealing with them.
+
+(continued in NEWS ADMIN DUTIES)
+=========================================================================== 
+& admin duties
+===== NEWS ADMIN DUTIES ===================================================
+There are some basic duties and responsibilities that are common to all
+admins, no matter if they are global or cultural admins. The most important
+guidelines for admins are summarized here, so if you are an admin,
+please follow these guidelines, all of them are important.
+
+Your main task on the MUSH is to facilitate RP and to make the MUSH in
+general as easy and as interesting as possible for all players. Please
+understand that though you should have fun with your work, you do your
+work for the players. Most other guidelines here are directly derived from 
+these rules.
+
+Try to set a good example for the players. This means that you should try
+to act like you would expect it from a good player.
+
+No matter which admin rank you have, please never forget, though your
+position gives you special powers, you are also still a player on the MUSH,
+so treat all other players or admins on lower levels like you would 
+expect to be treated by admins on a higher level yourself.
+
+(continued in NEWS ADMIN DUTIES 2)
+===========================================================================
+& admin duties 2
+===== NEWS ADMIN DUTIES 2 =================================================
+Try to be as helpful as you can, especially with newbies. Please try to
+understand that new players often don't know anything about MUSHs, so do
+not get angry at them if they ask the same question two or three times.
+
+Also, try to make newbies feel 'at home' here. When they page you, please
+try to take some time for them. It often takes new players a lot of courage
+to page someone for the first time, and if you are the first person they 
+page, and the only answer they get is, 'I don't have any time for you', 
+then you might also be the last person they page.
+
+Try to keep track of the bulletin boards and policy changes when they are
+being announced.
+
+Please tell the admins on the higher levels about all problems,
+suggestions, ideas and complaints that you might have. They want and need
+your input. And if you receive input from admins on lower levels, consider
+it carefully and do not just ignore it.
+
+But never forget: Have fun with your admin work. The moment that you notice
+that you can not have any fun as admin anymore is probably the moment that
+you should give it up, though hopefully it will never come that far.
+
+(continued in NEWS ADMIN DUTIES 3)
+===========================================================================
+& admin duties 3
+===== NEWS ADMIN DUTIES 3 =================================================
+To summarize the duties of the admins on Beleriand, please remember the
+following: 1) As an admin you have a duty to keep the needs of the players
+and the game foremost in your mind. 2) The safety of the MUSH is
+paramount. 3) You must conscientiously fulfill the durites and
+responsibilities that are assigned to your position. 4) You are a player
+as well as an admin, so have fun and enjoy yourself. These duties will be
+made easier if you strive to always be aware of the most current policies
+governing Beleriand and work to enact those policies fairly and equitably.
+
+(continued in NEWS ADMIN RESPONSIBILITIES)
+===========================================================================
+& admin responsibilities
+===== NEWS ADMIN RESPONSIBILITIES =========================================
+Whatever area you are posted to handle, you should be aware that it is
+given to you both as a privilege and an obligation. It matters not if you
+are a Wizard or a Royal or a Culture Admin, you have a task to perform and
+if you cannot then it is your duty to say that you can't. What we cannot
+afford above all is stagnation; the game cannot afford for anyone to take
+on jobs and tasks that they cannot do. Whatever the reason is, for the fact
+that a job or a task cannot be done it is yours to keep for yourself,
+there's no shame in saying that you cannot handle a certain task and you
+need not tell why. In fact, if you show that you yourself know when it is
+time to let go of a task, then all the more credit to you for being so
+clear in perceiving that this work shouldn't belong with you. Speak to a
+higher rank admin about it and that admin will surely provide you with
+assistance.  Don't cling to something you know you can't handle.
+
+(continued in NEWS ADMIN RESPONSIBILITIES 2)
+===========================================================================
+& admin responsibilities 2
+===== NEWS ADMIN RESPONSIBILITIES 2 =======================================
+On the other hand, there's no point in giving up too early either! Try, and
+try again. When it becomes clear after you have tried your best, then why
+not ask for some help? We are all in it together and none of us are capable
+of doing EVERYTHING there is to do. We have our weak sides, so let's help
+each other and improve. In a way, admins are the ones to benefit the most
+from MUSHing, we learn more then the players ever will. We see all the
+facets and all the dark and light sides of people and of MUSHing. We are a
+privileged few... Know when to go calling on your superiors.  If a problem
+arises that you have not encountered before (even though you may guess well
+at how it should be handled), investigate into the matter and  before any,
+BEFORE ANY, action is taken to repair the situation, please ask your fellow
+admins at your own level if something like this has happened before and
+what was done then. We are supposed to be fair and our judgments
+consistent. If there's no one to ask, or if there hasn't been a mention of
+this before, then drop a line to one of your superiors about the problem.
+If the solution is urgent and the problem has to be taken care of at once
+and you have none to ask, then you are on your own. Use your best common
+sense and try your best. Be ready to give an account of what you thought
+and how you reasoned, as well as what solution you applied to the problem.
+Your superiors are not without understanding, far from it, they know what
+you're going through. They've been there themselves you know.
+
+(continued in NEWS ADMIN LEVELS)
+===========================================================================
+& admin levels
+===== NEWS ADMIN LEVELS ===================================================
+There are two groups of admins on Beleriand: Cultural Admins (CA) and
+Global Admins (GA). These groups are subdivided into several ranks. For
+information about these groups and the admin ranks, read the following news
+files:
+
+Cultural Admins: NEWS ADMIN CA
+Global Admins:   NEWS ADMIN GA
+===========================================================================
+& admin ca
+===== NEWS ADMIN CA =======================================================
+There are six different cultural admin positions. It is left to the culture
+wardens to fill these positions or not. Players can be on more than one
+position, and there can be more than one player on all positions except the
+CW and CV positions, and all CAs would always do some CS work. It is left
+to the culture wardens to redefine the tasks and responsibilities that come
+with the admin positions in their cultures, though if they do so, it is
+their duty to inform the other CAs of their decision, otherwise the
+following definitions will apply:
+
+Culture Warden (CW):
+The culture warden is the manager or governor of a culture. The CWs make
+all decisions about theme in their cultures, they have to approve
+tinyplots, they appoint or remove other cultural admins in their cultures
+and appoint them to their tasks. It is the CW's task to make it clear to
+the CAs what is expected of them, and it is the CWs task to communicate as
+much as possible with the CAs and the CAs have to communicate as much as
+possible with their CWs. The CWs are also the only ones who can decide
+which players get the password for their cultural builder character. It is
+also left to them to decide if a player can be a member of their cultures
+or not. The GAs will not interfere with the CWs' decisions unless there
+are, in the final opinion of the GAs, very good reasons.
+
+(continued in NEWS ADMIN CA 2)
+===========================================================================
+& admin ca 2
+===== NEWS ADMIN CA 2 =====================================================
+Culture Vice Warden (CV):
+The vice warden has the full rights of the warden if either there is no
+warden in the culture, or the warden is not available for a longer time,
+for example when the warden goes on vacation, but if this is the case, then
+either the warden or the global admins will explicitly ask the vice warden
+to act as warden till the warden returns. To let others know that the CV is
+acting as temp CW, it is suggested that CWs set the vacation flag on
+themselves when they have to leave the MUSH for a longer time. If the CW is
+available, the CV will basically have the same rights and tasks as a normal
+CA, and might even have another CA position (i.e. CC, CB, CT or CS).
+Usually however, the CV will be the most important counsellor for the CW.
+
+Culture TP coordinator (CT):
+The TP coordinator's task is to come up with TP ideas or to collect them,
+submit them to the CW for approval, plan the TPs and coordinate them when
+they are running. One note: It does not mean that nobody else can work on
+TP ideas if there is a CT in a culture. All players should always be able
+to come up with TP ideas, in which case the CT would be there to offer help
+and counsel.
+
+(continued in NEWS ADMIN CA 3)
+===========================================================================
+& admin ca 3
+===== NEWS ADMIN CA 3 =====================================================
+Culture Coder (CC):
+The culture coder codes and maintains the local code on the ZMO. For that,
+the CC should usually be able to modify the ZMO. The CC would also be the
+one to code objects that might be needed for RP in the culture, or it would
+at least be the CC's task to supervise the work on these objects, and
+assist the players who code them when they need help.
+
+Culture Builder (CB):
+The culture builder not only builds things in the culture, but also
+supervises the building work of others, and assists where help with
+building is needed. The CB usually knows the password of the builder
+character.
+
+Culture Support (CS):
+The culture support admins do the day-to-day admin work, they mostly
+culture new players and help them. The CS rank is not really a lower rank
+than CC, CT, CB and CV, all the other admins, even including the CW, would
+do CS work too, they just have additional responsibilities.
+
+(continued in NEWS ADMIN GA)
+===========================================================================
+& admin ga
+===== NEWS ADMIN GA =======================================================
+The global admins usually don't involve themselves in cultural affairs, but
+maintain the MUSH itself. There are two different 'ranks' for global admins
+which differ mostly in the powers they have.
+
+Wizards: The wizards can not only examine but also modify every object
+(including players) on the whole MUSH. It goes without saying that the
+wizards should use their powers wisely.
+
+Royals: The powers of royals are more limited, they basically have a subset
+of wizard powers. They can examine all objects, but cannot modify them
+unless they control them, and they can teleport anywhere. They also do not
+need money, and are not affected by quotas. Though they are not as powerful
+as wizards, they should still use their powers responsibly.
+
+(continued in NEWS ADMIN ADVANCEMENT)
+===========================================================================
+& admin advancement
+===== NEWS ADMIN ADVANCEMENT ==============================================
+This section describes how a player becomes an admin, and how players can
+move up from one level to the other. Everyone should keep in mind, that
+being an admin is a responsibility and not a reward, and gaining admin
+positions or advancing to higher admin positions is not the purpose of this
+game. If you become an admin, it should be to work for the MUSH and the
+players, but not to achieve power over others. Usually, the admins who have
+to appoint other admins will notice if a player is doing exceptional work,
+and then promote the player. A good rule of thumb is that people should be
+promoted to a position when they are already doing the work for this
+position, though there are other factors that have to be considered, for
+example how well the new admin would fit into the existing admin team.
+
+There are basically four different admin 'levels' to which a player can
+advance: Cultural Admin, Culture Warden, Royal and Wizard.
+
+(continued in NEWS ADMIN ADVANCEMENT 2)
+===========================================================================
+& admin advancement 2
+===== NEWS ADMIN ADVANCEMENT 2 ============================================
+When a Culture Admin (CA) is to be appointed, the suggestion will go to the
+Culture Warden (CW) and the cultures CA staff, so they can all agree that
+the player should be raised to CA status in their culture. An ordinary
+player may be appointed CA if he shows a will to contribute, shows the
+online time, the engagement and has contributed in a special way to the
+gain of the culture. To what position is of course based on need and the
+suitability of the particular player. It is possible to have several CA's
+of the same type, more then one Culture Coder (CC) for instance. A Global
+Admin is appointed by the GA's, choosing a player who has shown
+him(her)self to be able to handle the MUSH topics in some special way, that
+player often is expert at some area to which he is appointed to handle. One
+does not apply to become one, one may be recommended by others to become GA
+or picked by the GA's and offered the chance to become one.
+
+(continued in NEWS ADMIN ADVANCEMENT 3)
+===========================================================================
+& admin advancement 3
+===== NEWS ADMIN ADVANCEMENT 3 ============================================
+Cultural Admin:
+The cultural admins (CV, CC, CT, CB and CS) for a culture are appointed 
+(and removed if necessary) by the culture warden of this culture. The CWs
+are totally free in their decisions, though it is suggested that they talk
+to their CAs before they appoint another CA, to make sure that the CAs will
+be able to work together as a team.
+
+Culture Warden:
+The culture wardens are appointed only by the global admins, though they
+will of course listen to the opinions of the CAs in the culture. Usually,
+the CV will be the first choice when the CW spot has to be filled, though
+the GAs can also choose someone else.
+
+Royal:
+The wizards and royals vote on new royals.
+
+Wizard:
+The wizards vote on new wizards.
+
+(continued in NEWS ADMIN RESOURCES)
+===========================================================================
+& admin resources
+===== NEWS ADMIN RESOURCES ================================================
+Among the Global Admins (GA's) there are people who have been appointed
+especially for deep and solid knowledge in the fields of, Theme, Combat,
+RP...etc.. Make use of them! (-Admins gives you their specialities) Give
+them a page with any kind of question, or better yet, first use the channel
+that is assigned to the topic you are wondering about. You may get what you
+want that way, it's not all that hard to do and it saves the GA's a bit of
+work. They are there for you but that doesn't mean they ain't without
+things to do. When in doubt, page a GA.  Another service that the game
+provides MUSHwide are the ARBITERS, led by the Archarb's. They are assigned
+to solving combat RP and theme issues as judges in disputes. You have the
+right to consult one at anytime concerning an issue you may have. Be
+prepared though, it may take some time for a final decision, for often the
+ARB will need (and want) to consult with others.
+
+(continued in NEWS ADMIN RESIGNING)
+===========================================================================
+& admin resigning
+===== NEWS ADMIN RESIGNING ================================================
+This can occur if you as an admin are inactive, if a admin behaves wrongly
+and won't respond to correction, if an admin abuses his privileges, or if
+an admin cannot handle his job. It does not matter if it was by intent or
+not if the admin does not change after repeated warnings. Removing an admin
+from a post is something that no one is pleased about; it is not a plesant
+thing to do. A thing that hopefully never needs to be done. But it will be
+done if needs be for the best of the MUSH! There is no excuse not to pay
+heed to warnings which have been received repeatedly, any admin will first
+be asked why and what he is doing in a nice way, what then is heard will
+perhaps lead to a kind warning, then a more severe warning, followed by a
+final word. Then, demotion. The stability of the MUSH is paramount, we are
+here for the MUSH and it's hundreds of players...not for the amusement of
+the admins. Complaints from any Admin who deems himself being treated
+unfairly will be listened to and examined, just as any player's complaints
+will be examined as well.
+
+(continued in NEWS ADMIN CULTURES)
+===========================================================================
+& admin cultures
+===== NEWS ADMIN CULTURES =================================================
+ Topic:         Updated:   Description:
+---------------------------------------------------------------------------
+ ZONES          27 Feb 00  How to correctly set up a culture ZMO
+ RECRUITING     27 Feb 00  Some basic guidelines for recruiting
+ NEWBIE HELP    27 Feb 00  Helping out newbies to our game
+ 
+Type NEWS ADMIN <topic> for information.
+===========================================================================
+& admin zones
+===== NEWS ADMIN ZONES ====================================================
+Note: this is an admin level topic and involves some coding knowledge.
+      If you are not an admin and this makes no sense to you, don't worry 
+      about it.  If you are a local admin but don't work with coding in
+      your area, you also don't need to worry about it.
+
+PLAYER ZONES:
+
+Every player has a "zone" which is set automatically for them when they
+join a culture; the "-culture" command takes care of this.  The zone is
+actually a regular object in itself, commonly called a "Zone Master Object"
+or ZMO. For details on what zones are and how they work, see "HELP ZONE
+OBJECTS". We will assume here that you know what ZMO's are, and how to put
+attributes and locks on objects.
+
+Our cultural ZMO's have multiple purposes.  One use is a place to code
+"local" commands which are only available to members of a particular
+culture.  Coding at this level is performed at the discretion of the 
+admins of the particular culture.
+
+(continued in NEWS ADMIN ZONES 2)
+===========================================================================
+& admin zones 2
+===== NEWS ADMIN ZONES 2 ==================================================
+An important usage of player zones on Beleriand is to provide some
+information about a culture to the system, for use by the various "global"
+commands. Every culture MUST have a cultural ZMO.  The following things
+need to be done to  make an acceptable cultural ZMO:
+
+*) The ZONE LOCK on the ZMO needs to be secure.  The zone lock would 
+   normally include the CW of that culture, and perhaps a couple
+   of other people trusted with building and coding culture-wide.  It is
+   possible but not required that all the LA's for that culture will
+   be on the lock. It is also possible to have no one at all on the
+   lock (ask a wizard to help with this if necessary).
+
+*) The attribute NEWBIE_TITLE *should* be set on the ZMO.  The value of
+   this attribute will be put in a players &TITLE attribute when they
+   are -culture'd.  If this attribute does not exist, the title will
+   default to "Citizen".
+
+(continued in NEWS ADMIN ZONES 3)
+===========================================================================
+& admin zones 3
+===== NEWS ADMIN ZONES 3 ==================================================
+*) The attribute NEWBIE_WELCOME should be set on the ZMO.  The text in
+   this attribute will be displayed to a player when they are -culture'd.
+   The message should give give the new player a few hints to get started,
+   such as the name of a local help command.  It needs to be fairly short
+   though for the benefit of players with small terminals, no scrollback
+   etcetera.  Maximum length of 20 lines (78 chars per line).
+
+*) The attribute NEWBIE_HOME should be set on the ZMO.  This value needs
+   to be the dbref# of the room where you want new members of the culture
+   @link'ed for their initial home location.  Players will be 
+   automatically @link'ed to this room.  Typical locations would be a
+   "barracks" or "guest room" or somesuch.
+
+   IMPORTANT:  The NEWBIE_HOME room must *also* have its zone set to the 
+   cultural ZMO.  This might be different than all the zones for all the
+   rest of the rooms in the culture, but is done as a safety check to
+   make sure that players don't get linked to a room which doesn't belong
+   to their culture.
+
+(continued in NEWS ADMIN ZONES 4)
+===========================================================================
+& admin zones 4
+===== NEWS ADMIN ZONES 4 ==================================================
+*) The attribute CULTURE_CHANNEL should be set on the ZMO.  This value
+   is the name of a -com channel which the player will automatically
+   be joined to when they are -culture'd.
+
+(continued in NEWS ADMIN RECRUITING)
+===========================================================================
+& admin recruiting
+===== NEWS ADMIN RECRUITING ===============================================
+First of all it should be said that recruiting should not be a competition
+between the cultures. Try to find out if a new player will really be happy
+in your culture, or else we might lose new players from the MUSH when they
+find out that they are not having fun. It will help your culture more to
+show new players how to join another culture where they might be more happy
+and where they will RP, than dragging newbies into your culture when this
+is not the place where they can find the RP that they were looking for.
+This does not mean that you can't try to make your culture look good, but
+the helpful recruiter will usually be the most successful recruiter, even
+if being helpful means that you have to help newbies who decide to go to
+other cultures. Helping new players will always pay off in a way, no matter
+if the new players join your culture or not.
+
+Also, try to be patient. On a MUSH, it is not 'The early bird catches the
+worm', but 'The early recruiter scares them off'. Please don't page newbies
+before they join the <Newbie> channel, unless they page you and ask for
+help. Many new players are very insecure at first when they join a MUSH,
+and it might scare them off if they get a lot of pages right after they
+connect, especially since they might not know how to page yet. Also, when
+they are on the <Newbie> channel, try to be polite and not too spammy.
+
+(continued in NEWS ADMIN RECRUITING 2)
+===========================================================================
+& admin recruiting 2
+===== NEWS ADMIN RECRUITING 2 =============================================
+Anyone can understand a player/admin wanting to recruit more people for his
+culture. Every culture should advise it's players on how the correct ways
+of recruiting are done.   First of all, be very patient. To a newbie this
+is very confusing stuff, try and add as little as possible to that
+confusion. If there are other players talking in the same room please page
+them (so as not to disturb the newbie) and try and get them to understand
+that spam is not what the newbie needs. Clear, concise, precise answers. Be
+gentle and warm towards him/her, no point in being anything else. And DO
+NOT brag and boast about your culture (Your culture might be wonderful but
+don't irritate and offend with your views, instead impress and ask the
+newbie to come see for him/herself instead), HELP the newbie find a home,
+ANY home, in which he/she can be happy.
+
+(continued in NEWS ADMIN RECRUITING 3)
+===========================================================================
+& admin recruiting 3
+===== NEWS ADMIN RECRUITING 3 =============================================
+There is absolutely no point in recruiting someone that will be unhappy
+with your culture. Far better to talk awhile to the newbie and try and
+figure out what the newbie really wants to do here...what kind of character
+he wants to play and what race, what he/she would like to do in
+Beleriand... and so on. The newbie doesn't need a sales rap, he needs HELP!
+Confusing newbies is a good way to get tagged as a troublemaker, don't try
+and recruit newbies if you know you have a problem being clear in what you
+say...  As an admin of your culture you are to look out for people who have
+a known trouble recruiting newbies and restrain those efforts and redirect
+their energies. Your culture gains by it, the MUSH gains by it. Be gentle,
+for the players that are trying to recruit only wants the best for the
+culture, even if they fail.
+
+(continued in NEWS ADMIN RECRUITING 4)
+===========================================================================
+& admin recruiting 4
+===== NEWS ADMIN RECRUITING 4 =============================================
+This is what you should do, or something that's close to this when a newbie
+comes on and doesn't know what to do. LISTEN first, ALWAYS listen to the
+newbie.  Ask if he/she needs some help or information, that you are willing
+to help out should he/she want it. Ask if he/she has any cultures in mind
+to join. If the newbie doesn't want help, leave him/her alone with the
+offer to talk anytime, especially about your home culture. IF he/she is
+uncertain about what to do, talk some more about what the newbie wishes to
+do on Bel, what type of race and character he/she wishes to play. Try and
+find out his/hers interests and skills. If you find he likes beards, loves
+axes and hates orcs recommend the newbie to become a dwarf. You get the
+picture? Don't try and sweet-talk the newbies, support them and enlighten
+them on what your home culture is, what the possibilities are there and by
+all means, be friendly and very patient. If they want to talk about the
+rest of Bel then do so. We are players on the MUSH first and foremost. When
+the MUSH gains a new playes so do we, if we get one to our culture then
+double is the joy.
+
+(continued in NEWS ADMIN RECRUITING 5)
+===========================================================================
+& admin recruiting 5
+===== NEWS ADMIN RECRUITING 5 =============================================
+If the newbie wants to join then bring him/her to your home and show
+him/her around. Tell the newbie about the regular help and -help files, the
+local help-files, about the -mail system (be sure he/she at least
+understands how to access it thru -help -mail) and also about the bulletin
+boards. (And how to access those...-skim, -read and so on. The local-BB,
+Public-BB are the most important.) Try to spread this information out, ask
+him/her how long time they have and give the information piece-meal. Ask
+them to write it down. Tell the newbie that if he/she does want to join
+they'll have to wait until a CA can -culture them. Warn them that they will
+not be able to participate in any IC events until they have (either done
+these things that are listed here or fulfilled your cultures own list of
+things to do) made a desc for themselves, made up a background story
+(neither of these need be very long but both has to be approved of by a CA
+before the newbie can go RP) and they have to find a suitable job.
+
+(continued in NEWS ADMIN NEWBIE HELP)
+===========================================================================
+& admin newbie help
+===== NEWS ADMIN NEWBIE HELP ==============================================
+Your newbie help inside the cultures MUST be excellent, your newbie supply
+must be treated delicately...it's worth more than gold. If you as a culture
+are to live on you have to rely on new players to come in. Good newbie help
+is thus VITAL! Imagination, creativity...come on! Make your newbie help
+more than 3 pages of dreary looking information...don't bore the newbie
+into quitting the game. Bind his/her interest fully with fun and
+interesting things to do...offer them plenty of choices, make their entry
+into the game as smooth as you possibly can. Helping newbies is the number
+one priority! Try and understand them and for the best of the MUSH, try and
+spread good ideas around. This is not the time to sit back and enjoy bright
+ideas inyour own culture, we will benefit on the whole, by gaining more
+players all over the MUSH, rather then getting only the tenth player that
+happens to find it's way to your great idea. Share! If all do the same,
+then there will be a time when a newbie can come online and with a little
+bit of energy be RPing as a full player inside a few days time!
+
+(continued in NEWS ADMIN ARBITERS)
+===========================================================================
+& arbitrators
+& arbiters
+& arbs
+& admin arbitrators
+& admin arbiters
+& admin arbs
+===== NEWS ADMIN ARBITERS =================================================
+Beleriand's Arbiters (Arbs) are players entrusted to safeguard and govern
+matters of Theme and Combat. They are our judges, chosen because they have
+displayed in-depth of knowledge of the Silmarillion and others of Tolkien's
+works, as well as superb RP skills and familiarity with realistic combat.
+Besides being responsible for teaching combat RP and testing new players
+for combat registration, the Arbs must also be ready to mediate and solve
+player disputes when called upon to do so.  An Arb should be called
+whenever a dispute related to Theme or Combat RP arises and can not be
+solved by the players involved in a peaceful manner.  Once summoned, the
+Arbs expect full cooperation from the players involved in the dispute, and
+their final decision must be respected and adhered to by all.  If such a
+matter extends beyond a minor RP dispute into a more serious issue, the
+Arbs will conduct a more thorough and careful investigation which could
+last days or even weeks before announcing the decision.
+
+(continued in NEWS ADMIN SITE)
+===========================================================================
+&admin site
+===== NEWS ADMIN SITE =====================================================
+Currently the Beleriand MUSH server runs on a i386 running SUSE Linux and
+is located near Frederick, MD in the United States. Our Site Admin is
+Dorthuan, who hosts the middleearth.net domain, and to whom we all owe lots
+of thanks, for he provides the machine, memory and fast connection.
+
+The database is approximately 5 megabytes compressed and about 15 megabytes
+residing in memory. See @config and @version for more configuration data.
+
+Game Time is currently Eastern Time (EST/EDT), same as New York.
+
+(continued in NEWS ADMIN EMERITUS)
+===========================================================================
+&admin emeritus
+===== NEWS ADMIN EMERITUS =================================================
+EMERITUS is a status granted to former Wizards and Royals for their past 
+contributions to the game as Global Admins.
+
+Name                 Current Name  Position Era
+---------------------------------------------------------------------------
+Thingol I            Thingy        Wizard   Founding - Spring 1996
+Ingwe I              Ingwe         Wizard   Founding - Spring 1996
+Turgon I             None          Wizard   Founding - 1995
+Iarwain I            None          Wizard   Founding - 1995
+Finrod I             Old_Finrod    Wizard   Founding - 1995
+Arien I/Aule I       El'Arien      Wizard   Fall 1995 - Fall 1996
+Beren I/Lorien       Paleran       Wizard   Fall 1995 - Summer 1996
+Idril I              Caelendril    Royal    Fall 1995
+Galadriel I          Raizel        Royal    Fall 1995
+Elgaron              Elgaron       Royal    Fall 1995
+DurinI/Curumo/AuleII Tinitar       Wizard   Fall 1995 - Winter 1997
+Celeborn I/Omar      Derwin        Royal    Fall 1995 - Fall 1997
+Olorin I             Wanderer      Royal    Fall 1995 - Winter 1997
+Orome I              Eomund        Wizard   1996 
+
+(continued in NEWS ADMIN EMERITUS 2)
+===========================================================================
+&admin emeritus 2
+===== NEWS ADMIN EMERITUS 2 ===============================================
+Name                 Current Name  Position Era
+---------------------------------------------------------------------------
+Durin II             Zirak_Zinbar  Royal    Spring 1997
+Eonwe II             Tegilbor      Wizard   Spring and Summer 1997
+Fingolfin I/Manwe    Alwarin       Wizard   Founding - 1997
+Iarwain II           Felaran       Royal    Fall 1997
+Sauron I             Ka'dar        Wizard   1998
+Osse I               Andranar      Royal    1998
+Thorondor            Lanrial       Wizard   1997 - 1998
+Sauron II            Asfiel        Royal    1997 - 1999
+Nienna               Branwyn       Wizard   Summer 1996 - Spring 2000
+Mandos I             Serridan      Wizard   Spring 1999 - Summer 2000
+Este I               Teigril       Wizard   Spring 1999 - Summer 2000
+Orome II             Kenan         Wizard   Spring 1999 - Spring 2001
+Ulmo I               Gaerelin      Royal    Fall 2000 - Spring 2001
+Nessa I              Tavarilyn     Royal    Spring 2001
+Vaire I              Linithil      Royal    1998 - 2001
+Varda                Elwen         Wizard   Spring 2000 - Fall 2001
+Istadris             Istadris      Wizard   1998 - 2002
+
+(continued in NEWS ADMIN EMERITUS 3)
+===========================================================================
+&admin emeritus 3
+===== NEWS ADMIN EMERITUS 3 ===============================================
+Name                 Current Name  Position Era
+---------------------------------------------------------------------------
+Aule III             Vogan         Royal    2001 - 2002
+Nessa II             Finnabair     Wizard   2001 - 2004
+Tilion II            Zo'gonahk     Royal    2002 - 2004
+Iarwain III          Sauron        Royal    2004 - 2005
+Tulkas               Lindros       Wizard   1996 - 2005
+Aule IV              Beleg         Wizard   2005 - 2006
+Elentari             Linuial       Wizard   2005 - 2006
+Vana                 Ysbel         Wizard   2005 - 2006
+Vaire II             Daeron        Wizard   2005 - 2007
+===========================================================================
