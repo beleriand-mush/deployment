@@ -1,0 +1,276 @@
+& policy
+===== NEWS POLICY =========================================================
+This topic covers basic policy statements which cover the overall operation
+of this MUSH.
+
+ Topic:         Updated:   Description:
+---------------------------------------------------------------------------
+ ALTS           12 Apr 04  Our policy on alternate characters rules
+ CONDUCT        10 May 97  Basic rules
+ GENDER         10 May 97  Sexism and gender-bias in cultures. 
+ GUESTS         10 May 97
+ HARASSMENT     10 May 97 
+ IC-OOC         10 May 97  In-Character/Out Of Character behaviour.
+ OOC DESCS      10 May 97
+ RECYCLING      07 Apr 04  Player inactivity
+ RESERVED CHAR  28 Mar 04  A character from the books or its equivalent.
+
+Type NEWS <topic> for more information. 
+===========================================================================
+& alts
+& policy alts
+===== NEWS ALTS ===========================================================
+It is possible for a player on Beleriand MUSH to acquire additional
+characters beyond their initial Primary Character. These other characters
+are known as Alternate Characters, or simply 'alts'. The possession of
+Alternate Characters is considered highly acceptable and common, and in
+many cases even encouraged, for it allows a player to maximise their
+chances of finding activity on the MUSH, as well as provide a diversity in
+roleplay and environment. When dealing with alts, the following rules
+should always be respected:
+
+ # A player may have up to four characters in total: that is, one Primary
+Character and three Alternate Characters. These alts should only be
+acquired on the basis of activity and genuine desire, and not simply for
+the sake of having them. The actual procedure for creating a new alt is
+described further on in this NEWS document. The exception to this rule are
+Global Admins, who are allowed an additional alt for the purely OOC 
+purpose of performing their Admin duties.
+ # All Alternate Characters should be registered in the MUSH's alt 
+database through the player's CW or the Alts GA.
+
+(continued in NEWS ALTS 2)
+===========================================================================
+&alts 2
+&alts2
+& policy alts 2
+& policy alts2
+===== NEWS ALTS 2 =========================================================
+ # A player should never have more than one character in a specific
+culture. The exception to this rule are Reserved Race alts (see NEWS RC),
+which may be in the same culture as another of the player's characters.
+Both of these still count towards the total of four, however.
+ # Players may have both their Primary and any and all Alternate Characters
+logged onto the MUSH at the same time.
+ # Two characters belonging to the same player should never interact ICly
+under any circumstances. A player should keep their Primary Characters and
+Alt Characters completely and utterly separate, and in the rare event that
+IC interaction between them is being forced by circumstance, the player
+should seek the assistance of their -locals, or failing that, the Alts GA
+to ensure that the situation is rectified as soon as possible. Deliberate
+failure or refusal to comply with this policy may result in deculturing or
+purging from the MUSH.
+ # If a player is a CW of a culture, their CW character must be their
+Primary. There is no restriction on the possession of any other
+administrative positions, however.
+ # Only one of a player's characters may be a Feature at any time.
+
+(continued in NEWS ALTS 3)
+===========================================================================
+&alts 3
+&alts3
+& policy alts 3
+& policy alts3
+===== NEWS ALTS 3 =========================================================
+The actual process of creating an alt is as follows: A player who wishes to
+acquire an Alternate Character should first speak with the CW of the
+culture of their Primary Character. The CW should then send a -mail to both
+the player and the CW of the culture that the player desires an alt in,
+requesting permission to create the new alt. It is within the rights of
+either CW to refuse a player an alt, so long as it is with good reason
+(such as lack of activity on the part of the player), and if this is the
+case, the CW(s) should sent a -mail to both the player and the Alts GA
+explaining why the Alternate Character was refused. If the CW of the
+culture in which the player desires their alt accepts, the player may go
+ahead and create their new character, and the CW should add the player to
+the MUSH's alt database and send a -mail to the CW of the player's Primary
+culture and the Alts GA letting them know of the alt's acceptance and
+creation.
+
+(continued in NEWS ALTS 4)
+===========================================================================
+&alts 4
+&alts4
+& policy alts 4
+& policy alts4
+===== NEWS ALTS 4 =========================================================
+In the instance of a CW being inactive or on vacation, the CV of the
+culture is authorised to approve any new Alternate Characters. Failing the
+presence of a CV, the other CAs of the culture may approve alts, so long as
+they -mail notification to the CW/CV. If there are any confusions
+surrounding this matter, the Alts GA should be contacted. It is also
+advised that players applying for a Reserved Race in another culture gain
+the consent of their CW in advance, just to ensure that no unpleasant
+complications occur at a later date.
+
+Players who have already registered any one of their characters for Combat
+do not need undergo the Combat Test again on any of their alts. Instead
+they should simply contact an Arbiter (-list arbiters full) or their local
+Combat Tester (-tester) and request that the flag be granted to their
+character.
+
+(continued in NEWS CONDUCT)
+===========================================================================
+& conduct
+& policy conduct
+===== NEWS CONDUCT ========================================================
+When you log onto Beleriand MUSH, you agree to the following conditions:
+
+You will respect our theme.
+You will not attempt to damage the database in any manner, or to use code
+   in a way that will cause damage to the database or its host computer.
+You will refrain from sexual harassment.
+You will agree to the policies as set forth in our NEWS files.
+
+In short, you will behave responsibly and sensibly, and not attempt to
+undermine the hard work that the administrators and players have put into
+Beleriand MUSH. Repeated violations of the Good Conduct Policy can lead to
+expulsion from the MUSH. None of us want that to happen.
+
+There are many MU*s on the Net. Help us make Beleriand one of the best.
+
+(continued in NEWS GENDER)
+===========================================================================
+& gender
+& policy gender
+===== NEWS GENDER =========================================================
+***  Gender and sexism: Out of Character                                
+                                                               
+We should hope it would go without saying, but just to make it very plain: 
+sexism on the OOC level will not be tolerated.             
+                                                            
+*** Gender and sexism: In Character                    
+The world described by Tolkien is basically a medieval fantasy setting. The 
+closest correlaries for real life societies are usually fairly "sexist" 
+societies, with men and women occupying fairly distinct niches within their
+cultures (for example, medieval societies did not normally have female
+warriors).  Hence, a truly "thematic" interpretation would likely leave us
+with societies which have strong IC gender-biases, normally leaning towards
+male-dominated societies.
+
+(continued in NEWS GENDER 2)
+===========================================================================
+& gender 2
+& gender2
+& policy gender 2
+& policy gender2
+===== NEWS GENDER 2 =======================================================
+ *) The majority of players tend to play characters of the same gender as
+    themselves.  Women players are not likely as a whole to want to be
+    limited in their RP here though, or be forced to play a male character
+    for the more "interesting" roles.
+
+ *) Regardless of the gender of the player behind a character, it's a lot
+    harder to have "interesting" female characters in male-biased
+    societies.
+
+Therefore:
+
+Regardless of the thematic correctness of it, all of our cultures have no
+gender bias.  The same IC roles and opportunities are available to male and
+female characters.  You can RP a sexist chauvinist if you wish and perhaps
+even make a good case that your are being thematic when you do so, but do
+not complain if people refuse to RP with you as a result.
+
+(continued in NEWS GUESTS)
+===========================================================================
+& guests
+& policy guests
+===== NEWS GUESTS =========================================================
+You will often see guests online; you will know them by their name, which
+is "Guest" or "BlueGuest" or something similar. Please treat them well, for
+these are our prospective members, who may be interested in the MUSH! If
+guests have questions about the MUSH and its workings, be sure to refer
+them to our NEWS and -HELP files, or to an online admin.
+
+Page them with greetings and how to page. Sometimes they will already know
+how, but it is always best to assume they are not familiar with MUSH at all
+and don't know how the commands work.
+
+Do not ever try to recruit guests to your culture! Cultures are just a part
+of the MUSH, and the guest has not even joined the MUSH yet (and won't, if
+all it gets is recruitment propaganda)! Please, just give 'em a chance.
+
+(continued in NEWS HARRASMENT)
+===========================================================================
+& harassment
+& policy harassment
+===== NEWS HARASSMENT =====================================================
+Harassment is not just a Real Life problem. As characters are played by RL
+people, many RL problems sometimes occur. Here is our policy on harassment.
+
+ IC vs OOC     As Role-Playing on Beleriand is strongly encouraged, it is
+               to be expected that players will act differently when In
+               Character.
+
+               Out Of Character harassment of players as a result of IC
+               conflicts is discouraged and a violation of the good conduct
+               clause. Talk to a wizard if you experience problems.
+
+ Harassment    As in Real Life, Sexual Harassment will not be tolerated. It
+               is not our place to pass judgment or opinion on Tiny
+               Romances or Sex. However, if a player says no, it means NO.
+               Also, players who connect just to act perverted, crass or
+               use foul language will be severely dealt with.
+
+(continued in NEWS IC-OOC)
+===========================================================================
+& ic-ooc
+& policy ic-ooc
+===== NEWS IC-OOC =========================================================
+This MUSH is for roleplaying, first and foremost. We recognize, however,
+that there will be times when players wish simply to hang out and relax
+with their friends. If you find yourself playing Beleriand solely to hold
+OOC conversations, however, this might not be the place for you. Our
+resources are valuable. Please consider moving your OOC chat to IRC or to a
+social MU*.
+
+Please do not inflict your OOC conversations upon people who are attempting
+to role-play. If one person objects to OOC comments during role-play,
+EVERYONE should desist. If you continue to make OOC comments during IC
+role-play, you will be breaking the good conduct agreement. In general,
+keep your OOC conversations either in the Hangout or other OOC area.
+
+Please see -HELP MODE, -HELP HO, -HELP ME, and NEWS OOC DESCS.
+
+(continued in NEWS OOC DESCS)
+===========================================================================
+& ooc descs
+& policy ooc descs
+===== NEWS OOC DESCS ======================================================
+Beleriand really isn't the place to store your poetry, your favorite song
+lyrics and the like.
+
+If you must have an OOC description, for those rare occasions when you hang
+out OOC, please keep it limited to _one_ attribute. Save your other stuff
+for a more appropriate net hangout.
+
+IC poetry and songs, of course, we encourage!
+
+(continued in NEWS RECYCLING)
+===========================================================================
+& recycling
+& policy recycling
+===== NEWS RECYCLING ======================================================
+We use the following guidelines for recycling of People, Places and Things:
+
+  - If you plan to be away for a while but do wish to return and to have
+    your character saved, set your ON-VACATION flag.
+
+  - On the last day of the month, the Wizard in charge of purges will
+    destroy any character of "None" culture who has not logged on at all
+    throughout the previous month.
+
+  - Culture Wardens should regularly remove inactive players from their
+    culture at their discretion, but a good guideline is to remove at least
+    players who have been inactive for over 90 days. -LAST/C is a good tool
+    for this purpose.
+
+  - When a character is recycled, so are all of his possessions and rooms.
+    If he owns an important part of Beleriand (beyond personal rooms),
+    those rooms and exits will be @chowned to the appropriate Zone Masters.
+
+See also: -HELP LAST; -ADMHELP CULTURE; HELP ON-VACATION
+
+(continued in NEWS RESERVED CHARACTERS)
+===========================================================================

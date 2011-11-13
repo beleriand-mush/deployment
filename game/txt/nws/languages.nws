@@ -1,0 +1,142 @@
+&languages
+===== NEWS LANGUAGES =========================================================
+The language system on Beleriand might seem confusing at first, because it
+does not only consist of 'pure' languages, but also of dialects, which can be
+related to each other, and because a lot of language names appear in the
+language list that do not appear in the Silmarillion. That is why these news
+files were written, to explain the thematic ideas behind the language system
+and to make it easier to understand how the languages can be used in RP.
+When you read these news files, please understand that this has been a
+controversial topic on Beleriand and has been discussed for quite some time
+before the current language system was implemented. The current system
+represents a consensus, and if you disagree with certain points, please keep
+in mind that others might disagree with other points which might look
+perfectly logical to you.
+
+The languages on Beleriand can be divided into 6 categories. Read the
+following subtopics for more information:
+NEWS LANGUAGES COMMON                 NEWS LANGUAGES DWARVES
+NEWS LANGUAGES ELVES                  NEWS LANGUAGES EVIL
+NEWS LANGUAGES MEN                    NEWS LANGUAGES OTHERS
+==============================================================================
+&languages common
+===== NEWS LANGUAGES COMMON ==================================================
+The common language in Beleriand, the language that you speak when you
+use the normal 'say' or 'pose' commands and not the language system
+commands, is 'Beleriandic', which is a dialect of Sindarin. It can be
+gathered from various sources that all species in Beleriand were able to
+communicate with each other, and the most likely candidate for a common
+language would be Sindarin. There are three other Sindarin dialects (as can 
+be seen in 'NEWS LANGUAGES ELVES') which are of course related to
+Beleriandic, so everyone will also have skills in the three other Sindarin
+dialects. There might be exceptions of course, people who would not be able
+to speak Sindarin at all, and it will be left to you to RP such a character,
+though you should speak to your CW and CV first to see if they think that 
+your decision makes sense.
+
+(continued in NEWS LANGUAGES DWARVES)
+==============================================================================
+&languages dwarves
+===== NEWS LANGUAGES DWARVES =================================================
+Not much can be said about the language of the Dwarves. Their only language
+on this MUSH is Khuzdul which is not subdivided into dialects. It should
+only be mentioned that the Dwarves were more secretive about their language
+than all other species, and they usually did not teach it to anyone and did
+not speak it in front of others too often.
+
+(continued in NEWS LANGUAGES ELVES)
+==============================================================================
+&languages elves
+===== NEWS LANGUAGES ELVES =================================================
+The elvish languages are probably the most complicated part of the whole
+language system. It is probably clear to everyone that the Noldor would
+know Quenya, and the Laiquendi would speak Nandorin, but Sindarin is 
+subdivided into three dialects (four if you count Beleriandic): Falathrin,
+Mithrin and Iathrin. Falathrin is the dialect that is being spoken by the
+people of the Falas, Iathrin is the dialect of Doriath and Mithrin is
+originally the dialect that was spoken by the Elves of Mithrim, but which
+was spread all over Beleriand later as the Noldor moved to their new realms
+in the east and the south. All these dialects are related, so if you know
+one dialect, you will also have some skills in the other dialects.
+
+The dialect which is actually closest to Beleriandic, the 'common language'
+of Beleriand, is Iathrin, because with Thingol claiming kingship over all of
+Beleriand, it was probably the most important dialect in Beleriand before
+the return of the Noldor. For more information on this topic, read 'NEWS
+LANGUAGES COMMON'
+
+Note: a small dictionary of common words in Quenya and Sindarin is
+available.  See 'NEWS DICTIONARY'.
+
+(continued in NEWS LANGUAGES EVIL)
+==============================================================================
+&languages evil
+===== NEWS LANGUAGES EVIL ====================================================
+The Orcs took words from all languages and used them in their own uncouth
+language. There were probably different dialects from tribe to tribe, though
+at the moment, we only have one language for the Orcs in the language system
+here: Orkish
+
+There is also a special language called Melkorin, which we consider to be
+Melkor's 'corrupted' version of Valarin. This language would probably not be
+spoken by a simple Orc, and will be given out on a case-by-case basis.
+
+(continued in NEWS LANGUAGES MEN)
+==============================================================================
+&languages men
+&languages humans
+===== NEWS LANGUAGES MEN =====================================================
+To find out how the languages of the Men would be related was easy, since
+Beor himself gives us some exact information on this topic in the
+Silmarillion. He said that his people (who lived in Dorthonion) were 
+sundered in speech from the Haladin (who now live in Brethil), but that the 
+language of the people of Marach (who went to Dor-lomin) is more like to 
+theirs. We decided to call the three languages Beorian, Halethian (for the
+Haladin) and Marachian, with Marachian and Beorian being closely related.
+
+There are two other languages for the Men: Eastron is the language of the
+Easterlings, and Druic is the language of the Druedain.
+
+(continued in NEWS LANGUAGES OTHERS)
+==============================================================================
+&languages others
+===== NEWS LANGUAGES OTHERS ==================================================
+There are two languages for restricted races: Eaglish for the Eagles and
+Entish for the Ents. Though some might think that it would be more
+appropriate to choose words in Sindarin for these language names, it was
+decided that less confusing names would be chosen in these cases.
+
+(continued in NEWS LANGUAGES TEACHING)
+==============================================================================
+&languages teaching
+===== NEWS LANGUAGES TEACHING ================================================
+The language system on Beleriand allows language teachers to improve a
+player's language stats by using the '-teach' command. There are several
+important guidelines for language teaching though that each language teacher
+should be aware of:
+
+Language teaching should be RPed. There has to be some sort of IC language
+lesson, or at least a longer IC meeting. Of course, doing a real language
+lesson would be nearly impossible since hardly anyone would know too many 
+words of Tolkien's languages, especially the more obscure ones. It is left 
+to the language teachers to come up with ideas for their language lessons. 
+Some real life knowledge of languages can help here.
+
+All language teachers should be familiar with the background behind the
+languages they know (see 'NEWS LANGUAGES'). They should also have IC reasons   
+for knowing these languages.
+
+(continued in NEWS LANGUAGES TEACHING 2)
+==============================================================================
+&languages teaching 2
+===== NEWS LANGUAGES TEACHING 2 ==============================================
+Languages should not be taught to anyone without good IC reasons. Language  
+teachers who are approached by players for language lessons should ask these 
+players to make sure that their characters would really be inclined to learn 
+languages. It is not very 'in character' for a lot of characters to be
+interested in languages at all. Language teachers should also ask themselves
+if it makes sense to teach a certain language to a particular player.
+Language teachers can always refuse to teach a player, and language lessons
+should not be given out as favors, or to improve the language skills in the
+teacher's culture, but only on a thematically reasonable basis.
+==============================================================================

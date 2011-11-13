@@ -1,0 +1,171 @@
+& dictionary
+& dictionary elven
+===== NEWS DICTIONARY ========================================================
+Dictionary of common words in Quenya and Sindarin.
+
+Available dictionary sections:
+
+  ANIMALS              COLOURS              NUMBERS
+  PLANTS               SEASONS              TITLES
+
+Type NEWS DICTIONARY <topic> for more information.
+==============================================================================
+& dictionary titles
+& dictionary elven titles
+===== NEWS DICTIONARY TITLES =================================================
+        Sindarin        English         Quenya
+General
+        aran            king            aran
+        rhiann          queen           tari/massanie
+        arion           prince          aryon
+        aranel          princess        aranel
+        hir             lord            heru
+        heri            lady            hirill
+        golegdor        counsellor      nolequestar
+Army
+        argon           high lord       tarcano
+        arod            champion        arato
+        tarochir        k. captain      taroquen
+        rochir          knight          roquen
+        hern            chieftain       haran
+        thandir         shieldman       sandatyar
+        egdir           spearman        ehtyar
+        tulgolin        std. bearer     tulwecolindo
+
+(continued in NEWS DICTIONARY TITLES 2)
+==============================================================================
+& dictionary titles 2
+& dictionary titles2
+& dictionary elven titles 2
+& dictionary elven titles2
+===== NEWS DICTIONARY TITLES 2 ===============================================
+        Sindarin        English         Quenya
+Smiths
+        ardan           master smith    artano
+        angdan          smith           angatano
+        tan             assist. smith   tano
+        seindan         appren. smith   vinyatano
+Healers
+        hiresindor      master healer   arenvinyatar
+        eseindor        renewer         envinyatar
+        sidhanto        healer          sereanno
+        bandir          assistant       vanityar
+        lothdir         attendant       lotetirno
+Diplomats
+        radir           diplomat        tiecarno
+        etistodor       cancellor       etistimotar
+        etulthon        envoy           etetultano
+        etisto          ambassador      etistimo
+        tulgo           aide            tulco
+
+(continued in NEWS DICTIONARY COLOURS)
+===== Credits: Angadil =======================================================
+& dictionary colours
+& dictionary elven colours
+& dictionary colors
+& dictionary elven colors
+===== NEWS DICTIONARY COLOURS ================================================
+        Sindarin        English         Quenya
+
+        mor             black           more
+        lhin/luin       blue            lune
+        gwind           blue/grey       winde
+        elw             blue/pale       helwa
+        varne           brown           varne
+        glaur           gold            laure
+        calen/galen     green           laiqua
+        mith/thind      grey            hiswa/sinde
+                        orange          culuina
+        caran           red             carne
+        gaer            red/copper-red  aira
+        gruin           ruddy           roina
+        celeb           silver          telpe
+        fein            white           fana
+        melen           yellow          malina
+
+(continued in NEWS DICTIONARY PLANTS)
+===== Credits: Tavarilyn =====================================================
+& dictionary plants
+& dictionary elven plants
+& dictionary flowers
+& dictionary elven flowers
+===== NEWS DICTIONARY PLANTS =================================================
+        Sindarin        English         Quenya
+
+        loth            flower          lote/lot
+                        poppy           fumella
+        meril           rose
+                        pansy/violet    helin
+        niphredil       snowdrop        niennque
+        ninglor         iris
+        menelluin       cornflower      menelluin
+                        yellow lily     nenu
+        ailwing         white lily      elwing
+                        lilly           indil
+        galadh          tree            alda
+        tathar/tathren  willow          tasar
+        neldor          beech           neldor
+        ereg/reg        holly           ereg/reg
+        brethil         birch           brethil
+
+(continued in NEWS DICTIONARY NUMBERS)
+===== Credits: Tavarilyn =====================================================
+& dictionary numbers
+& dictionary elven numbers
+===== NEWS DICTIONARY NUMBERS ================================================
+        Sindarin        English         Quenya
+
+        min             one             mine
+        ad              two             atta
+        neled           three           nelde
+        canad           four            canta
+        lempa           five            lempa
+        eneg            six             enqe
+        odo             seven           osto
+        toloth          eight           tolto
+        neder           nine            nerte
+        caer            ten             cainen
+        mineg           eleven          minqe
+        rasad           twelve          rasta
+        ad-caer         twenty          atta-cainen
+
+(continued in NEWS DICTIONARY SEASONS)
+===== Credits: Tavarilyn =====================================================
+& dictionary seasons
+& dictionary elven seasons
+===== NEWS DICTIONARY SEASONS ================================================
+        Sindarin        English         Quenya
+
+        ethuil          spring          tuile
+        laer            summer          laire
+        iavas           autumn          yavie
+        firith          fading          quelle
+                        leaf-fall       lassalanta
+        rhiw            winter          hrive
+        echuir          stirring        coire
+        narbeleth       sun-waning
+
+(continued in NEWS DICTIONARY ANIMALS)
+===== Credits: Tavarilyn =====================================================
+& dictionary animals
+& dictionary elven animals
+===== NEWS DICTIONARY ANIMALS ================================================
+        Sindarin        English         Quenya
+
+        aew             bird            aiwe
+        mundo           bull            mundo
+        wilwarin        butterfly       wilwarin
+        craban          crow
+        huan            dog/hound       huan
+        thoron          eagle           soron
+        fion            hawk            fion
+        roch/ro(h)      horse           rokko
+        tinuviel/dulin  nightengale     tindomerel/lomelinde
+        mumak           oliphaunt       mumak
+        lhug/lyg        serpent/snake   hloke/loke/leuca
+        ungol           spider          ungol
+        duilinno        swallow         tuilindo
+        alph            swan            alqua
+        gaur/ngaur      werewolf        gaur/ngaur
+        draug           wolf            draug
+===== Credits: Tavarilyn =====================================================

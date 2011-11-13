@@ -1,14 +1,14 @@
 Welcome to Middle-earth...
 +----------------------------------------------------------------------------+
-Beleriand MUX Online Role Playing      _    These are the names of the Wizards
-J.R.R. Tolkien's             .-.  ^^  / \        _          MELKOR ULMO MANDOS
-First Age                   /   \    /^./\__   _/ \              and TELPERION
+Beleriand MUSH Role Playing Game       _    These are the names of the Wizards
+J.R.R. Tolkien's First Age   .-.  ^^  / \        _          MELKOR ULMO MANDOS
+PennMUSH 1.7.1p3 local      /   \    /^./\__   _/ \             AULE TELPERION
                _        .--'\/\_ \__/.      \ /    \  ^^  ___
-Founded in    / \_    _/ ^      \/  __  :'   /\/\  /\  __/   \
-Feb 1995     /    \  /    .'   _/  /  \   ^ /    \/  \/ .`'\_/\      Please do
-            /\/\  /\/ :' __  ^/  ^/    `--./.'  ^  `-.\ _    _:\ _     not use
-WELCOME    /    \/  \  _/  \-' __/.' ^ _   \_   .'\   _/ \ .  __/ \    Tolkien
-HERE!    /\  .-   `._\/     \ / -.   _/ \ -. `_/   \ /    `._/  ^  \     names
+Please do     / \_    _/ ^      \/  __  :'   /\/\  /\  __/   \      Founded in
+not use      /    \  /    .'   _/  /  \   ^ /    \/  \/ .`'\_/\       Feb 1995
+Tolkien     /\/\  /\/ :' __  ^/  ^/    `--./.'  ^  `-.\ _    _:\ _
+names      /    \/  \  _/  \-' __/.' ^ _   \_   .'\   _/ \ .  __/ \    WELCOME
+         /\  .-   `._\/     \ / -.   _/ \ -. `_/   \ /    `._/  ^  \     HERE!
         /  `-.__ ^    \.-'.--'    . /    `--./ .-'  `-.  `-. `.  -  `.
  ^^  __/__   ______  _ \     ______/ _____  /______'___\__  _  \   -__\__
     (  __ \ (  ___ \( \ `--.(  ___ \(  __ \'\_   _/(  __  )( (  `/|(  _  \

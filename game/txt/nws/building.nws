@@ -1,0 +1,300 @@
+& building
+===== NEWS BUILDING ==========================================================
+In order to improve the quality and consistency of the MUSH, we have some
+building guidelines which we insist that everyone adhere to. Construction may
+be inspected by the admins, and you may be required to rebuild (or even 
+destroy) work if it does not meet approval. You should always have admin
+approval before creating any new rooms or exits.
+
+The following subtopics are available:
+
+  DESCRIPTIONS   -- General guidelines for writing descriptions
+  EXITS          -- Specific guidelines for exits
+  ROOMS          -- Specific guidelines for rooms
+  TIPS           -- Miscellaneous tips you might find helpful
+
+Type NEWS BUILDING <topic> for more information.
+==============================================================================
+& building descriptions
+===== NEWS BUILDING DESCRIPTIONS =============================================
+Guidelines for Good Descriptions
+
+It's hard to say what constitutes a perfect description, but here are some
+general guidelines and rules which you should try to adhere to:
+
+*) Most importantly, your descriptions should describe what a player *sees*.
+   It should not convey information that the character cannot determine by
+   looking around - neither the player nor the character is psychic.  
+
+   It also should not try to think for the player, or dictate what the player 
+   would feel in that spot.  Provide the cues - but let the player decide how 
+   to act on them.  Remember that the way a character might react to something
+   may depend a lot on their species or culture!  An orc's idea of art may
+   be an elf's idea of grisly horror.
+
+*) Avoid words which convey little information, particularly generic adjectives
+   like "beautiful", "ugly" and so forth.  Instead, provide vibrant details
+   which help the player to feel like he is really there.  "You are in a 
+   beautiful garden" is not as good as a description which mentions the
+   bright red roses, the little fragrant purple blossoms on the vines
+   going up the walls, and the white marble fountain in the center.
+
+(continued in NEWS BUILDING DESCRIPTIONS 2)
+==============================================================================
+& building descriptions 2
+& building descriptions2
+===== NEWS BUILDING DESCRIPTIONS 2 ===========================================
+*) Use good English. Avoid colloquialisms. Check your spelling.  Bad language
+   and misspelling become irritants if you have to see them every time you
+   pass through a room.  More significantly, many of our players are not 
+   native English speakers, and can be severely confused by grammatical
+   errors or just overly colloquial phrasing.
+
+   Have players who are known for good descriptions proof your work and
+   offer advice.  It's very hard for anyone to judge their own writing.
+
+*) As a general rule, avoid putting the descriptions of NPCs into the
+   descriptions of rooms and exits.  If you are describing a busy location
+   such as a marketplace, you might mention the general hubbub and that
+   many folk are present, but you should not go so far as to describe
+   individuals present.  You may wish to create a puppet to put in the room
+   if you want to have an NPC which stands out from the crowd.
+
+(continued in NEWS BUILDING DESCRIPTIONS 3)
+==============================================================================
+& building descriptions 3
+& building descriptions3
+===== NEWS BUILDING DESCRIPTIONS 3 ===========================================
+
+*) Don't use the ANSI color codes in your descriptions.  You can use the
+   'hilite' attribute if you want, but use it sparingly. If you do use 
+   highlighted text (boldface), put the highlighted phrase in quotation
+   marks as well, for the benefit of those people who are not set ANSI.
+ 
+   The reason for avoiding color is that even if the player's terminal
+   supports ANSI and COLOR, you don't know what the actual colors are.
+   (Just because the MUSH calls a color "red" for example doesn't really
+   mean it's going to be red on everyone's screen: the ANSI control code
+   really means something akin to "select color 3", and there is no absolute 
+   mapping of color numbers to colors).  Also, depending on what a player 
+   uses as their background color, you could end up with text displayed in
+   the same foreground and background colors (effectively just looking like
+   colored blocks on the screen).
+
+*) Don't use tabs "%t" for formatting - people can have different tabstop 
+   settings and what works on one terminal won't look right on another.
+
+(continued in NEWS BUILDING DESCRIPTIONS 4)
+==============================================================================
+& building descriptions 4
+& building descriptions4
+===== NEWS BUILDING DESCRIPTIONS 4 ===========================================
+*) Use blank lines to separate paragraphs in long descriptions.  Don't
+   indent paragraphs though.  This is really just a stylistic convention
+   we have adopted for this MUSH; other ways are equally valid but we
+   ask you do it this way on this MUSH.
+
+*) Don't make any assumptions about the width of the player's terminal -
+   in particular, don't try to line things up in columns by inserting spaces
+   and depending on where the line wraps.  If you are doing something which
+   really needs to have tabular data (that is, text aligned in columns),
+   then force line breaks by including "%r" in the text, and limit the 
+   width of individual lines to 78 characters (79 in a pinch, but never use
+   80 because some terminals will automatically wrap when you print in
+   column 80 whereas others only wrap when you try to print the 81st character.
+   This results in things which look right on some terminals coming out
+   double-spaced on others.)
+
+(continued in NEWS BUILDING EXITS)
+==============================================================================
+& building exits
+===== NEWS BUILDING EXITS ====================================================
+There are four basic attributes which any properly done exit will have:
+
+*) All exits MUST have an @OSUCCESS and @ODROP.  
+
+   The @OSUCCESS and @ODROP messages should enable people in the room to follow
+   behind you easily, or know where you arrived from.
+
+*) All exits SHOULD have an @SUCCESS and @DESCRIBE as well.  If an exit is
+   set TRANSPARENT, then it must have an @DESCRIBE.  It is very confusing
+   to see "You see nothing special." followed by the description of a room.
+
+   For outdoor locations, the @SUCCESS message should provide a hint to the 
+   player about how far or long they have travelled, to aid them in working
+   out their IC travel time.
+
+*) Do NOT put an @ODESCRIBE on an exit.  This just generates useless noise
+   which everyone has to see whenever a player looks at an exit.
+
+(continued in NEWS BUILDING EXITS 2)
+==============================================================================
+& building exits 2
+& building exits2
+===== NEWS BUILDING EXITS 2 ==================================================
+--- Exit naming and aliases ---
+
+This is a controversial area, and opinions differ widely.  Nonetheless, we have
+adopted a particular style and expect everyone to adhere to it.  We do not do
+this because one style is inherently better than another, but simply to 
+maintain a certain level of consistency across the MUSH.  Our guidelines and
+requirements for exit naming are:
+
+*) Exits should have a "full" name and normally should also have one or more
+   aliases.  The "full" name is what the player sees when he looks around the
+   room.  It should be complete words.  The exit may have any number of
+   "aliases" as well, these are additional names for the exit which are 
+   separated from each other by semicolons ";".  As an example:
+
+       @name <exit> = Oak Door;Out
+
+(continued in NEWS BUILDING EXITS 3)
+==============================================================================
+& building exits 3
+& building exits3
+===== NEWS BUILDING EXITS 3 ==================================================
+*) Case is not significant to the MUSH parser (you can use upper- or lowercase
+   to go through an exit), but we do use capitalization to provide hints about
+   alias names.  If you take all the capital letters from the full name of the
+   exit, this should be one of its aliases.  Hence, for the above example we
+   should actually have:
+
+       @name <exit> = Oak Door;OD;Out
+
+*) Exit aliases should include any "obvious" short forms for the full name.
+   If an exit name is multiple words, then usually the first word alone should
+   be a valid alias.  To continue with our example name, "Oak" and "Door"
+   are probably good aliases:
+
+       @name <exit> = Oak Door;Oak;Door;OD;Out
+
+(continued in NEWS BUILDING EXITS 4)
+==============================================================================
+& building exits 4
+& building exits4
+===== NEWS BUILDING EXITS 4 ==================================================
+*) Compass directions should always include the obvious abbreviations:
+
+      Northeast;NE  North;N  Northwest;NW  West;W  
+      Southwest;SW  South;S  Southeast;SE  East;E
+      Up;U          Down;D
+
+   You do not need to capitalize the second part of compound compass
+   directions in the full name of an exit.  In other words, just use 
+   "Northeast" and not "NorthEast".
+
+*) If there is an obvious main exit from a room, or only one exit for
+   for a room, then it should include the aliases "Out;O".
+
+(continued in NEWS BUILDING EXITS 5)
+==============================================================================
+& building exits 5
+& building exits5
+===== NEWS BUILDING EXITS 5 ==================================================
+
+*) Avoid exit names which match MUSH commands, or common abbreviations for
+   MUSH commands.  In particular, avoid the following abbreviations for exits:
+
+      P,PA  B,BR  L,LO, I,IN
+
+   The reason for this is that these are also abbreviations for commonly
+   used MUSH commands (PAGE, BRIEF, LOOK, INVENTORY) and the MUSH command 
+   interpreter matches commands you type against exit names before MUSH 
+   commands.  If for example you type "LO" to look around, you'll go 
+   through the "LO" exit instead!
+
+   "IN" is an unfortunate case, since it seems to be a perfect complement
+   to "OUT".  Avoid it just the same.
+
+(continued in NEWS BUILDING EXITS 6)
+==============================================================================
+& building exits 6
+& building exits6
+===== NEWS BUILDING EXITS 6 ==================================================
+*) If you have an exit alias which is not derivable from the rules described
+   previously, then include the alias name in angle brackets "<>" as part of
+   the full name:
+
+        @name <exit> = Oak Door <Gate>;Oak;OD;Gate
+
+   In fact, the above example is not sufficient.  If you have a full name
+   which includes an alias in "<>", then you must also provide an alias
+   which is the full name without the part in "<>":
+
+        @name <exit> = Oak Door <Gate>;Oak Door;Oak;Gate;OD
+
+   The reason for this is that if the player were to type the full phrase
+   "Oak Door", it would not work if you didn't include the alias, because
+   the name for the exit was "Oak Door <Gate>" and the MUSH parser will NOT
+   automatically recognize "Oak Door" as an abbreviation!  The MUSH parser
+   is inconsistent in this regard, since other commands like "GET" certainly
+   *do* match partial strings.
+
+*) Do NOT include an alias name in "<>" if it's an "obvious" abbreviation.
+
+(continued in NEWS BUILDING ROOMS)
+==============================================================================
+& building rooms
+===== NEWS BUILDING ROOMS ====================================================
+*) All rooms MUST have a description.  Normally this is in the @DESCRIBE
+   attribute.  There is one special case where you might have the attribute
+   in the @SUCCESS attribute instead, see NEWS BUILDING TIP 1 for details.
+
+*) If you set the AREANAME attribute on the room, this name will show up
+   as your location when a player does a "-who".  The "-who" (and other
+   commands) will first check for an AREANAME on the room itself, and 
+   then on the ZMO for that room.  Normally AREANAME is only set on the
+   ZMO, but you might find it convenient to override it with a local
+   ARENAME on the room.
+
+*) All rooms should be set TRANSPARENT, unless there is a good reason not
+   to. What happens when a room is set TRANSPARENT is that the exits are 
+   shown with the name of the room they lead to. This makes it easier for 
+   newbies, as well as not so newbies, to find their way around. However, 
+   there may be reasons that this format may not fill the needs of the 
+   builder, for what he is trying to create. In that case, it is left to 
+   the discretion of the CW of the culture if it is used. But in general,   
+   it is a good convention to follow for the reasons above.
+
+(continued in NEWS BUILDING TIPS)
+==============================================================================
+& building tips
+===== NEWS BUILDING TIPS =====================================================
+We want everyone to be able to get a quick start on building and know that 
+there are lots of tips and tricks which people have learned which we'd like
+to share.  If you have got anything which you'd like to contribute, send
+your tip to Fingolfin, and he may include it here.
+
+The following building tips are available.  To read any particular tip,
+use "NEWS BUILDING TIP ##", where "##" is the appropriate tip number.
+
+TIP 1:  Making a room description which is different for a person in the room
+        versus a person looking through an exit into the room.
+==============================================================================
+& building tip 1
+& building tip 01
+& building tip1
+& building tip01
+===== NEWS BUILDING TIP 1 ====================================================
+TIP:  Making a room description which is different for a person in the room
+      versus a person looking through an exit into the room.
+
+Usually, when looking through a tranparent exit, you are trying to see who 
+is in the target room, and not the full description of the room itself.  
+Here's a building trick for you which makes this easy to do, based on the 
+following two items:
+
+   If you have @DESCRIBE and @SUCCESS on rooms, a player in the room will see
+   both the @DESC and @SUCC messages (in that order).
+
+   If you have TRANSPARENT exits looking into a room, then when a player
+   looks through the exit, they will see only the room's @DESC.
+
+Put the room's description in the @SUCC instead of the @DESC attribute.
+Then, players looking through an exit into the room will not see the 
+room description, but players in the room itself will.  In the description
+for the exit itself you can put a shortened description of the target room.
+Players looking through the exit will see the short description (which is
+really the exit's description but will look like the target room's
+description instead), followed by the contents of the room.
+==============================================================================
