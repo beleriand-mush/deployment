@@ -1,0 +1,598 @@
+& local
+--------------------* Beleriand local changes *----------------------
+
+This page describes differences between the current BeleriandMUSH
+server and the release of PennMUSH (1.7.1 pl3) it is based on.
+
+* Extensions:
+
+WHO                       DOING, HOSTS              @chzone
+Pemit_All                 @stats MEM (*)            lattr() (*)
+Inheritance               Parent subst              @set
+@a(dis)connect            help                      @chown/preserve
+@scan (*)                 @search,lsearch() (*!)
+
+* New features:
+
+@sdescribe                mangle()                  getvalue()
+Special flags             @wallprefix               LASTOFF (*)
+Failure messages          @auto_chzone              Variables
+inlist()                  Control Lock              Receive Lock
+@vdolist                  viter()
+
+* Fixes/minor changes:
+
+@oemit (*)                Jump_Ok (*)               @pemit/list (*)
+@switch (*)               Page Lock                 home (*)
+Control
+
+Credits: Melkor, Paleran (ex-Beren), Thingy (ex-Thingol), Tulkas
+---------------------------------------------------------------------
+For details, use 'help local <name>'.        (*=no details available)
+For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
+
+& local1
+--------------------* Beleriand local changes *--------------(Part 1)
+
+* Extensions to existing features:
+
+  WHO               now case insensitive
+  DOING             now non-existent. See_all players see regular WHO
+                    and can use HOSTS to get old who output
+  @chzone           let your friends put objects in your zone
+  Pemit_All         now more powerful than Nospoof
+  @stats MEM        wizard-only memory usage statistics
+  lattr()           always returns the list of visible attributes
+  Inheritance       locks, @listens and ^-patterns can be inherited
+  Parent subst      short and fast equivalent to parent(%!): %^
+  @set              flags on locks
+  @a(dis)connect    3 arguments are passed to them
+  help              accepts abbreviated topic names
+  @chown/preserve   @chown that does not touch the flags and powers
+  @scan             shows matched attributes
+  @search,lsearch() NEW! predicates controls and is_controlled_by
+
+& local2
+--------------------* Beleriand local changes *--------------(Part 2)
+
+* New amazing features:
+
+  @sdescribe        makes 'look' more interesting
+  mangle()          unintelligible text in 1 millisecond!
+  getvalue()        split your attributes into sub-attributes
+  Special flags     various local flags
+  @wallprefix	    command to change your @wall message prefix
+  LASTOFF           the game remembers when you disconnected
+  Failure messages  custom failure messages for say/give/leave/drop
+  @auto_chzone      automagically @chzones created stuff
+  Variables         variables in the softcode
+  inlist()          is this a member of the list or not?
+  Control-lock      let your friends control your object
+  @vdolist          @dolist variant iterating a variable
+  viter()           iter() variant iterating a variable
+
+& local3
+--------------------* Beleriand local changes *--------------(Part 3)
+
+* Fixes and minor changes:
+
+  @oemit            always emits to the given room
+  Jump_Ok           restricted to Royals/Wizards
+  @pemit/list       ##-substitution supressed
+  @switch           @swi 1=1,@wait 1={x;y} works now
+  Page Lock         page lock does not block pages completely
+  home              you can't go home when you are IC
+  Control           control algorithm details
+
+& local @chzone
+  Everybody who passes new chzone lock (if set) of the ZMO is now
+  allowed to @chzone stuff there.
+
+  If the ZMO has not this lock, only its owner (and the wizards)
+  can @chzone objects to it.
+
+  Example:
+    you> @lock/chzone zmo==*friend
+    friend> @chzone thing=zmo (and it works!)
+
+& local Pemit_All
+  Grant Pemit_All power to your object and its pemits will go to
+  to those set No_spoof WITHOUT this stupid [Foo->Bar] message.
+
+& local WHO
+& local DOING
+& local HOSTS
+  WHO
+  Displays a list of players currently connected to the MUSH. The WHO
+  tells you how long a player has been on and how long they have been
+  inactive. 
+
+  HOSTS
+  Privileged players only. This command shows the list of connected
+  players together with their current location and adresses of hosts
+  they are connected from.
+
+  You can give an argument to these commands but this argument MUST be
+  preceded by a space. This is different from standard PennMUSH behaviour.
+
+& local Inheritance
+  In PennMUSH, locks, @listen and ^-patters are not inherited from the
+  object's parent. BeleriandMUSH server allows these kinds of inheritance,
+  so as to make object-prototyping easier and more efficient.
+
+  * Lock inheritance
+
+    When the object has not the lock of given type but its parent has,
+    the inherited lock is used unless it is set no_inherit (all locks
+    are no_inherit by default to preserve backwards compatibility).
+    TinyMUSH-like checking of parental Use_Locks during $-command
+    matching is suppressed (it was broken anyway).
+
+  * Listening inheritance
+
+    When the object has not @listen but its parent has, the inherited
+    @listen is used. ^-patterns are inherited in the same way as
+    $-commands, Listen_Lock is checked instead of Use_Lock.
+    As you would expect, no_inherit (and no_listen for ^-patterns)
+    blocks this.
+
+  See also: Object parents, @lock, Listening, local Parent lock, local @set
+
+& local @set
+  @set <object>/<attribute>=[!]<atrflag>
+  @set <object>|<lock>=[!]<lockflag>
+  
+  The first for sets (or unsets) an attribute flag on the specified
+  <attribute> of <object>. NEW possible flags are:
+
+  no_listen         Attribute will not be checked for ^-pattern.
+                    In 'examine', this is denoted by '^'.
+
+  The second form sets (or unsets) a lock flag on the specified <lock>
+  of <object>. Possible flags are:
+
+  no_inherit        Lock will not be inherited by the children of
+                    this object. This is the default setting for new locks.
+		    In 'examine', a lock WITHOUT this flag is denoted by 'i'.
+  no_clone          Lock will not be copied if the object is @clone'd.
+                    In 'examine', this is denoted by 'c'.
+
+  See also: @set
+
+& @sdescribe
+& local @sdescribe
+  @sdescribe <object> [=<short description>]
+
+  This sets a short description that will be appended to the name
+  of the object if you look around in the same room. If the object is
+  an exit from the transparent room, its SDESCRIBE is displayed after its
+  name instead of 'leads to...'.
+
+  Example:
+    > @sdescribe Object=jumps wildly here
+    > @sdescribe Exit=is [switch(v(locked),1,closed and locked,open]
+    > look
+    The room
+    This is a room.
+    Contents.
+    Object(#2354n) jumps wildly here
+    Obvious exits:
+      Exit is closed and locked
+
+& mangle()
+& local mangle()
+  mangle(<text>, <intelligibility>)
+
+  This function makes the text less intelligible according to the
+  value of intelligibility. Its range is from 0 (uncomprehensible)
+  to 100 (unmolested).
+
+& getvalue()
+& setvalue()
+& removevalue()
+& local getvalue()
+& local setvalue()
+& local removevalue()
+  getvalue(<list>, <key> [,<default value>])
+  extracts a value with the given key from the list; if there is
+  no such item, the default value (if any) is returned
+
+  setvalue(<list>, <key>, <new value>)
+  changes the value with the given key to a new value and returns the
+  new list; if there was no such item, the item is added
+
+  removevalue(<list>, <key>)
+  removes the item specified by the key from the list and returns
+  the modified list; if there is no such item, nothing is changed
+
+  The list has the form: key1:value1 key2:value2...; keys could not
+  contain colons and spaces; values, on the other hand, could contain
+  any characters (spaces are stored as %b and percents as %%).
+
+& local Special Flags
+  Beleriand special flags:
+
+  ADMIN (t, players)
+  EMERITUS (~, players)
+
+  FEATURE (T, players)
+  FIGHTER (f, players and things)
+  KILLED (k, players and things)
+  EQUIPMENT (q, things)
+
+  See local FLAG-NAME, local Combat_Master for details
+
+& ADMIN
+& local ADMIN
+  Flag: ADMIN (players)
+
+  When set, the player is one of the (local) administrators of the MUSH.
+  Royal/wizard settable.
+
+& EMERITUS
+& local EMERITUS
+  Flag: EMERITUS (players)
+
+  This is the flag given to the players who left their admin positions
+  (retired admins) but have done a lot for the MUSH and deserve to get
+  something special. Wizard settable.
+
+& FEATURE
+& local FEATURE
+  Flag: FEATURE (players)
+
+  This is the flag given to the players playing a feature character.
+  Royal/wizard settable.
+
+& local Combat Flags
+& FIGHTER
+& local FIGHTER
+& EQUIPMENT
+& local EQUIPMENT
+& KILLED
+& local KILLED
+& Combat_Master
+& local Combat_Master
+  Flags: FIGHTER, KILLED, EQUIPMENT
+  Power: Combat_Master
+
+  flags used in Beleriand combat system
+  FIGHTER   = object is allowed to take part in combat
+  KILLED    = object is dead, and (temporarily) not able to fight
+  EQUIPMENT = object is a piece of standard equipment (weapon, armor..)
+
+  Flags are settable by wizards, royals, and object wielding
+  Combat_Master power.
+
+& @wallprefix
+& local @wallprefix
+  @wallprefix me = <message>
+
+  Allows to set arbitrary prefix for @walls (useful for wizard, royals
+  and players with Announce power). Does not put automatically your name
+  there, so do it yourself (unless you want to be anonymous). The text
+  is not evaluated.
+
+& local Failure messages
+  @speech_failure   custom failure messages for Speech_Lock
+  @give_failure     custom failure messages for Give_Lock
+  @leave_failure    custom failure msgs for Leave_Lock and NO_LEAVE
+  @drop_failure     custom failure messages for Drop_Lock
+
+& @speech_failure
+& @speech_ofailure
+& @speech_afailure
+& local @speech_failure
+& local @speech_ofailure
+& local @speech_afailure
+  @speech_failure  <room> = <message>
+  @speech_ofailure <room> = <message>
+  @speech_afailure <room> = <message>
+
+  When the object tries to say anything but does not pass the Speech_Lock
+  of its location, it will see the contents of location's SPEECH_FAILURE
+  attribute, its neighbours will see the contents of SPEECH_OFAILURE, and
+  SPEECH_AFAILURE will be triggered.
+
+& @give_failure
+& @give_ofailure
+& @give_afailure
+& local @give_failure
+& local @give_ofailure
+& local @give_afailure
+  @give_failure  <obj> = <message>
+  @give_ofailure <obj> = <message>
+  @give_afailure <obj> = <message>
+
+  When the player does not pass the Give_Lock of an object he tries to give,
+  he will see the contents of object's GIVE_FAILURE attribute, his neighbours
+  will see the contents of GIVE_OFAILURE, and GIVE_AFAILURE will be triggered.
+
+& @drop_failure
+& @drop_ofailure
+& @drop_afailure
+& local @drop_failure
+& local @drop_ofailure
+& local @drop_afailure
+  @drop_failure  <obj> = <message>
+  @drop_ofailure <obj> = <message>
+  @drop_afailure <obj> = <message>
+
+  When the player does not pass the Drop_Lock of an object he tries to drop,
+  he will see the contents of object's DROP_FAILURE attribute, his neighbours
+  will see the contents of DROP_OFAILURE, and DROP_AFAILURE will be triggered.
+
+& @leave_failure
+& @leave_ofailure
+& @leave_afailure
+& local @leave_failure
+& local @leave_ofailure
+& local @leave_afailure
+  @leave_failure  <obj> = <message>
+  @leave_ofailure <obj> = <message>
+  @leave_afailure <obj> = <message>
+
+  When the player does not pass the Leave_Lock of his location when going out,
+  he will see the contents of locations's LEAVE_FAILURE attribute, his
+  neighbours will see the contents of LEAVE_OFAILURE, and LEAVE_AFAILURE will
+  be triggered.
+
+  NOTE: these attributes has been obsoleted by standard attributes
+  LFAIL, OLFAIL, and ALFAIL introduced in Penn 1.6.6.
+
+& Parent lock
+& local Parent lock
+  @lock[/<locktype>] <object> = ^
+
+  Object will inherit the specified lock from its parent. Equivalent
+  to @lock/[<locktype>] <object>=@[parent(<object)] but the lock does not
+  need to be changed when the object is re-parented, and the overhead of ^
+  is lower.
+
+  You can use ^ in more complicated locks too.
+  Example: @lock object=(=*Joe&^)|*Bob
+
+  WARNING: due to implementation problems, mixing implicit and explicit
+  lock inheritance could lead to rather suprising results.
+
+  See also: @lock, local Inheritance, Object parents
+
+& Parent subst
+& local Parent subst
+  %^
+
+  Equivalent to parent(%!) but shorter and faster.
+
+  See also: Substitutions, local Inheritance, Object parents
+
+& @auto_chzone
+& local @auto_chzone
+  @auto_chzone me = <zone>
+
+  Automatically @chzones every created object (@created, @digged, @opened)
+  to the given zone (if you have the permission to do it). This is useful
+  when you are building and you do not want to re-@chzone yourself for any
+  reason (or kill your fingers/keyboard with tons of @chzone's).
+
+& variables
+& local variables
+  Variables are the generalization of existing "local registers". The code
+  can use arbitrary number of these variables, and they can have arbitrary
+  names.
+
+  Set variables with @setq and setq().
+  Read their values with r() and %{}.
+  
+  Variables are not propagated through ulocal(), @trigger, @verb, and
+  $-command invocations.
+  Variables are propagated through u(), udefault(), zfun(), @switch,
+  @select, @dolist, and @wait.
+
+  Special variables:
+  Iter() and @dolist set %q# and %q@ variables (equivalent to ## and #@).
+  Switch(), @switch, and @select set %q$ variable (equiv. to #$).
+
+  See also: local setq(), local r(), local @setq,
+            local @vdolist, local viter()
+
+& local setq()
+& local r()
+  setq(<variable>,<value>)
+  r(<variable>)
+  %{<variable>}
+
+  If <variable> is a non-numerical string, these functions work with
+  variables, not r-registers. Setq() sets <variable>, r() returns its value.
+  The %{<variable>} percent-substitution returns the value of <variable>
+  but its name is not evaluated.
+
+  See also: local variables
+
+& local @setq
+  @setq[/<switch>] <variable> = <value>
+
+  Sets the <variable> to <value>. <variable> can be either the number from
+  0 to 9 (r(0) to r(9)) or any non-numerical string (%{<variable>}).
+  The /noeval switch prevents the MUSH from evaluating the value.
+
+  See also: local variables
+
+& local @aconnect
+& local @adisconnect
+  Both @aconnect and @adisconnect are invoked after EVERY connect
+  and disconnect, partial or full.
+
+  Additional info passed to @aconnect/@adisconnect:
+
+  %0 = 0 if partial, 1 if full
+  %1 = port number
+  %2 = time of event (in seconds, like secs())
+
+& inlist()
+& local inlist()
+  inlist(<list>,<word>[,<delimiter>])
+
+  Inlist takes a list and a word, and returns `1' if <word> is a member
+  of <list>, `0' otherwise.  A word is defined as a string which has no
+  interior <delimiter>s.  See LISTS
+
+& Control Lock
+& local Control Lock
+  @lock/control <object> = <lock>
+
+  By setting a control lock on <object>, anybody passing <lock> will
+  control it. This is good when you want to allow another player control
+  a certain object and you have a good reason why not to use zones.
+
+  WARNING: use this with extreme care, you will never be warned about
+  unsecure control locks and they could be very dangerous! Do not use
+  inexact locks. Never make control locks inheritable (@set <object>|
+  control=!no_inherit) unless you know what you are doing!
+
+  See also: @lock, local @set, CONTROL
+
+& Receieve Lock
+& local Receive Lock
+  @lock/receive <object> = <lock>
+
+  You can restrict what can be give to <object> by setting a receive
+  lock on it. Receive lock works in conjuction with ENTER_OK flag.
+
+  See also: @lock, give
+
+& local help
+  help [<topic>]
+
+  You can abbreviate <topic> by:
+  1. omitting one or more characters at the end
+  2. shortening one or more words (words are separated by spaces)
+  3. omitting one or more characters before a dash or a digit
+     (within a word)
+  4. any combination of 1., 2., and 3.
+
+  Examples:
+    help subs             for SUBSTITUTIONS
+    help be kill          for BEING KILLED
+    help at-own           for ATTRIBUTE-OWNERSHIP
+    help subs2            for SUBSTITUTIONS2
+
+  See also: help help
+
+& @vdolist
+& local @vdolist
+  @vdolist[/notify] <variable>/<list> = <action>
+  
+  @vdolist executes the <action> for each element in <list>. If <list> is a
+  function, it will be evaluated to obtain the necessary list to use. It
+  may be any space-separated list of strings, which can be object numbers,
+  attributes, or arbitary words.
+  
+  <action> is a command or list of commands enclosed in braces { }
+  and is performed once for every item in <list>.
+  
+  <variable> is the name of a variable which is set to the corresponding
+  item from <list> for every iteration. The position of that item in the list
+  is available as %{@<variable>}.
+ 
+  If the /notify switch is used, a "@notify me" is queued after all the
+  list commands. This is useful for object synchronization with semaphores.
+   
+  Example: @vdolist obj/[lcon(here)] = "[name(%{obj})]
+    would cause you to say the name of all objects in the room.
+
+  See also: local variables, @dolist
+
+& viter()
+& local viter()
+  viter(<variable>,<list>,<pattern>[,<delimiter>[,<output separator>]])
+  
+  Viter() evaluates <pattern> for each item in <list> and returns the
+  results concatenated.
+  
+  <list> is a space-separated list of words, and <pattern> is what will
+  be "mapped" onto each element of the list.
+
+  <variable> is the name of a variable which is set to the corresponding
+  item from <list> for every iteration. The position of that item in the list
+  is available as %{@<variable>}.
+  
+  The list may be <delimiter>-separated.
+
+  By default, the return list will be space-separated. However,
+  by including the output separator (which requires explicitly
+  including the delimiter), you can have it separated by any string.
+
+  See also: local variables, iter()
+
+& local if()
+  if() is a standard function in PennMUSH 1.7
+
+  WARNING: the semantics has changed, Penn if() tests interprets
+  <condition> as a boolean value unlike old Bel if() which interpreted
+  it as a string and compared it with "1".
+
+  If your code relies on the old (broken) behaviour, use switch().
+  Example: if(x,y) --> switch(x,1,y)
+
+& local Page Lock
+  In BeleriandMUSH, there is a slight difference between setting
+  a page-lock and HAVEN flag:
+
+  When P1 pages P2 and P1 is HAVEN, P2 gets P1's HAVEN (or AWAY if P1
+  is DARK) info and the message is lost.
+
+  When P1 pages P2 and fails to pass P2's page-lock, P1 gets P2's HAVEN
+  (or AWAY) info but the page IS DELIVERED to P2, being prefixed with
+  'BLOCKED PAGE:'. This is useful for busy players who do not want to be
+  disturbed but still want to be able to react to the pages from other
+  players.
+
+& @chown/preserve
+& local @chown/preserve
+  @chown/preserve <object> = <player>
+  
+  Changes the ownership of <object> to <player>. The command behaves
+  exactly like @chown (without the switch) but this one does not modify
+  anything else but <object> owner. <object>'s flags, powers, and zone
+  are preserved and <object> is not halted.
+
+  Being somewhat dangerous, this command is restricted to wizards.
+
+& local special attributes
+
+  TITLE
+  SPECIES
+  CULTURE
+  TRAINING
+  STATS
+  HAND
+  HP
+  EQUIP
+  MONEY
+  LANGUAGES
+
+& local Control
+CONTROL
+
+  Does <enactor> control <victim>?
+
+  0) ALLOW control when <enactor> and <victim> are the same object
+  1) DENY control when <victim> is #1
+  2) ALLOW control when <enactor> is Wizard
+  3) DENY control when <victim> is Wizard, or <victim> is Royalty
+     but <enactor> is not Royalty
+  4) ALLOW control when <enactor> is a player and owns <victim>
+  5) ALLOW control when <enactor> and <victim> have the same owner,
+     and <enactor> is Inherit
+  6) DENY control when <victim> is a player or Inherit
+  7) ALLOW control when <enactor> and <victim> have the same owner,
+     <enactor> has no Control Lock and <enactor> is not zoned or its
+     zone is the same as <victim>'s zone
+  8) ALLOW control when <victim> is zoned and <enactor> passes the
+     Zone Lock of <victim>'s zone
+  9) ALLOW control when <victim>'s owner is a Zone Master
+     and <enactor> passes its Zone Lock
+  10) ALLOW control when <victim> has a Control Lock
+     and <enactor> passes it
+  11) DENY control
+
