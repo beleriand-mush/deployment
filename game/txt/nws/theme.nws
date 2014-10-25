@@ -1,0 +1,869 @@
+& theme
+===== NEWS THEME ==========================================================
+ Topic:         Updated:   Description:
+---------------------------------------------------------------------------
+ BOOKS          19 Oct 07  A complete listing of all Middle-earth books.
+ CANON          19 Oct 07  When a conflict arises between resources.
+ RESOURCES      19 Oct 07  Which resources are most pertinent to our theme.
+ SOURCES        21 Dec 02  To what extent the books are a source of theme.
+
+ CULTURES       26 Oct 07  The realms of the land of Beleriand.
+ SPECIES        19 Oct 07  Tons of information on all the varied races.
+
+ TIMELINE       19 Oct 07  The events of the Years of the Sun (First Age).
+ LANGUAGES      29 Jul 97  The spoken tongues of Beleriand.
+ DICTIONARY     29 Jul 97  A brief lexicon of useful words.
+ POWERS         30 Apr 04  Information on Vala and Maia characters.
+
+ CHARACTERS     10 May 97  Tips on creating your character.
+
+Type NEWS <topic> for more information. 
+===========================================================================
+& books
+& theme books
+===== NEWS BOOKS ==========================================================
+   For a complete list of books by J.R.R. Tolkien, see our web page at:
+                    http://beleriand.mux.net/books.html
+
+No attempt is made in these files to duplicate the full list given there.
+Instead, here is a list of those books which are directly relevant to our
+theme:
+
+* The Silmarillion (Sil)
+* Unfinished Tales (UT)
+* The Book of Lost Tales, Part One (I)
+* The Book of Lost Tales, Part Two (II)
+* The Lays of Beleriand (III)
+* The Shaping of Middle-earth (IV)
+* The Lost Road and Other Writings (V)
+* Morgoth's Ring (X)
+* The War of the Jewels (XI)
+* The Peoples of Middle-earth (XII)
+* The Children of Hurin (CH)
+
+For more information, see NEWS BOOKS 2 and NEWS RESOURCES
+===========================================================================
+& books 2
+& books2
+& theme books 2
+& theme books2
+===== NEWS BOOKS 2 ========================================================
+Companion Volumes
+
+* The Complete Guide to Middle-earth, by Robert Foster (Foster)
+* An Introduction to Elvish, edited by Jim Allan (Allan)
+* The Atlas of Middle-earth, by Karyn Wynn Fonstad (Atlas)
+* The History of Middle-earth Index (Index)
+
+The above are resources by third-party authors who compiled their
+information from research of Tolkien's works. All of the above are fairly 
+reliable, and certainly handy reference material here on this game. They
+are not considered quotable resources on this game, but rather tools for
+researching Tolkien.
+===========================================================================
+& canon
+& theme canon
+===== NEWS CANON ==========================================================
+The question of canon is a tricky one, so here we have tried to break it
+down as completely and concisely as possible, to provide a clear method of
+settling discrepancies between resources.
+
+1) "Thematic" refers to the setting of this game. Theme is defined by the
+   game admins based on the books as is deemed suitable. Canon is a major
+   consideration in Theme, but not the only one. See NEWS SOURCES.
+
+2) All Middle-earth writings of J.R.R. Tolkien and C.R. Tolkien are
+   "Canonical". See NEWS BOOKS for a good list. That is to say, if and only
+   if it bears the Tolkien name as author is a work to be considered an
+   official resource of Beleriand. However, between these works there will
+   often be discrepancies, and one version must be chosen over another to
+   be the Thematic version. Therefore:
+
+(continued in NEWS CANON 2)
+===========================================================================
+& canon 2
+& canon2
+& theme canon 2
+& theme canon2
+===== NEWS CANON 2 ========================================================
+3) The 1977 Silmarillion is the "Standard". It is a reasonably consistent
+   version of the mythology. If anything from a source contradicts
+   something in The Silmarillion, it shall not be considered Thematic.
+   Note that only the contradiction is considered invalid, not the entire
+   resource. If a character or incident or other "fact" appears in a
+   Canonical resource but not in The Silmarillion, and The Silmarillion
+   in no way refutes it, it may be considered Thematic.
+
+4) Beleriand has a "Flavor", and that flavor is generally defined by The
+   Silmarillion. This is somewhat harder to nail down and can be open to
+   interpretation, but should not be disregarded. The early mythology of
+   The Book of Lost Tales differs in mood, emphasis, and character from
+   the much later Silmarillion, and while some material therein is useful,
+   it must be taken carefully and consciously applied to the world of The
+   Silmarillion. The Hobbit is a lighthearted children's tale that was
+   conceived as something of an alternate world from The Silmarillion.
+   Hence there are elements therein which have no place in our world, as
+   Hobbits, Trolls, and Skin-changing Bear-men; while common elements like
+   Dwarves and Elves are subtly different. Also consider the dialogue used
+
+(continued in NEWS CANON 3)
+===========================================================================
+& canon 3
+& canon3
+& theme canon 3
+& theme canon3
+===== NEWS CANON 3 ========================================================
+   in The Silmarillion, which is a more archaic style than that of LR.
+   These are examples of things to keep in mind. All Canonical resources
+   are taken into account, but ultimately it must fit in with The
+   Silmarillion in order to fly.
+
+5) "Third-party" material is never considered a true resource. Some sources
+   are published by authors other than the Tolkiens, some claiming to be
+   simply Tolkien research (as David Day), others blatantly creating their
+   own material based on Tolkien (as ICE's Middle-earth Roleplaying). In
+   either case, this material is to be regarded carefully and skeptically.
+   Material from these sources may be used IF it fits in with all Tolkien
+   says and fits in with the game, but is no more considered official than
+   anything original created by a player on the game (which, after all,
+   becomes a real part of the game's theme as soon as it enters into RP,
+   unless it is later judged to be unthematic because of conflicts with
+   Canon).
+===========================================================================
+& resources
+& theme resources
+===== NEWS RESOURCES ======================================================
+See NEWS BOOKS for a complete list of Middle-earth books.
+See NEWS CANON for a discussion of The Silmarillion and its central role in
+our theme, but that file more specifically addresses disputes between
+resources.
+
+The purpose of this file, then, is to discuss the *usefulness* of the
+respective resources for the Beleriand setting. THE SILMARILLION,
+naturally, is the single most useful resource as it provides a reasonably
+consistent overview of the tales of Beleriand. But it provides only a
+summary, as it were, that Tolkien wrote as a backdrop for the Great Tales.
+How, then, is one to access these Tales? The answer lies in The History of
+Middle-earth series. Only by reading the complete series can one fully
+appreciate the full scope and awesome majesty of Tolkien's mythology. It is
+certainly recommended that you do so, but if not, at least we can point out
+the highlights that are most relevant to the MUSH.
+
+(continued in NEWS RESOURCES 2)
+===========================================================================
+& resources 2
+& resources2
+& theme resources 2
+& theme resources2
+===== NEWS RESOURCES 2 ====================================================
+UNFINISHED TALES contains the longest of the Great Tales, the tragic saga
+named Narn i Hin Hurin, or the Tale of the Children of Hurin. A prose
+narrative of great importance and yet easy to read, it is also the most
+complete Tale. Turin's adventures span most of Western Beleriand, and thus
+is a good introduction to most of the lands. This book also contains an
+account of Tuor's earlier adventures and several other relevant writings.
+
+THE LAYS OF BELERIAND contains The Lay of Leithian, the famous poetic
+rendition of the Great Tale of Tinuviel. This is a high tale of Beren and
+Luthien and their quest to retrieve a Silmaril from the crown of Morgoth
+himself. A very important and enjoyable read. This book also contains a
+poetic version of the Children of Hurin which fills in some of the gaps in
+the Narn.
+
+THE WAR OF THE JEWELS provides a lot of clarification and details to The
+Silmarillion, including dates for all the events. There is an interesting
+section on languages along with a legend of the Awakening of the Quendi,
+but the highlight is The Wanderings of Hurin, a continuation of the Narn
+which tells of Hurin's adventures after being released from Angband. A
+really good story with a lot of great info for Brethil, told in full
+narrative form.
+
+(continued in NEWS RESOURCES 3)
+===========================================================================
+& resources 3
+& resources3
+& theme resources 3
+& theme resources3
+===== NEWS RESOURCES 3 ====================================================
+THE BOOK OF LOST TALES Part Two contains Tolkien's first version of the
+mythology, and while it is early and does not quite match the flavour of
+The Silmarillion, it does include full versions of all the Great Tales,
+including some that Tolkien never rewrote and thus had them in his mind
+still as THE version of that Tale. Such a one is The Fall of Gondolin,
+Tolkien's earliest and favorite work, which supplies most of the Gondolin
+theme for this MUSH. Similarly, The Tale of the Necklace of the Dwarves
+found herein is an important resource for Nogrod.
+
+A few other resources are important for good general information about
+Middle-earth. MORGOTH'S RING profoundly explores the theology of
+Middle-earth, from the nature of evil to the fate of Men, and also includes
+a very useful essay called Laws and Customs of the Eldar. THE PEOPLES OF
+MIDDLE-EARTH includes many short writings of many different topics of great
+interest. THE LORD OF THE RINGS, particularly the Appendices, contains a
+lot of essential information which is never repeated elsewhere. Finally,
+THE LETTERS OF J.R.R. TOLKIEN provides a window into the author's mind and
+is an indispensable tool for interpreting his works.
+===========================================================================
+& sources
+& theme sources
+===== NEWS SOURCES ========================================================
+In order to understand the relationship between Beleriand MUSH and
+Tolkien's novels, let us imagine that a real Beleriand existed in history,
+or that a real Beleriand exists in another world, it matters not which.
+Real Beleriand is exactly how Beleriand is described in Tolkien's books--
+at least, it is exactly how it is described in The Silmarillion and other
+sources which agree with it (see NEWS CANON for a detailed discussion on
+that matter). In Real Beleriand all the lands and characters are just the
+same as in the books, and events progress exactly when and how it is
+described in the books.
+
+Now, we can not suppose that ONLY the events described in the books happen
+in Real Beleriand, or that only the characters named in the books exist in
+Real Beleriand. For it is a real world, and while we know a few tales of
+Beleriand, there are many other tales to be told.
+
+(continued in NEWS SOURCES 2)
+===========================================================================
+& sources 2
+& sources2
+& theme sources 2
+& theme sources2
+===== NEWS SOURCES 2 ======================================================
+Beleriand MUSH is another world which is not the same as Real Beleriand but
+it is close. In most cases it is as close as we can possibly make it to
+Real Beleriand. In fact, we could say that up till the Year of the Sun 450
+it was exactly the same as Real Beleriand.
+
+But after that point new things started to happen. Stories began to be told
+in our familiar landscape, Great Tales of new characters who rose suddenly
+to scarce less importance than the great princes and heroes of whom Tolkien
+wrote. Tolkien's tales still took place, though perhaps not at quite the
+same time or in quite the same manner. But in any case, what happens in
+Beleriand MUSH is real for the world of Beleriand MUSH, though it may or
+may not be exactly so in Real Beleriand.
+
+In summary: Beleriand MUSH runs on a divergent timeline from the books. The
+setting is essentially the same as that of the books, but it may be decided
+in certain cases to run things a little differently. In general, however,
+the goal of the game is to play in Tolkien's world, and the utmost care
+will be taken to make sure that our world mirrors that world as much as
+possible, recreating scenes from the books and filling in the gaps wherever
+we please.
+===========================================================================
+& cultures
+& theme cultures
+===== NEWS CULTURES =======================================================
+Each character in Beleriand MUSH must choose a homeland, a realm or culture
+that he is from. This not only provides your character with a home base for
+roleplay, but also helps shape your character's background and identity,
+his place in the vast scheme of the factions of Beleriand. There are 
+currently four realms of the Elves, one Dwarven kingdom, and two nations 
+of Men. The vastest kingdom of all, though, is that of all evil creatures 
+serving Morgoth, whose stronghold is Angband to the north of Beleriand.
+
+These files are designed to help the new player with information on all the
+cultures. See the web for more info at http://beleriand.mux.net/realms.html
+
+ Topic:            Updated:   Description:
+---------------------------------------------------------------------------
+ CULTURES ELVES    26 Oct 07  Realms of the Elven Kings.
+ CULTURES DWARVES  26 Oct 07  Realms of the Dwarf-lords.
+ CULTURES MEN      26 Oct 07  Realms of the Mortal Men.
+ CULTURES OTHER    26 Oct 07  Realms of Orcs, Werewolves, Great Eagles
+ CULTURES JOIN     21 Dec 02  How to join a culture.
+
+See NEWS CULTURES <topic> for more information.
+===========================================================================
+& cultures elf
+& cultures elves
+& theme cultures elf
+& theme cultures elves
+===== NEWS CULTURES ELVES =================================================
+MITHRIM
+In Hithlum in the North, Mithrim is the seat of the High King of the 
+Noldor, Fingon, son of Fingolfin, and his people are hardy and valiant. 
+Mithrim is inhabited by both Noldor and Sindar.
+
+NARGOTHROND
+In West Beleriand lies Nargothrond, the largest of the Noldorin realms,
+ruled by Finrod Felagund. A well-guarded realm, it includes the great
+Caverns of Narog and all the lands around it.
+
+FEANORIAN
+In East Beleriand lies the realm the seven proud Noldorin sons of Feanor,
+Maedhros and his brothers, and their fortresses at Himring and Amon Ereb.
+
+DORIATH
+The great Sindarin kingdom of Beleriand, Doriath is ruled by Thingol and
+wise Melian. A guarded realm of the Sindar and Laiquendi Elves.
+
+See NEWS ELVES for more information.
+===========================================================================
+& cultures dwarf
+& cultures dwarves
+& theme cultures dwarf
+& theme cultures dwarves
+===== NEWS CULTURES DWARVES ===============================================
+BELEGOST
+On the northern side of Mount Dolmed in the Blue Mountains lies Belegost,
+or Gabilgathol, home of Azaghal and the Broadbeam Dwarves.
+
+NOGROD
+On the southern side of Mount Dolmed in the Blue Mountains lies Nogrod,
+or Tumunzahar, home of Naugladur and the Firebeard Dwarves.
+
+See NEWS DWARVES for more information.
+===========================================================================
+& cultures human
+& cultures man
+& cultures humans
+& cultures men
+& theme cultures human
+& theme cultures man
+& theme cultures humans
+& theme cultures men
+===== NEWS CULTURES MEN ===================================================
+BRETHIL
+The Forest of Brethil is the home of Halmir and the Haladin (the Second
+House of the Edain), and also to the Druedain. They are fiercely
+independent.
+
+DOR-LOMIN
+Dor-lomin in Hithlum is home to Galdor and the great Third House of the
+Edain. They are closely allied with the lords of Mithrim.
+
+See NEWS MEN for more information.
+===========================================================================
+& cultures orc
+& cultures orcs
+& cultures other
+& theme cultures orc
+& theme cultures orcs
+& theme cultures other
+===== NEWS CULTURES OTHER =================================================
+ANGBAND
+The Hells of Iron, home of evil, stronghold of the north where dwells
+Morgoth the Evil Vala and his Orcs and other minions. This realm also
+includes Tol-in-Gaurhoth, the Wizard's Isle, where dwell the Werewolves.
+
+See NEWS ORCS and NEWS WEREWOLVES for more information.
+
+CRISSAEGRIM
+High mountain peaks from whence the Great Eagles of Manwe with Thorondor 
+their lord help the oppressed people of Beleriand.
+
+See NEWS GREAT EAGLES for more information.
+===========================================================================
+& cultures joining
+& theme cultures joining
+===== NEWS CULTURES JOINING ===============================================
+Once you have chosen the culture you wish to join, you must contact a
+Culture Admin (CA) of that culture and ask to be signed up. One way to make
+your intentions known is by the -REQUEST command. This will send a mail
+message to all the CAs of the culture stating your wish to join. See -HELP
+REQUEST for more info.
+
+To see a list of CAs from any culture, use the -CA command. See -HELP CA
+for more info.
+
+If you see a CA online from a culture you wish to join, you may use the
+PAGE command to get their attention. See HELP PAGE for more info.
+
+As always, you may ask for help on the Newbie channel. Just type the
+following commands:
+
+  -com/join Newbie
+  -com Newbie=Hi, will someone help me, please?
+===========================================================================
+& timeline
+& chronology
+& theme timeline
+& theme chronology
+===== NEWS TIMELINE =======================================================
+Chronology of the Years of the Sun of the years later known as the First
+Age.
+
+See NEWS CHRONOLOGY 1 for years 1-330.
+See NEWS CHRONOLOGY 2 for years 355-466.
+See NEWS CHRONOLOGY 3 for years 466-496.
+See NEWS CHRONOLOGY 4 for years 497-600.
+See NEWS CHRONOLOGY ALL for the whole thing (long!).
+===========================================================================
+& chronology 1
+& chronology1
+& theme chronology 1
+& theme chronology1
+===== NEWS CHRONOLOGY 1 ===================================================
+Foster's Chronology of the First Age - Years of the Sun
+
+     1 The Years of the Sun begin; the Sunrises in the West. Men awaken.
+       Fingolfin enters Mithrim. The Orcs flee into Angband. Fingon rescues
+       Maedhros. Fingolfin is named High King of the Noldor. Varda causes
+       the Sun to change direction.
+    21 Mereth Aderthad.
+    51 Ulmo appears to Finrod and Turgon in a dream. Finrod learns of the
+       Caverns of Narog and begins to build Nargothrond, which is completed
+       before Gondolin.
+    52 Ulmo reveals Tumladen to Turgon.
+ c. 60 Dagor Aglareb. The Siege of Angband begins.
+ c. 70 Thingol forbids the Sindar to speak Quenya.
+c. 104 The completion of Gondolin.
+c. 160 Orcs attack Hithlum from Lammoth.
+c. 260 Glaurung is defeated on Ard-galen. The Long Peace begins.
+c. 304 Aredhel leaves Gondolin.
+c. 306 Maeglin is born.
+c. 310 Finrod meets the Edain in Ossiriand.
+c. 311 Beor enters the service of Finrod.
+c. 330 Aredhel and Eol.
+===========================================================================
+& chronology 2
+& chronology2
+& theme chronology 2
+& theme chronology2
+===== NEWS CHRONOLOGY 2 ===================================================
+c. 355 Death of Beor.
+c. 365 Bereg of the First House returns to Eriador.
+c. 370 Haleth brings the Haladin to Brethil.
+   389 Birth of Hador.
+c. 425 The House of Hador settles in Dor-lomin.
+c. 441 Birth of Hurin.
+   444 Birth of Huor.
+   455 Winter: Dagor Bragollach; death of Hador and Fingolfin. End of the
+       Siege of Angband and the Long Peace. Fingon becomes High King of the
+       Noldor.
+   457 Sauron takes Tol Sirion. Beleg and Halmir hold the Crossings of
+       Teiglin. Hurin and Huor spend a year in Gondolin. About this time
+       the Easterlings enter Beleriand.
+   460 Autumn: Death of Barahir and the outlaws of Dorthonion. Beren
+       remains in Dorthonion.
+   462 Orcs assault Hithlum from north and east; Galdor slain.
+   464 Winter: Beren flees Dorthonion.
+   465 Summer: Beren first sees Luthien. In this year Turin is born.
+   466 Spring: Luthien returns Beren's love.
+       Summer: Beren is brought to Menegroth and undertakes the Quest of
+       the Silmaril.
+       Autumn: Beren in Nargothrond.
+===========================================================================
+& chronology 3
+& chronology3
+& theme chronology 3
+& theme chronology3
+===== NEWS CHRONOLOGY 3 ===================================================
+466-68 The Quest of the Silmaril. Death of Finrod and Draugluin. Tol Sirion
+       cleansed; Sauron flees to Taur-nu-Fuin. Beren recovers a Silmaril.
+       The Hunting of the Wolf; death of Beren, Huan, Carcharoth, and
+       Luthien.
+c. 470 Beren and Luthien in Tol Galen; Dior is born.
+   473 The Year of Lamentation. The Union of Maedhros and the Nirnaeth
+       Arnoediad; death of Fingon and Huor, capture of Hurin and Gwindor.
+       Turin is sent to Doriath. Tuor and Nienor are born. Turgon becomes
+       High King of the Noldor.
+   474 Fall of the Falas; Cirdan retreats to Balar and builds the Havens of
+       Sirion.
+482-85 Turin fights with Beleg in the marches of Doriath.
+   485 Death of Saeros; Turin flees Doriath and becomes an outlaw.
+   486 Beleg finds Turin. Turin settles at Amon Rudh.
+   487 The Two Captains in Dor-Cuarthol. Amon Rudh betrayed. Beleg and
+       Gwindor free Turin; death of Beleg. Turin comes to Nargothrond.
+   490 Tuor enslaved by Lorgan.
+   492 Tuor escapes and becomes an outlaw in Mithrim.
+   496 Defeat of the Haladin. Glaurung invades West Beleriand; the Battle
+       of Tumhalad and the sack of Nargothrond. Death of Orodreth, Gwindor,
+       and Finduilas. Turin ensnared by Glaurung. Tuor comes to Nevrast and
+       Gondolin. The Fell Winter.
+===========================================================================
+& chronology 4
+& chronology4
+& theme chronology 4
+& theme chronology4
+===== NEWS CHRONOLOGY 4 ===================================================
+   497 Turin in Brethil.
+   500 Turin and Nienor wed.
+   501 Death of Glaurung, Nienor, Brandir, and Turin.
+   502 Hurin released from Thangorodrim. Death of Morwen. Hurin brings the
+       Nauglamir to Thingol.
+   503 Wedding of Tuor and Idril. About this time Hurin dies.
+   504 Spring: Birth of Earendil.
+c. 505 Death of Thingol. The Dwarves sack Menegroth. Beren recovers the
+       Nauglamir.
+c. 509 Second death of Beren and Luthien. The sons of Feanor sack
+       Menegroth; death of Dior and Nimloth. Elwing flees to the Havens of
+       Sirion.
+   511 Midsummer: Fall of Gondolin. Death of Ecthelion, Gothmog, Turgon,
+       Maeglin, and Glorfindel. Tuor, Idril, and Earendil flee to the
+       Havens of Sirion. Gil-galad named High King of the Noldor.
+c. 543 Tuor and Idril sail West. Earendil becomes lord of the people of the
+       Havens and marries Elwing. Sometime after this Elrond and Elros are
+       born.
+c. 600 Earendil sails into the West. The War of Wrath. Beleriand is Broken.
+       Melkor is cast out into the Void.
+===========================================================================
+& chronology all
+& theme chronology all
+===== NEWS CHRONOLOGY ALL =================================================
+Foster's Chronology of the First Age - Years of the Sun
+
+     1 The Years of the Sun begin; the Sunrises in the West. Men awaken.
+       Fingolfin enters Mithrim. The Orcs flee into Angband. Fingon rescues
+       Maedhros. Fingolfin is named High King of the Noldor. Varda causes
+       the Sun to change direction.
+    21 Mereth Aderthad.
+    51 Ulmo appears to Finrod and Turgon in a dream. Finrod learns of the
+       Caverns of Narog and begins to build Nargothrond, which is completed
+       before Gondolin.
+    52 Ulmo reveals Tumladen to Turgon.
+ c. 60 Dagor Aglareb. The Siege of Angband begins.
+ c. 70 Thingol forbids the Sindar to speak Quenya.
+c. 104 The completion of Gondolin.
+c. 160 Orcs attack Hithlum from Lammoth.
+c. 260 Glaurung is defeated on Ard-galen. The Long Peace begins.
+c. 304 Aredhel leaves Gondolin.
+c. 306 Maeglin is born.
+c. 310 Finrod meets the Edain in Ossiriand.
+c. 311 Beor enters the service of Finrod.
+c. 330 Aredhel and Eol.
+c. 355 Death of Beor.
+c. 365 Bereg of the First House returns to Eriador.
+c. 370 Haleth brings the Haladin to Brethil.
+   389 Birth of Hador.
+c. 425 The House of Hador settles in Dor-lomin.
+c. 441 Birth of Hurin.
+   444 Birth of Huor.
+   455 Winter: Dagor Bragollach; death of Hador and Fingolfin. End of the
+       Siege of Angband and the Long Peace. Fingon becomes High King of the
+       Noldor.
+   457 Sauron takes Tol Sirion. Beleg and Halmir hold the Crossings of
+       Teiglin. Hurin and Huor spend a year in Gondolin. About this time
+       the Easterlings enter Beleriand.
+   460 Autumn: Death of Barahir and the outlaws of Dorthonion. Beren
+       remains in Dorthonion.
+   462 Orcs assault Hithlum from north and east; Galdor slain.
+   464 Winter: Beren flees Dorthonion.
+   465 Summer: Beren first sees Luthien. In this year Turin is born.
+   466 Spring: Luthien returns Beren's love.
+       Summer: Beren is brought to Menegroth and undertakes the Quest of
+       the Silmaril.
+       Autumn: Beren in Nargothrond.
+466-68 The Quest of the Silmaril. Death of Finrod and Draugluin. Tol Sirion
+       cleansed; Sauron flees to Taur-nu-Fuin. Beren recovers a Silmaril.
+       The Hunting of the Wolf; death of Beren, Huan, Carcharoth, and
+       Luthien.
+c. 470 Beren and Luthien in Tol Galen; Dior is born.
+   473 The Year of Lamentation. The Union of Maedhros and the Nirnaeth
+       Arnoediad; death of Fingon and Huor, capture of Hurin and Gwindor.
+       Turin is sent to Doriath. Tuor and Nienor are born. Turgon becomes
+       High King of the Noldor.
+   474 Fall of the Falas; Cirdan retreats to Balar and builds the Havens of
+       Sirion.
+482-85 Turin fights with Beleg in the marches of Doriath.
+   485 Death of Saeros; Turin flees Doriath and becomes an outlaw.
+   486 Beleg finds Turin. Turin settles at Amon Rudh.
+   487 The Two Captains in Dor-Cuarthol. Amon Rudh betrayed. Beleg and
+       Gwindor free Turin; death of Beleg. Turin comes to Nargothrond.
+   490 Tuor enslaved by Lorgan.
+   492 Tuor escapes and becomes an outlaw in Mithrim.
+   496 Defeat of the Haladin. Glaurung invades West Beleriand; the Battle
+       of Tumhalad and the sack of Nargothrond. Death of Orodreth, Gwindor,
+       and Finduilas. Turin ensnared by Glaurung. Tuor comes to Nevrast and
+       Gondolin. The Fell Winter.
+   497 Turin in Brethil.
+   500 Turin and Nienor wed.
+   501 Death of Glaurung, Nienor, Brandir, and Turin.
+   502 Hurin released from Thangorodrim. Death of Morwen. Hurin brings the
+       Nauglamir to Thingol.
+   503 Wedding of Tuor and Idril. About this time Hurin dies.
+   504 Spring: Birth of Earendil.
+c. 505 Death of Thingol. The Dwarves sack Menegroth. Beren recovers the
+       Nauglamir.
+c. 509 Second death of Beren and Luthien. The sons of Feanor sack
+       Menegroth; death of Dior and Nimloth. Elwing flees to the Havens of
+       Sirion.
+   511 Midsummer: Fall of Gondolin. Death of Ecthelion, Gothmog, Turgon,
+       Maeglin, and Glorfindel. Tuor, Idril, and Earendil flee to the
+       Havens of Sirion. Gil-galad named High King of the Noldor.
+c. 543 Tuor and Idril sail West. Earendil becomes lord of the people of the
+       Havens and marries Elwing. Sometime after this Elrond and Elros are
+       born.
+c. 600 Earendil sails into the West. The War of Wrath. Beleriand is Broken.
+       Melkor is cast out into the Void.
+===========================================================================
+& powers
+& theme powers
+===== NEWS POWERS =========================================================
+In the beginning Iluvatar made the Ainur, the Holy Ones, of his thought,
+and they made a great Music before him. In this Music the World was begun,
+for Iluvatar made visible the song of the Ainur. And many among them became
+enamoured of its beauty; therefore Iluvatar gave to their vision Being.
+Those who desired it arose and entered into the World at the beginning of
+Time, and it is their task to achieve it, and by their labours to fulful
+the vision. The Great among these spirits the Elves name the Valar, the
+Powers of Arda, and Men have often called them gods.
+
+Manwe      Varda      Melkor     Ulmo       Aule       Yavanna    Nienna
+Mandos     Vaire      Lorien     Este       Tulkas     Nessa      Osse
+Uinen      Orome      Vana
+
+See: 'NEWS POWERS <name>' for more information about a specific Vala.
+===========================================================================
+& powers manwe
+& theme powers manwe
+===== NEWS POWERS MANWE ===================================================
+Manwe and Melkor were brethren in the thought of Iluvatar. The mightiest of
+the Valar was in his beginning Melkor; but Manwe is dearest to Iluvatar and
+understands most clearly his purposes. He was appointed to be, in the
+fullness of time, the first of all Kings: lord of the realm of Arda and
+ruler of all that dwell therein. In Arda his delight is in the winds and
+the clouds, and in all the regions of the air, from the heights to the
+depths, from the utmost borders of the Veil of Arda to the breezes that
+blow in the grass. All swift birds, strong of wing, he loves, and they come
+and go at his bidding.
+
+Manwe is lord of the Valar, ruling their councils, confirming their deeds,
+and hallowing their artifacts. His throne is set in Ilmarin atop the great
+mount Taniquetil, whence he looks out over all the world.
+
+Manwe is compassionate and wise, but he does not understand evil, being
+free of it. So he was deceived into unchaining Melkor, thus allowing the
+tragedy and glory of the wars of Elves and Men against the Darkness.
+
+Manwe's element is Air. He influences sky, wind, weather, sight, poetry,
+wisdom, birds, and the Vanyar.
+
+Names: Manwe (Q. "Blessed One"); Sulimo (Q. "Breather"); King of Arda, the
+Elder King, Lord of the West.
+===========================================================================
+& powers varda
+& theme powers varda
+===== NEWS POWERS VARDA ===================================================
+Varda is the spouse of Manwe. Too great is her beauty to be declared in the
+words of Men or of Elves; for the light of Iluvatar lives still in her
+face. In light is her power and her joy. Out of the deeps of Ea she came to
+the aid of Manwe; for Melkor she knew from before the making of the Music
+and rejected him, and he hated her, and feared her more than all others
+whom Eru made.
+
+Of all the Great Ones who dwell in this world the Elves hold Varda most in
+reverence and love. They call upon her name out of the shadows of Middle-
+earth, and uplift it in song at the rising of the stars.
+
+Varda made the stars, filled the Lamps of the Valar with light, collected
+the dews of the Two Trees in her Wells, fashioned newer stars and
+constellations in preparation for the awakening of the Elves, hallowed the
+Silmarils, and established the courses of the Moon and Sun.
+
+Varda's element is Light. She influences stars, light of Arda, hearing, and
+insight.
+
+Names: Varda (Q. "The Exalted"); Elbereth (S. "Star Queen;" Q. "Elentari");
+Tintalle (Q. "Kindler"); Gilthoniel (S. "Star Kindler"); Lady of the Stars;
+Fanuilos (S. "Ever-white"); Snow-white.
+===========================================================================
+& powers melkor
+& theme powers melkor
+===== NEWS POWERS MELKOR ==================================================
+Mightiest among the Ainur and he to whom had been given the greatest gifts
+of power and knowledge was Melkor. In the powers and knowledge of all the
+other Valar he has a part, but he turned them to evil purposes, and uses
+his strength in violence and tyranny.
+
+Once in the world, Melkor's eagerness turned to jealousy and he was
+excluded from the numbers of the Valar. Desiring to dominate created things
+and the wills of others, Melkor in his envy and malice claimed Arda as his
+own and, foiled in this by Manwe, hindered its completion and corrupted
+many of the Maiar into serving him. In these struggles, the First War,
+Melkor was at last defeated by Tulkas, but Arda was Marred.
+
+However, Melkor soon returned to Arda in the far North. Before the Valar
+could be aware of him he destroyed the Two Lamps, forcing them to retreat
+to Aman. He ruled uncontested in Middle-earth until the Valar, concerned
+for the safety of the Elves, defeated him in the Battle of the Powers and
+carried him back to Valinor in chains, where he served three years in the
+prison of Mandos. He then feigned repentance and was let free in Valinor,
+where he spread evil lies and dissention. With Ungoliant, he finally
+destroyed the Two Trees, and stole the Silmarils, the holy jewels filled
+with the light of the Trees; and escaped back to Angband, his stronghold
+north of Beleriand in Middle-earth.
+
+From Angband Melkor rules his minions, defending the Silmarils against the
+Noldorin exiles. Dismayed by the light of the Moon and Sun and the
+fierceness of the Noldor, Melkor was at first defeated, and for nearly four
+hundred years he has been besieged in Angband. But he spends the time
+strengthening his forces, preparing to break the siege and bring Beleriand
+and all Middle-earth under his dominion.
+
+Melkor's element is Fire. He influences cold, crafts, materiality, earth,
+Men, an Orcs. His symbol is the Iron Crown in which he set the Silmarils;
+his emblem is a field of sable, unblazoned.
+
+Names: Melkor (Q. "He Who Arises in Might;" S. "Belegur"); Morgoth (S.
+"Dark Enemy"); Bauglir (S. "Constrainer); Belegurth (S. "Great Death").
+===========================================================================
+& powers ulmo
+& theme powers ulmo
+===== NEWS POWERS ULMO ====================================================
+Ulmo is the Lord of Waters. He is alone. He dwells nowhere long, but moves
+as he will in all the deep waters about the Earth or under the Earth. He is
+next in might to Manwe, and before Valinor was made he was closest to him
+in friendship; but thereafter he went seldom to the councils of the Valar,
+unless great matters were in debate. For he kept all Arda in thought, and
+he has no need of any resting-place. Moreover he does not love to walk upon
+land, and will seldom clothe himself in a body after the manner of his
+peers. If the Children of Iluvatar behold him they are filled with a great
+dread; for the arising of the King of the Sea is terrible, as a mounting
+wave that strides to the land, with dark helm foam-crested and raiment of
+mail shimmering from silver down into shadows of green. The trumpets of
+Manwe are loud, but Ulmo's voice is deep as the deeps of the ocean which he
+only has seen.
+
+Nonetheless Ulmo loves both Elves and Men, and never abandoned them, not
+even now when they lie under the wrath of the Valar. Ulmo speaks to those
+who dwell in Middle-earth with voices that are heard only as the music of
+water. For all seas, lakes, rivers, fountains and springs are in his
+government; so that the Elves say that the spirit of Ulmo runs in all the
+veins of the world. Thus news comes to Ulmo, even in the deeps, of all the
+needs and griefs of Arda, which otherwise would be hidden from Manwe.
+
+Ulmo's element is Water. He influences sea, rain, springs, music, and the
+Teleri.
+
+Names: Ulmo (Q. "Pourer, Rainer"); Lord of Waters; King of the Sea.
+===========================================================================
+& powers aule
+& theme powers aule
+===== NEWS POWERS AULE ====================================================
+Aule has might little less than Ulmo. His lordship is over all the
+substances of which Arda is made. In the beginning he wrought much in
+fellowship with Manwe and Ulmo; and the fashioning of all lands was his
+labour. He is a smith and a master of all crafts, and he delights in works
+of skill, however small, as much as in the mighty building of old. His are
+the gems that lie deep in the Earth and the gold that is fair in the hand,
+no less than the walls of the mountains and the basins of the sea. The
+Noldor of the Elves learned most of him, and he was ever their friend.
+Melkor was jealous of him, for Aule was most like himself in thought and in
+powers; and there was long strife between them, in which Melkor ever marred
+or undid the works of Aule, and Aule grew weary in repairing the tumults
+and disorders of Melkor. Both, also, desired to make things of their own
+that should be new and unthough of by others, and delighted in the praise
+of their skill. But Aule remained faithful to Eru and submitted all that he
+did to his will; and he did not envy the works of others, but sought and
+gave counsel.
+
+It is told that in their beginning the Dwarves were made by Aule, for so
+greatly did he desire the coming of the Elves and Men, to have learners to
+whom he could teach his lore and his crafts, that he was unwilling to await
+the fulfilment of the designs of Iluvatar. But seeing his folly, Aule
+offered his creation to his Father, and prepared to destroy the work of his
+presumption. But Iluvatar had compassion on Aule, because of his humility;
+and gave life to the Dwarves, the children of his adoption.
+
+Aule's element is Earth. He influences the material earth, skill, lore,
+crafts, creativity, insight, materiality, the Dwarves, and the Noldor.
+
+Names: Aule; the Smith; the Maker (Kh. "Mahal"); the Friend of the Noldor.
+===========================================================================
+& powers yavanna
+& theme powers yavanna
+===== NEWS POWERS YAVANNA =================================================
+Coming soon...
+===========================================================================
+& powers nienna
+& theme powers nienna
+===== NEWS POWERS NIENNA ==================================================
+Coming soon...
+===========================================================================
+& powers mandos
+& theme powers mandos
+===== NEWS POWERS MANDOS ==================================================
+Coming soon...
+===========================================================================
+& powers vaire
+& theme powers vaire
+===== NEWS POWERS VAIRE ===================================================
+Coming soon...
+===========================================================================
+& powers lorien
+& theme powers lorien
+===== NEWS POWERS LORIEN ==================================================
+Coming soon...
+===========================================================================
+& powers este
+& theme powers este
+===== NEWS POWERS ESTE ====================================================
+Coming soon...
+===========================================================================
+& powers tulkas
+& theme powers tulkas
+===== NEWS POWERS TULKAS ==================================================
+"Greatest in strength and deeds of prowess is Tulkas, who is surnamed
+Astaldo, the Valiant." He was the last of the Vala to come to Arda, lending
+his great strength and hardihood to the Vala against the foe Melkor.
+
+Often is Arda filled with his laughter, and he delights most in wrestling
+and contests of strength. He runs faster than any living thing on foot, and
+his anger when riled passes before him like a mighty wind, scattering cloud
+and darkness. His spouse is Nessa, the sister of Orome who is also lithe
+and fleet of foot.
+
+"His hair and beard are golden, and his flesh ruddy; his weapons are his
+hands. He has little heed for either the past or future, and is of no avail
+as a counsellor, but is a hardy friend."
+
+The Book of Lost Tales has this to say of where Tulkas lived:
+"...[Tulkas] dwelt amidmost of Valmar...His was a house of mirth and
+revelry; and it sprang high into the air with many storeys, and had a tower
+of bronze and pillars of copper in a wide arcade. In its court men played
+and rivalled one another in doughty feats, and there at times would that
+fair maiden Nessa wife of Tulkas bear goblets of the goodliest wine and
+cooling drinks among the players."
+===========================================================================
+& powers nessa
+& theme powers nessa
+===== NEWS POWERS NESSA ===================================================
+Nessa is the spouse of Tulkas, and sister of Orome. She is lithe and
+fleetfooted. "Deer she loves, and they follow her train wherever she goes
+in the wild; but she can outrun them, swift as an arrow with the wind in
+her hair. In dancing she delights, and she dances in Valimar on lawns of
+never fading green."
+===========================================================================
+& powers osse
+& theme powers osse
+===== NEWS POWERS OSSE ====================================================
+Coming soon...
+===========================================================================
+& powers uinen
+& theme powers uinen
+===== NEWS POWERS UINEN ===================================================
+Coming soon...
+===========================================================================
+& powers orome
+& theme powers orome
+===== NEWS POWERS OROME ===================================================
+Coming soon...
+===========================================================================
+& powers vana
+& theme powers vana
+===== NEWS POWERS VANA ====================================================
+Coming soon...
+===========================================================================
+& characters
+& theme characters
+===== NEWS CHARACTERS =====================================================
+When you create a character it must fit in with theme, always. The easiest
+way to check this is through the Culture Admins of your culture, they know
+in general what is accepted or not. Some cases may be too tough and the
+matter must be passed on higher up. Still, try and act within the limits of
+the Sources (see NEWS SOURCES) that the game recognizes and uses. Your
+background and history can be made in any way, except the fact it must not
+cross or be greater then that of theme. It's not very good to try and make
+your character more glorious than, say, Beren. Adhere to the theme of
+Tolkien's Middle-earth and you should do fine, there's quite a lot of room
+to maneuver, if you take the time to be creative. Generally, you should
+follow the outlook of your species and culture...but exceptions have and
+will always be around - let your CAs decide if it's playable or not. In
+fact, a player is in him/herself an exception, above the cut of the
+Non-Player Characters and thus, standing out. There's a huge NPC
+(Non-Player Character) population out there, you are just a little bit more
+visible then they, a special person already. Make yourself even more
+special in acts, words and deeds, make your character come alive...alive in
+the world of Tolkien.
+===========================================================================
