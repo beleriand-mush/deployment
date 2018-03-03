@@ -17,6 +17,7 @@ files and keeping them in the same directory as deployed files).
 
 If you're missing something and want to find it, look no further!
 
+
 ### Version Control
 
 Non-sensitive information and files have been put into version control. Where
@@ -49,6 +50,12 @@ doing this, for those that have access to the production server).
 When looking at the backups, if you don't see the particular file you're
 seeking, try grep'ing through the backup directory or looking in the 
 previous backup.
+
+
+## Resources
+
+* [Managing PennMUSH](http://community.pennmush.org/node/180)
+* [Administration tips](http://community.pennmush.org/node/535)
 
 
 <!-- Named page links below: /-->
