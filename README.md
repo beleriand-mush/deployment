@@ -20,9 +20,12 @@ If you're missing something and want to find it, look no further!
 ### Version Control
 
 Non-sensitive information and files have been put into version control. Where
-dates of creation and/or edits were know, commits were make with the same
-dates. As such, if you wish to see an older version of the files, you may
-[browser the commits][commits] on Github.
+dates of creation and/or edits were, now there are commits. These were made 
+with the same dates -- as such, if you wish to see an older version of the 
+files, you may [browser the commits][commits] on Github. Furthermore,
+if you want to look at previous revisions for an existing file, you can 
+browse to that file and click the "history" buttun to view all the commits for
+that file. Here's [the login banner text changes over time][banner-changes].
 
 ### Backups and Sensitive Info
 
@@ -46,3 +49,4 @@ previous backup.
 [logo]: https://avatars1.githubusercontent.com/u/36963686
 [docker-repo]: https://github.com/beleriand-mush/docker
 [commits]: https://github.com/beleriand-mush/deployment/commits/master
+[banner-changes]: https://github.com/beleriand-mush/deployment/commits/master/game/txt/connect.txt
