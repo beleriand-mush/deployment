@@ -36,7 +36,7 @@ admin if you can't find these).
 
 While these have not been put into version control, they have been backedup
 to multiple locations (and the new scripts in the `bin` directory of the
-[docker-repo][Beleriand Dockerfiles repo] provide a convenient means of 
+[Beleriand Dockerfiles repo][docker-repo] provide a convenient means of 
 doing this, for those that have access to the production server).
 
 When looking at the backups, if you don't see the particular file you're
