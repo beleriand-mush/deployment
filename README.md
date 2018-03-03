@@ -15,9 +15,21 @@ files and keeping them in the same directory as deployed files).
 
 ## Where Are the Files?
 
-If you're missing something and want to find it, look no further! Before each 
-major step of the reorganization, a snapshot (copy) of the game directory was
-taken and stored in backups (ask the sys admin if you can't find these). 
+If you're missing something and want to find it, look no further!
+
+### Version Control
+
+Non-sensitive information and files have been put into version control. Where
+dates of creation and/or edits were know, commits were make with the same
+dates. As such, if you wish to see an older version of the files, you may
+[browser the commits][commits] on Github.
+
+### Backups and Sensitive Info
+
+The game DB and user info has not been put into version control, but rather 
+has been backed up. Before each major step of the reorganization, a snapshot 
+(copy) of the game directory was taken and stored in backups (ask the sys 
+admin if you can't find these). 
 
 While these have not been put into version control, they have been backedup
 to multiple locations (and the new scripts in the `bin` directory of the
@@ -33,3 +45,4 @@ previous backup.
 
 [logo]: https://avatars1.githubusercontent.com/u/36963686
 [docker-repo]: https://github.com/beleriand-mush/docker
+[commits]: https://github.com/beleriand-mush/deployment/commits/master
