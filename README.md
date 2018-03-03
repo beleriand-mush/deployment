@@ -27,6 +27,13 @@ if you want to look at previous revisions for an existing file, you can
 browse to that file and click the "history" buttun to view all the commits for
 that file. Here's [the login banner text changes over time][banner-changes].
 
+To quickly search all files in version control for a particular pattern via
+the command line, you can use this:
+
+```
+$ git grep "PATTERN" $(git rev-list --all)
+```
+
 ### Backups and Sensitive Info
 
 The game DB and user info has not been put into version control, but rather 
