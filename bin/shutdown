@@ -1,0 +1,5 @@
+#!/bin/bash
+
+(echo "connect `cat ~/.beleriand/shutdown-user` `cat ~/.beleriand/shutdown-key`"; sleep 1 ; echo "@shutdown" ; echo ; sleep 1) | \
+telnet localhost 4739
+
