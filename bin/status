@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function get-stats () {
+    (echo "connect `cat ~/.beleriand/shutdown-user` `cat ~/.beleriand/shutdown-key`"
+     sleep 1
+     echo "@uptime" 
+     echo 
+     echo "@stats" 
+     echo 
+     echo "WHO"
+     echo 
+     echo "QUIT" 
+     echo 
+     sleep 1) | \
+    telnet localhost 4739
+}
+
+echo "`get-stats`"|egrep 'objects =|players connected|Up since|load average|head of the object|next database save'
+
