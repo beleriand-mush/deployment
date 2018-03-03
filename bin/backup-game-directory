@@ -1,0 +1,10 @@
+#!/bin/bash
+
+TIMESTAMP=`date "+%Y%m%d"`
+SRC=./game
+DEST="Backups/game/directory/Beleriand-$TIMESTAMP"
+if [[ -x "$DEST" ]]; then
+    echo "ERROR: destination exists; please rename and try again."
+    exit 127
+fi
+cp -rp "$SRC" "$DEST"
