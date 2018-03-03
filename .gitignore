@@ -1,6 +1,6 @@
 /Backups
 /game/*.cnf
-/game/data
+/game/data*
 /game/log
 /game/save
 /game/txt/*.idx
