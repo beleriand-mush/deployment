@@ -1,4 +1,4 @@
--------------------------------------------------------------------------
++----------------------------------------------------------------------------+
 Congratulations on your newly created character. Beleriand welcomes you.
 For more information about this game, type 'news' or 'help' to get help.
 
@@ -7,8 +7,8 @@ effect your life here at Beleriand.  If you ask for help on a topic that is
 in the help, you will be told to read help and news first to see if you can
 figure out what you might be doing.  If you then still need help, the wizards
 will be more than happy to assist you.
--------------------------------------------------------------------------
++----------------------------------------------------------------------------+
 If you see any strange characters here: [1mThis text should be hilited.[0m
 use the following command, please: @set me=!ansi
--------------------------------------------------------------------------
++----------------------------------------------------------------------------+
 

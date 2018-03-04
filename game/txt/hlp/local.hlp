@@ -1,5 +1,5 @@
 & local
---------------------* Beleriand local changes *----------------------
++-------------------* Beleriand local changes *---------------------+
 
 This page describes differences between the current BeleriandMUSH
 server and the release of PennMUSH (1.7.1 pl3) it is based on.
@@ -27,12 +27,12 @@ inlist()                  Control Lock              Receive Lock
 Control
 
 Credits: Melkor, Paleran (ex-Beren), Thingy (ex-Thingol), Tulkas
----------------------------------------------------------------------
++-------------------------------------------------------------------+
 For details, use 'help local <name>'.        (*=no details available)
 For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 
 & local1
---------------------* Beleriand local changes *--------------(Part 1)
++-------------------* Beleriand local changes *--------------(Part 1)
 
 * Extensions to existing features:
 
@@ -53,7 +53,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
   @search,lsearch() NEW! predicates controls and is_controlled_by
 
 & local2
---------------------* Beleriand local changes *--------------(Part 2)
++-------------------* Beleriand local changes *--------------(Part 2)
 
 * New amazing features:
 
@@ -61,7 +61,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
   mangle()          unintelligible text in 1 millisecond!
   getvalue()        split your attributes into sub-attributes
   Special flags     various local flags
-  @wallprefix	    command to change your @wall message prefix
+  @wallprefix       command to change your @wall message prefix
   LASTOFF           the game remembers when you disconnected
   Failure messages  custom failure messages for say/give/leave/drop
   @auto_chzone      automagically @chzones created stuff
@@ -72,7 +72,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
   viter()           iter() variant iterating a variable
 
 & local3
---------------------* Beleriand local changes *--------------(Part 3)
++-------------------* Beleriand local changes *--------------(Part 3)
 
 * Fixes and minor changes:
 
@@ -105,7 +105,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
   WHO
   Displays a list of players currently connected to the MUSH. The WHO
   tells you how long a player has been on and how long they have been
-  inactive. 
+  inactive.
 
   HOSTS
   Privileged players only. This command shows the list of connected
@@ -141,7 +141,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 & local @set
   @set <object>/<attribute>=[!]<atrflag>
   @set <object>|<lock>=[!]<lockflag>
-  
+
   The first for sets (or unsets) an attribute flag on the specified
   <attribute> of <object>. NEW possible flags are:
 
@@ -153,7 +153,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 
   no_inherit        Lock will not be inherited by the children of
                     this object. This is the default setting for new locks.
-		    In 'examine', a lock WITHOUT this flag is denoted by 'i'.
+                    In 'examine', a lock WITHOUT this flag is denoted by 'i'.
   no_clone          Lock will not be copied if the object is @clone'd.
                     In 'examine', this is denoted by 'c'.
 
@@ -382,7 +382,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 
   Set variables with @setq and setq().
   Read their values with r() and %{}.
-  
+
   Variables are not propagated through ulocal(), @trigger, @verb, and
   $-command invocations.
   Variables are propagated through u(), udefault(), zfun(), @switch,
@@ -481,22 +481,22 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 & @vdolist
 & local @vdolist
   @vdolist[/notify] <variable>/<list> = <action>
-  
+
   @vdolist executes the <action> for each element in <list>. If <list> is a
   function, it will be evaluated to obtain the necessary list to use. It
   may be any space-separated list of strings, which can be object numbers,
   attributes, or arbitary words.
-  
+
   <action> is a command or list of commands enclosed in braces { }
   and is performed once for every item in <list>.
-  
+
   <variable> is the name of a variable which is set to the corresponding
   item from <list> for every iteration. The position of that item in the list
   is available as %{@<variable>}.
- 
+
   If the /notify switch is used, a "@notify me" is queued after all the
   list commands. This is useful for object synchronization with semaphores.
-   
+
   Example: @vdolist obj/[lcon(here)] = "[name(%{obj})]
     would cause you to say the name of all objects in the room.
 
@@ -505,17 +505,17 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 & viter()
 & local viter()
   viter(<variable>,<list>,<pattern>[,<delimiter>[,<output separator>]])
-  
+
   Viter() evaluates <pattern> for each item in <list> and returns the
   results concatenated.
-  
+
   <list> is a space-separated list of words, and <pattern> is what will
   be "mapped" onto each element of the list.
 
   <variable> is the name of a variable which is set to the corresponding
   item from <list> for every iteration. The position of that item in the list
   is available as %{@<variable>}.
-  
+
   The list may be <delimiter>-separated.
 
   By default, the return list will be space-separated. However,
@@ -550,7 +550,7 @@ For help on softcoded commands, use '-help'.       (!=NEW or CHANGED)
 & @chown/preserve
 & local @chown/preserve
   @chown/preserve <object> = <player>
-  
+
   Changes the ownership of <object> to <player>. The command behaves
   exactly like @chown (without the switch) but this one does not modify
   anything else but <object> owner. <object>'s flags, powers, and zone
