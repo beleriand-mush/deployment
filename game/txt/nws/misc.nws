@@ -1,11 +1,11 @@
 & misc
-===== NEWS MISC ==============================================================
-In this section we'd like to note the existence of software 'clients' that 
++==== NEWS MISC =============================================================+
+In this section we'd like to note the existence of software 'clients' that
 provide many features over so-called 'vanilla' Telnet programs. These are
 programs that can be downloaded from sites on the Net for free or as shareware.
 
-Some of the features include command editing, recall buffers, logging and 
-cut & paste abilities, and many, many others. Some of the better clients 
+Some of the features include command editing, recall buffers, logging and
+cut & paste abilities, and many, many others. Some of the better clients
 available (with respective operating systems) are:
 
 UNIX/Linux
@@ -21,42 +21,42 @@ Mac OS X
      Atlantis       http://www.riverdark.net/atlantis/
      Savitar        http://www.heynow.com/Savitar/
      TinyFugue      NEWS MISC TF
-==============================================================================
++============================================================================+
 & tf
 & misc tf
-===== NEWS MISC TF ===========================================================
++==== NEWS MISC TF ==========================================================+
 TinyFugue, or TF as it is commonly referred to, is a very nice telnet client
 which is especially designed for uses with MUSHes and MUDs.  It offers a lot
-of nice features, such as session logging, uploading mechanisms, macros, 
-command recall and editing, ability to switch between worlds for folks who 
-don't have windowing systems, "gagging", "triggering", etc.  If you are 
-running some variant of Unix or even OS/2, and can figure out how to download 
+of nice features, such as session logging, uploading mechanisms, macros,
+command recall and editing, ability to switch between worlds for folks who
+don't have windowing systems, "gagging", "triggering", etc.  If you are
+running some variant of Unix or even OS/2, and can figure out how to download
 and compile code, then check it out!  See http://tinyfugue.sourceforge.net/
 
-Since so many people use TF, we have provided this section here to provide 
+Since so many people use TF, we have provided this section here to provide
 some handy tips and macros you might like.  Note that doing things via TF
 macros is a lot less laggy than coding $commands on yourself!
 
 Type NEWS MISC TF INDEX to find out what we've got available!
-==============================================================================
++============================================================================+
 & tf index
 & misc tf index
-===== NEWS MISC TF INDEX =====================================================
++==== NEWS MISC TF INDEX ====================================================+
 Tinyfugue tips and utilities, master index:
 
 Topic           Description
--------------   --------------------------------------------------------------
-OOC MACRO	    Macro to do the same as Beleriand's "!" command.
++-----------+   +------------------------------------------------------------+
+OOC MACRO           Macro to do the same as Beleriand's "!" command.
 
 To see any item, use "NEWS MISC TF <topic>".
-==============================================================================
++============================================================================+
 & tf ooc macro
 & misc tf ooc macro
-===== NEWS MISC TF OOC MACRO =================================================
-;;; Handy dandy OOC macro ... much faster to execute via TF than 
++==== NEWS MISC TF OOC MACRO ================================================+
+;;; Handy dandy OOC macro ... much faster to execute via TF than
 ;;; via a $command on a MUSH! - No queueing!
 ;;;
-;;; Basically:  !"  !;  !:   work just like  "  ;  :  
+;;; Basically:  !"  !;  !:   work just like  "  ;  :
 ;;; except they prepend a "<OOC>" to your action.
 ;;;
 ;;; E.g.:
@@ -66,7 +66,7 @@ To see any item, use "NEWS MISC TF <topic>".
 ;;;
 ;;; !text is interpreted the same as !"text, as long as text doesn't begin
 ;;; with a : or ;
- 
+
 /def -mregexp -h"send ^!(.)(.*)" -p100 = \
         /if ({P1} =~ ':') \
                 /send @EMIT ansi(h,<OOC>) %%N %P2 %; \
@@ -77,4 +77,4 @@ To see any item, use "NEWS MISC TF <topic>".
         /else \
                 /send @EMIT ansi(h,<OOC>) %%N says "%P1%P2" %;\
         /endif
-==============================================================================
++============================================================================+

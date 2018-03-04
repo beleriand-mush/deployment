@@ -1,8 +1,8 @@
 & species
 & races
-===== NEWS SPECIES ========================================================
++==== NEWS SPECIES ==========================================================+
  Topic:         Updated:   Description:
----------------------------------------------------------------------------
+-----------------------------------------------------------------------------+
  SPECIES INTRO  25 May 97
  ELVES          02 Dec 97  The Firstborn of Iluvatar; the immortals.
  DWARVES        05 Dec 97  The stout, stunted smith-folk.
@@ -10,10 +10,10 @@
  ORCS           04 Jan 98  The cruel and twisted yet mighty foes.
  RESERVED RACES 28 Mar 04  Werewolves, Balrogs, Great Eagles, and more.
 
-Type NEWS <topic> for more information. 
-===========================================================================
+Type NEWS <topic> for more information.
++============================================================================+
 & species introduction
-===== NEWS SPECIES INTRODUCTION ===========================================
++==== NEWS SPECIES INTRODUCTION =============================================+
 Beleriand supports a number of cultures and species, more then most games
 on the net in fact. Everyone holds an important place in the world of
 Middle- Earth and is represented in the game as such. You as a player can
@@ -30,11 +30,11 @@ what goes on in the game, role- playing skills and a solid knowledge about
 the RR is also required. A RR character is special and often has abnormal
 stats and abnormal ways of Role- playing, it is not something lightly taken
 on. Many demands are placed on those.
-===========================================================================
++============================================================================+
 & elves
-===== NEWS ELVES ==========================================================
++==== NEWS ELVES ============================================================+
  Topic:         Description:
----------------------------------------------------------------------------
+-----------------------------------------------------------------------------+
  INTRODUCTION   How JRR Tolkien portrayed these beings
  DESCRIPTION    The appearance of the Quendi
  SUNDERING      The relationships of the various Quendi
@@ -43,9 +43,9 @@ on. Many demands are placed on those.
  LAIQUENDI      They came along too. Also known as `Green Elves'
 
 Type NEWS ELVES <topic>  for more information
-====== Credits: Alcarion ==================================================
++===== Credits: Alcarion ====================================================+
 & elves introduction
-===== NEWS ELVES INTRODUCTION =============================================
++==== NEWS ELVES INTRODUCTION ===============================================+
 The Elves are the Firstborn Children of Iluvatar (Q: The Father of All) and
 He gave them being and life within the Halls of Ea, specifically in Arda,
 the World. The Firstborn were created closer in semblance to the Valar,
@@ -59,11 +59,11 @@ reincarnated to live again. So, true rest and peace after a hard existence
 isn't their Fate, according to the will of Iluvatar.
 
 (continued in NEWS ELVES INTRO 2)
-===========================================================================
++============================================================================+
 & elves introduction 2
 & elves introduction2
 & elves intro2
-===== NEWS ELVES INTRODUCTION 2 ===========================================
++==== NEWS ELVES INTRODUCTION 2 =============================================+
 By the shores of Cuivienen (Q: Waters of Awakening), the Elves first woke
 from the sleep Iluvatar placed on them. At this time, there was no Sun or
 Moon, but only the Stars created by Varda, the Vala of Light. Therefore,
@@ -75,11 +75,11 @@ Quendi, or, the Speakers. This is the general name for Elves on Beleriand,
 the Species name, which can be further divided as will be explained.
 
 (continued in NEWS ELVES INTRO 3)
-===========================================================================
++============================================================================+
 & elves introduction 3
 & elves introduction3
 & elves intro3
-===== NEWS ELVES INTRODUCTION 3 ===========================================
++==== NEWS ELVES INTRODUCTION 3 =============================================+
 The name 'Eldar', though first given to the whole Species of Elves, later
 came to mean only those who followed the Vala Orome as he led the new
 people on the Great Journey into the West. The History of the Valar and
@@ -94,11 +94,11 @@ role-play. The Eldar, to add to the confusion, are further divided into the
 Sub-species: Noldor, Vanyar and Teleri. Let's take a look at them.
 
 (continued in NEWS ELVES INTRO 4)
-===========================================================================
++============================================================================+
 & elves introduction 4
 & elves introduction4
 & elves intro4
-===== NEWS ELVES INTRODUCTION 4 ===========================================
++==== NEWS ELVES INTRODUCTION 4 =============================================+
 The Eldar are sub-divided as follows:
 
 NOLDOR: The followers of Finwe. Also called the Deep Elves and the High
@@ -115,14 +115,14 @@ TELERI: the followers of Elwe and Olwe. Also called the Sea Elves and the
 Singers. They were the largest tribe of Elves and are even further divided.
 
 (continued in NEWS ELVES SUNDERING)
-===========================================================================
++============================================================================+
 & elves sundering
-===== NEWS ELVES SUNDERING ================================================
++==== NEWS ELVES SUNDERING ==================================================+
 Please take note of the following table. It shows the breakdown of the
 Sundering of the Elves:
 
 
-                                QUENDI                                
+                                QUENDI
                                /      \
                           ELDAR        AVARI
                              /           \
@@ -141,9 +141,9 @@ Laiquendi; and, they, along with the Sindar, also were called, Umanyar, or
 'Not of Aman'.
 
 (continued in NEWS ELVES DESCRIPTION)
-===========================================================================
++============================================================================+
 & elves description
-===== NEWS ELVES DESCRIPTION ==============================================
++==== NEWS ELVES DESCRIPTION ================================================+
 The Quendi are similar to the Edain in appearance, though they are usually
 taller and less bulky than the Secondborn. Since their bodies and spirits
 were made closer in nature to the Valar, they are usually more hardy and
@@ -161,10 +161,10 @@ color, due to the influence of the Light of the Trees. Perhaps brighter
 colors than those who did not see this Light.
 
 (continued in NEWS ELVES DESCRIPTION 2)
-===========================================================================
++============================================================================+
 & elves description 2
 & elves description2
-===== NEWS ELVES DESCRIPTION 2 ============================================
++==== NEWS ELVES DESCRIPTION 2 ==============================================+
 A more specific description for each Sub-specie of Elves can be found under
 the topics: Noldor, Sindar and Laiquendi. Keep in mind when you are
 considering your description that in all cases, a description that is
@@ -174,9 +174,9 @@ hair color, such as brown, to sandy brown, while avoiding 'green'. Though
 Laiquende are a type of 'Wood Elf', they never had green hair.
 
 (continued in NEWS ELVES NOLDOR)
-===========================================================================
++============================================================================+
 & elves noldor
-===== NEWS ELVES NOLDOR ===================================================
++==== NEWS ELVES NOLDOR =====================================================+
 The Noldor are called the Deep Elves or Gnomes and they love all things
 made by hand with skill. They prefer to live in halls of stone that have
 been designed according to their own desires, and to dwell in highlands or
@@ -195,9 +195,9 @@ courtly manner, or at least in an elegant, noble style and are fond of
 wearing jewelry and gemstones of many kinds.
 
 (continued in NEWS ELVES SINDAR)
-===========================================================================
++============================================================================+
 & elves sindar
-===== NEWS ELVES SINDAR ===================================================
++==== NEWS ELVES SINDAR =====================================================+
 The Sindar are called the Grey Elves or the Elves of the Twilight, since
 they never came to Aman, yet, they have seen the Light of the Trees in the
 persons of Thingol, their King, and Melian the Maia, their Queen. They are
@@ -215,9 +215,9 @@ dress in a practical manner and are not overly concerned with possessions
 or appearances.
 
 (continued in NEWS ELVES LAIQUENDI)
-===========================================================================
++============================================================================+
 & elves laiquendi
-===== NEWS ELVES LAIQUENDI ================================================
++==== NEWS ELVES LAIQUENDI ==================================================+
 The Laiquendi are called the Green Elves of Ossiriand and are a remnant of
 the Nandor, who were themselves, a sundered tribe of Teleri who turned
 aside from the Great Journey into the west. They chose to go no farther and
@@ -233,9 +233,9 @@ possessions have a more 'rustic' appearance as a result.
 
 The Laiquendi are renowned archers and hunters, their skills easily
 surpassing even the more aggressive Noldor in this regard.
-===========================================================================
++============================================================================+
 & dwarves
-===== NEWS DWARVES ========================================================
++==== NEWS DWARVES ==========================================================+
 Unlike Elves and Men, the Dwarves were not the direct creation of Iluvatar.
 Aule, the Vala Smith (see NEWS POWERS), in his impatience for the coming of
 the Children of Iluvatar, and yearning for beings other than himself that
@@ -260,10 +260,10 @@ metal, and jewels. Their greatest flaws are a tendency toward wrath,
 possessiveness, and gold-lust.
 
 (continued in NEWS DWARVES 2)
-===========================================================================
++============================================================================+
 & dwarves 2
 & dwarves2
-===== NEWS DWARVES 2 ======================================================
++==== NEWS DWARVES 2 ========================================================+
 Dwarves live about 250 years and marry about the age of 100. Few women are
 born among them, and these look to non-Dwarves just like male Dwarves. All
 Dwarves wear beards. Dwarven society is male dominated, and their women are
@@ -287,10 +287,10 @@ Masters of Stone. The language of the Dwarves is Khuzdul, Dwarvish, which
 was taught to the Fathers by Aule himself, whom the Dwarves name Mahal.
 
 (continued in NEWS DWARVES 3)
-===========================================================================
++============================================================================+
 & dwarves 3
 & dwarves3
-===== NEWS DWARVES 3 ======================================================
++==== NEWS DWARVES 3 ========================================================+
 The Dwarven Fathers awoke not long after the Elves. Dwalin, Father of the
 Broadbeams, and Thrar, Father of the Firebeards, awoke beneath Mount Dolmed
 in the Blue Mountains (the Ered-Luin), which serves as the eastern border
@@ -309,10 +309,10 @@ Gundabad beneath Zirak-Zigil, and the city is called Hadhodrond, or
 Khazad-dum, the Dwarf- mansion.
 
 (continued in NEWS DWARVES 4)
-===========================================================================
++============================================================================+
 & dwarves 4
 & dwarves4
-===== NEWS DWARVES 4 ======================================================
++==== NEWS DWARVES 4 ========================================================+
 Both the folks of Belegost and Nogrod have pretty good relations with the
 Noldor, as they share with them the reverence for Aule, teacher of the
 Noldor. In particular, the Dwarves of Belegost are staunch friends of all
@@ -331,10 +331,10 @@ concerning this race, though at our time period there have been no serious
 quarrels with the Elves.
 
 (continued in NEWS DWARVES 5)
-===========================================================================
++============================================================================+
 & dwarves 5
 & dwarves5
-===== NEWS DWARVES 5 ======================================================
++==== NEWS DWARVES 5 ========================================================+
 The Dwarves of the two great mansions of the Blue Mountains are called the
 Great Dwarves, as a comparison to the other sub-race of Dwarves in
 Beleriand: the Petty-dwarves. Their tale is a sorrowful one. Exiled from
@@ -356,11 +356,11 @@ few dozen Petty-Dwarves left, taking refuge at Sharbhund. Now, while less
 great than the Great Dwarves, the Petty-dwarves are still very proud and
 possess their own dignity. They too have had their Dwarf-lords. They hate
 Elves and Orcs alike, and feel very little kinship with other Dwarves.
-===== Credits: Ulmo =======================================================
++==== Credits: Ulmo =========================================================+
 & men
-===== NEWS MEN ============================================================
++==== NEWS MEN ==============================================================+
  Topic:         Description:
----------------------------------------------------------------------------
+-----------------------------------------------------------------------------+
  INTRODUCTION   How JRR Tolkien portrayed these people
  BEOR           The folk of Beor, who dwelt in Dorthonion
  HALETH         Led by Lady Haleth, these folk live in Brethil
@@ -371,9 +371,9 @@ Elves and Orcs alike, and feel very little kinship with other Dwarves.
  CURRENTLY      How the Men fare in the setting of our game
 
 Type NEWS MEN <topic> for more information.
-===== Credits: Lindros ====================================================
++==== Credits: Lindros ======================================================+
 & men introduction
-===== NEWS MEN INTRODUCTION ===============================================
++==== NEWS MEN INTRODUCTION =================================================+
 Men are referred to in relation to Elves as the "Second-born", for they
 arose much later in the history of Arda.
 
@@ -391,11 +391,11 @@ After arriving in Beleriand from the East, their fortunes would be closely
 bound with the fate and deeds of the First Age.
 
 (continued in NEWS MEN INTRO 2)
-===========================================================================
++============================================================================+
 & men introduction 2
 & men introduction2
 & men intro2
-===== NEWS MEN INTRODUCTION 2 =============================================
++==== NEWS MEN INTRODUCTION 2 ===============================================+
 The Men known as Edain (or singularly Adan), who are in some places also
 known as 'Fathers of Men' or 'Elf-friends' were the first to enter
 Beleriand. They entered in three groups: First came the Beorians, who would
@@ -413,9 +413,9 @@ visit the Hall of Cultures in the OOC Hangout area. You may also:
 Type NEWS MEN BEOR   for information about the First House of the Edain.
 Type NEWS MEN HALETH to read about the Second House of the Edain.
 Type NEWS MEN MARACH to read about the Third House of the Edain.
-===========================================================================
++============================================================================+
 & men beor
-===== NEWS MEN BEOR =======================================================
++==== NEWS MEN BEOR =========================================================+
 The first of the three groups of Men who comprise the Edain to enter
 Beleriand were those who followed their chieftain Balan, who later took the
 name of 'Beor' (Quenya: 'Vassal') because of his devoted service to Finrod
@@ -432,9 +432,9 @@ and most loved by them; for they were eager of mind, cunning-handed, swift
 in understanding, long in memory..."
 
 (continued in NEWS MEN HALETH)
-===========================================================================
++============================================================================+
 & men haleth
-===== NEWS MEN HALETH =====================================================
++==== NEWS MEN HALETH =======================================================+
 Second of the Houses of the Edain to enter Beleriand were the Haladin. Like
 the Beor who had entered before them, these people also were a loose-knit
 group of clans who apparently had few or no real leaders. Because the
@@ -457,10 +457,10 @@ Thingol, who grudgingly bequeathed the land to the People of Haleth by the
 grace of Finrod Felagund.
 
 (continued in NEWS MEN HALETH 2)
-===========================================================================
++============================================================================+
 & men haleth 2
 & men haleth2
-===== NEWS MEN HALETH 2 ===================================================
++==== NEWS MEN HALETH 2 =====================================================+
 As a people, the Haladin were somewhat shorter and broader than the Beor.
 Yet many of them, including the line of Haldad and the Wardens of Brethil,
 were as tall and strong as any of the Edain. In times of need, even their
@@ -470,9 +470,9 @@ dare come hither at great risk, and so the Kingdom of Nargothrond, where
 Finrod Felagund reigns, is further protected.
 
 (continued in NEWS MEN MARACH)
-===========================================================================
++============================================================================+
 & men marach
-===== NEWS MEN MARACH =====================================================
++==== NEWS MEN MARACH =======================================================+
 The Marachians were the last of the Houses of Edain to enter Beleriand.
 They were the most numerous and best organized, following their chieftain
 Marach. They too would settle first in Estolad where some folk of the Beor
@@ -489,9 +489,9 @@ and to foe, swift in resolve, fast in loyalty, joyous in heart, the
 children of Illuvatar in the youth of Mankind."
 
 (continued in NEWS MEN EASTERLINGS)
-===========================================================================
++============================================================================+
 & men easterlings
-===== NEWS MEN EASTERLINGS ================================================
++==== NEWS MEN EASTERLINGS ==================================================+
 These peoples were diverse in many ways from the Edain who entered
 Beleriand some hundred and more years before them. Tolkien describes them
 as "short and broad, long and strong in the arm, and grew much hair on the
@@ -507,9 +507,9 @@ and serve Morgoth, though even he would betray them. In later years these
 people would be forcibly settled in Dor-lomin, after the fall of Hador.
 
 (continued in NEWS MEN DRUADAN)
-===========================================================================
++============================================================================+
 & men druadan
-===== NEWS MEN DRUADAN ===================================================
++==== NEWS MEN DRUADAN =====================================================+
 These were a people of a wholly different kind than any of the Edain. They
 traveled into Beleriand along with the Haladin, and in the Forest of
 Brethil they lived, though they never intermarried with the Edain.
@@ -527,16 +527,16 @@ them. Even more mysterious were their abilities to seemingly perform feats
 that easily could be perceived as 'magic'.
 
 (continued in NEWS MEN GENEALOGIES)
-===========================================================================
++============================================================================+
 & men genealogies
-===== NEWS MEN GENEALOGIES ================================================
++==== NEWS MEN GENEALOGIES ==================================================+
 As can be seen by these genealogies, the houses of the Edain intermarried
 often, especially in the lines of their royalty or wardens. Here are the
 family trees of the Three Houses, from their first leaders in Beleriand and
 on.
 
  House:         Description:
----------------------------------------------------------------------------
+-----------------------------------------------------------------------------+
  BEOR           The First House of the Edain.
  HALETH         The Second House of the Edain.
  MARACH         The Third House of the Edain
@@ -545,9 +545,9 @@ on.
 Type NEWS MEN GEN <house> for more information.
 
 (continued in NEWS MEN CURRENTLY)
-===========================================================================
++============================================================================+
 & men genealogies beor 1 of 2
-===== NEWS MEN GENEALOGIES BEOR 1 OF 2 ====================================
++==== NEWS MEN GENEALOGIES BEOR 1 OF 2 ======================================+
                   Balan (Beor)
                   262-355
                      |
@@ -569,10 +569,10 @@ Type NEWS MEN GEN <house> for more information.
                      |                                   |
 
 (continued in NEWS MEN GENEALOGIES BEOR 2)
-===========================================================================
++============================================================================+
 & men genealogies beor 2 of 2
 & men genealogies beor2
-===== NEWS MEN GENEALOGIES BEOR 2 OF 2 ====================================
++==== NEWS MEN GENEALOGIES BEOR 2 OF 2 ======================================+
                   Bregor  Andreth   Beril             Beren
                   359-448 c.361-455  b. 365            b. 374
                      |                                   |
@@ -596,9 +596,9 @@ Elwing=Earendil
                                |
                Tar-Aldarion=Erendis
                SA 700-1098  SA 771-985
-===========================================================================
++============================================================================+
 & men genealogies haleth
-===== NEWS MEN GENEALOGIES HALETH =========================================
++==== NEWS MEN GENEALOGIES HALETH ===========================================+
 The Haladin or the
 'folk of Haleth'              Haldad
 (nothlir Haletha)               |
@@ -614,17 +614,17 @@ The Haladin or the
                                                    |
             |-----------------------|-----------------------|
           Haldir                  Hundar                 Hareth
-          414-472                 417-472               =Galdor son 
+          414-472                 417-472               =Galdor son
        =Gloredhel                   |                     of Hador
         daughter of Hador     |---------|                   |
-            |              Hunleth   Hundad            |---------|      
+            |              Hunleth   Hundad            |---------|
           Handir             443       447           Hurin      Huor
           441-495                 |-----------|       441       444
        =Beldis of the          Hunthor     Harathor
         House of Beor          468-499       471
-===========================================================================
++============================================================================+
 & men genealogies marach
-===== NEWS MEN GENEALOGIES MARACH =========================================
++==== NEWS MEN GENEALOGIES MARACH ===========================================+
 The 'folk of Marach'              Marach
 (nothlir Maracha)                 282-376________________________
                                      |                           |
@@ -642,9 +642,9 @@ Beren son of Belemir                365
                                   =Gildis
 
 (continued in NEWS MEN GENEALOGIES HADOR)
-===========================================================================
++============================================================================+
 & men genealogies hador
-===== NEWS MEN GENEALOGIES HADOR ==========================================
++==== NEWS MEN GENEALOGIES HADOR ============================================+
 The 'House of Hador'             Hador Lorindol
                             (the warrior Goldenhead)
                                   =Gildis
@@ -667,12 +667,12 @@ The 'House of Hador'             Hador Lorindol
                                                        =Elwing dtr. of Dior
                                                           |        |
                                                          Elros    Elrond
-===========================================================================
++============================================================================+
 & men currently
-===== NEWS MEN CURRENTLY ==================================================
-Currently (our game's setting) Dorthonion has been overrun by the forces 
-of evil, and is now named Taur-nu-Fuin. The Beorians have been all but 
-wiped out, though there are small remnants living in Dor-lomin and in 
++==== NEWS MEN CURRENTLY ====================================================+
+Currently (our game's setting) Dorthonion has been overrun by the forces
+of evil, and is now named Taur-nu-Fuin. The Beorians have been all but
+wiped out, though there are small remnants living in Dor-lomin and in
 Brethil.
 
 The Haladin, or the Folk of Haleth as they are often currently known, dwell
@@ -686,24 +686,24 @@ in the land of Dor-lomin, in close friendship to the Elves of Mithrim. For
 now their land is less in peril and they have sent a large contingent in
 assistance of the defense of the central portions of Beleriand.
 
-Easterlings, very few in number, dwell in the lands of Himring and Amon 
+Easterlings, very few in number, dwell in the lands of Himring and Amon
 Ereb, in service to the sons of Feanor. The Druedain, numbering only in
 hundreds, dwell in secret somewhere in Brethil and come not into events
 outside the forest.
-===========================================================================
++============================================================================+
 & orcs
-===== NEWS ORCS ===========================================================
++==== NEWS ORCS =============================================================+
  Topic:         Description:
----------------------------------------------------------------------------
+-----------------------------------------------------------------------------+
  INTRODUCTION   How JRR Tolkien portrayed these beings
  ORIGIN         Some likely sources for their existence
  APPEARANCE     Common traits of Orcs
  CURRENTLY      How they fare in our game
 
 Type NEWS ORCS <topic> for more information.
-===========================================================================
++============================================================================+
 & orcs introduction
-===== NEWS ORCS INTRODUCTION ==============================================
++==== NEWS ORCS INTRODUCTION ================================================+
 Orcs represent the most numerous of Morgoth's minions and perhaps the
 gravest transgression of the mightiest Vala to Eru, for they were bred
 (from various potential sources) in mockery of the Elves, The Firstborn.
@@ -720,9 +720,9 @@ characters. In-culture Role-play is as much important for an Orc-player as
 any other player.
 
 (continued in NEWS ORCS ORIGIN)
-===========================================================================
++============================================================================+
 & orcs origin
-===== NEWS ORCS ORIGIN ====================================================
++==== NEWS ORCS ORIGIN ======================================================+
 Orcs were first bred by Melkor (Morgoth) many thousands of years ago in
 mockery of the Elves of Iluvatar. It is well known that Melkor, though
 mighty, did not himself create. Rather he corrupted and twisted what Eru
@@ -742,9 +742,9 @@ exploitation, were not part of Melkor's breeding of the most numerous of
 his evil minions.
 
 (continued in NEWS ORCS APPEARANCE)
-===========================================================================
++============================================================================+
 & orcs appearance
-===== NEWS ORCS APPEARANCE ================================================
++==== NEWS ORCS APPEARANCE ==================================================+
 Here again, JRR Tolkien was somewhat vague on Orcish appearance. As Orcs
 exist in mockery of Elves, it's logical their appearance would mock beauty
 with hideousness. There are many physical variations as JRR Tolkien
@@ -761,9 +761,9 @@ So it's valid conjecture the Orcs of Beleriand are at least as tough as
 Uruk-Hai. And that's tough!
 
 (continued in NEWS ORCS CURRENTLY)
-===========================================================================
++============================================================================+
 & orcs currently
-===== NEWS ORCS CURRENTLY =================================================
++==== NEWS ORCS CURRENTLY ===================================================+
 Currently (our game's setting), the Orcs are part of the Angband culture
 Beleriand's largest. Now that the Siege of Angband was broken, they range
 wide over Beleriand from their northern fortress, many bolstering the
@@ -776,16 +776,16 @@ are provided as much opportunity for in-culture RP as with other species.
 Opportunities for advancement include Werewolves, Balrogs, and Dragons.
 
 For information on other 'baddie' Species, type: NEWS RESTRICTED RACES
-For list of other topics on Orcs, type: NEWS ORCS 
-===========================================================================
+For list of other topics on Orcs, type: NEWS ORCS
++============================================================================+
 & rr
 & reserved races
-===== NEWS RESERVED RACES =================================================
++==== NEWS RESERVED RACES ===================================================+
 These next few sections are designed to lay out a general summation of the
 abilities of each RR:
 
  Race:          Description:
----------------------------------------------------------------------------
+-----------------------------------------------------------------------------+
  WEREWOLVES     Gaurhoth, the enchanted servants of the Dark Lord.
  GREAT SPIDERS  Ungolath, the spawn of Ungoliant.
  GREAT EAGLES   Thoronath, the messengers of Manwe.
@@ -798,9 +798,9 @@ abilities of each RR:
 Type NEWS <race> for more information.
 
 See also NEWS RESERVED CHARACTERS
-===========================================================================
++============================================================================+
 & werewolves
-===== NEWS WEREWOLVES =====================================================
++==== NEWS WEREWOLVES =======================================================+
 The Werewolves (Gaurhoth) were introduced into our game as an evil RR that
 would bridge the gap between the Orcs and the Balrogs. That is clearly
 thematic as Sauron was a sorcerer closely aligned with werewolves. He in
@@ -822,10 +822,10 @@ should reflect that there is something slightly mystical in the way it bays
 that might cause a degree of trepidation.
 
 (continued in NEWS WEREWOLVES 2)
-===========================================================================
++============================================================================+
 & werewolves 2
 & werewolves2
-===== NEWS WEREWOLVES 2 ===================================================
++==== NEWS WEREWOLVES 2 =====================================================+
 Werewolves have an unclean bite that can cause a bad infection/poisoning.
 This 'poisoning' can even affect Elves, though the degree that it can do so
 is uncertain (simple illness, incapacitation or death) and should be left
@@ -838,15 +838,15 @@ shoulder). However, in all other aspects, they should be described as
 appearing as a normal wolf.
 
 See the Werewolf Handbook in the Library in the Hangout for more info.
-===========================================================================
++============================================================================+
 & great spiders
 & spiders
-===== NEWS GREAT SPIDERS ==================================================
++==== NEWS GREAT SPIDERS ====================================================+
 This section pertaining to Spiders is currently under construction.
-===========================================================================
++============================================================================+
 & great eagles
 & eagles
-===== NEWS GREAT EAGLES ===================================================
++==== NEWS GREAT EAGLES =====================================================+
 The Eagles (Thoron) of Beleriand play a very decisive and prominent role in
 Professor Tolkien's literary works. Indeed, this race is mentioned numerous
 times and plays a major role in the overall epic. It is for that reason
@@ -864,13 +864,13 @@ could be found to lead one to believe that they have any mystical abilities
 aside from their high intelligence, wisdom and ability to speak.
 
 See the Great Eagle Handbook in the Library in the Hangout for more info.
-===========================================================================
++============================================================================+
 & ents
-===== NEWS ENTS ===========================================================
++==== NEWS ENTS =============================================================+
 This section pertaining to Ents is currently under construction.
-===========================================================================
++============================================================================+
 & balrogs
-===== NEWS BALROGS ========================================================
++==== NEWS BALROGS ==========================================================+
 The Balrogs may well be described as the 'fists of Morgoth'. They have
 played a major part in every one of the five battles of Beleriand, and also
 have hand their hand in the deaths of many an Elf: Feanor, Fingon,
@@ -883,17 +883,17 @@ Formidable opponents they have slain many a renowned elf. Cloaked in
 shadows they control their fiery nature.
 
 See the Balrog Handbook in the Library in the Hangout for more info.
-===========================================================================
++============================================================================+
 & dragons
-===== NEWS DRAGONS ========================================================
++==== NEWS DRAGONS ==========================================================+
 This section pertaining to Dragons is currently under construction.
-===========================================================================
++============================================================================+
 & maiar
-===== NEWS MAIAR ==========================================================
++==== NEWS MAIAR ============================================================+
 This section pertaining to Maiar is currently under construction.
-===========================================================================
++============================================================================+
 & other
-===== NEWS OTHER ==========================================================
++==== NEWS OTHER ============================================================+
 This section shall pertain to those possible RRs that may be found
 throughout the texts but for one reason or another, shall not be played at
 this time on this MUSH. The reasons may include such things as a lack of
@@ -910,10 +910,10 @@ that trolls are taking part in battles, etc. But that the trolls themselves
 are not actually being played, but rather are being emitted.
 
 (continued in NEWS OTHER 2)
-===========================================================================
++============================================================================+
 & other 2
 & other2
-===== NEWS OTHER 2 ========================================================
++==== NEWS OTHER 2 ==========================================================+
 Ghosts and other such 'undead', though sparsely mentioned here and there
 and hinted at from time to time in the texts, shall not be played as RRs on
 this MUSH at this time. The reason being that though there is some *small*
@@ -924,4 +924,4 @@ undead is called for to take part in a scene, those considering such a
 thing should consult with an appropriate CA (or body of CA's) for further
 information and/or permission to do so. The spirit in question would then
 likely best be emitted for effect.
-===========================================================================
++============================================================================+

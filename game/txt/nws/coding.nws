@@ -1,5 +1,5 @@
 & coding
-===== NEWS CODING ============================================================
++==== NEWS CODING ===========================================================+
 Here you can find various hints and tips, also basic rules of coding.
 Basically, all the info to learn coding can be found in the Amberyl's MUSH
 manual, which you can get through FTP from pennmush.tinymush.org.
@@ -7,19 +7,19 @@ manual, which you can get through FTP from pennmush.tinymush.org.
 Available subtopics:
 CODING GLOBALS - a brief explanation of global code
 CODING PUPPETS - how to code puppets
-==============================================================================
++============================================================================+
 & coding globals
 & globals
-===== NEWS CODING GLOBALS ====================================================
++==== NEWS CODING GLOBALS ===================================================+
 The command -HELP will list the game-wide commands unique to this MUSH.
 Please familiarize yourself with these commands, especially -mail. Most of
 these commands are either aids to RP or coding, or are designed to provide
 information on things around the game or different ways of communication.
-===========================================================================
++=========================================================================+
 & coding puppets
 & puppets
-===== NEWS CODING PUPPETS ====================================================
-Puppets are objects which represent animals, non-player-characters, and 
++==== NEWS CODING PUPPETS ===================================================+
+Puppets are objects which represent animals, non-player-characters, and
 other similar sorts of creature.  Usually these objects have the PUPPET flag
 set, so that they relay what they see and hear to the player who owns them,
 though for the purposes of this discussion that is not a requirement.
@@ -27,14 +27,14 @@ though for the purposes of this discussion that is not a requirement.
 Puppets are allowed on this MUSH, with some restrictions:
 
 1) Puppets cannot be used as combatants, except by special admin approval.
-   Players may RP combat (or anything else for that matter) with puppets 
-   if all parties agree (for example, several elves could fight with a warg 
-   puppet). 
+   Players may RP combat (or anything else for that matter) with puppets
+   if all parties agree (for example, several elves could fight with a warg
+   puppet).
 
 2) As a general rule, animals should be considered "ordinary" - your dog or
-   horse is a typical member of the species.  Animals should not "talk" or 
-   exhibit overly intelligent behavior, nor do they have psychic links to 
-   their owners. In particular, puppets may not be used as spy objects. 
+   horse is a typical member of the species.  Animals should not "talk" or
+   exhibit overly intelligent behavior, nor do they have psychic links to
+   their owners. In particular, puppets may not be used as spy objects.
    What you see through the eyes of a puppet is not to be considered IC
    information. Use common sense when deciding what an animal can do - no
    matter how well you've trained it, a falcon isn't going to fly 500 leagues
@@ -43,37 +43,37 @@ Puppets are allowed on this MUSH, with some restrictions:
    locations).
 
 (continued in NEWS CODING PUPPETS 2)
-==============================================================================
++============================================================================+
 & coding puppets 2
 & puppets 2
 & coding puppets2
 & puppets2
-===== NEWS CODING PUPPETS 2 ==================================================
++==== NEWS CODING PUPPETS 2 =================================================+
 3) Puppets which represent pets should be limited to fairly "standard"
    sorts of domestic animals, like dogs, cats, horses, etc.  They should
    certainly be chosen as something appropriate to your culture.  If you
    want to step outside these bounds, make sure to clear it with an admin.
 
-4) Puppets should not be used in lieu of real characters.  For example, if 
+4) Puppets should not be used in lieu of real characters.  For example, if
    you need to send a messenger from one culture to another, send an actual
    player if at all possible.  Puppets should be used as general NPCs only
    by special approval.
 
 5) Puppets may be used for NPC guards and sentries, heralds, or other forms
    of "static" character.  Usually these are set up by your local admins and
-   are part of the local "scenery" of the location you are in.  
+   are part of the local "scenery" of the location you are in.
 
    If you are travelling and encounter such a puppet (like a sentry), you
    should try to determine what culture or player that puppet belongs to,
-   and how to interact with it.    
+   and how to interact with it.
 
 (continued in NEWS CODING PUPPETS 3)
-==============================================================================
++============================================================================+
 & coding puppets 3
 & puppets 3
 & coding puppets3
 & puppets3
-===== NEWS CODING PUPPETS 3 ==================================================
++==== NEWS CODING PUPPETS 3 =================================================+
 6) With the exception of items like sentries, you should make sure to put any
    puppets you have away before logging off.  If you have a horse, you should
    stable it.  If you have a dog, you probably should just pick it up before
@@ -88,4 +88,4 @@ Puppets are allowed on this MUSH, with some restrictions:
    occasional prop when you aren't otherwise noted for having one.  For
    example, unless you normally wander around with your hunting falcon, you
    shouldn't just suddenly have a hunting falcon when it's convenient.
-==============================================================================
++============================================================================+

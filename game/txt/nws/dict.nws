@@ -1,6 +1,6 @@
 & dictionary
 & dictionary elven
-===== NEWS DICTIONARY ========================================================
++==== NEWS DICTIONARY =======================================================+
 Dictionary of common words in Quenya and Sindarin.
 
 Available dictionary sections:
@@ -9,10 +9,10 @@ Available dictionary sections:
   PLANTS               SEASONS              TITLES
 
 Type NEWS DICTIONARY <topic> for more information.
-==============================================================================
++============================================================================+
 & dictionary titles
 & dictionary elven titles
-===== NEWS DICTIONARY TITLES =================================================
++==== NEWS DICTIONARY TITLES ================================================+
         Sindarin        English         Quenya
 General
         aran            king            aran
@@ -33,12 +33,12 @@ Army
         tulgolin        std. bearer     tulwecolindo
 
 (continued in NEWS DICTIONARY TITLES 2)
-==============================================================================
++============================================================================+
 & dictionary titles 2
 & dictionary titles2
 & dictionary elven titles 2
 & dictionary elven titles2
-===== NEWS DICTIONARY TITLES 2 ===============================================
++==== NEWS DICTIONARY TITLES 2 ==============================================+
         Sindarin        English         Quenya
 Smiths
         ardan           master smith    artano
@@ -59,12 +59,12 @@ Diplomats
         tulgo           aide            tulco
 
 (continued in NEWS DICTIONARY COLOURS)
-===== Credits: Angadil =======================================================
++==== Credits: Angadil ======================================================+
 & dictionary colours
 & dictionary elven colours
 & dictionary colors
 & dictionary elven colors
-===== NEWS DICTIONARY COLOURS ================================================
++==== NEWS DICTIONARY COLOURS ===============================================+
         Sindarin        English         Quenya
 
         mor             black           more
@@ -84,12 +84,12 @@ Diplomats
         melen           yellow          malina
 
 (continued in NEWS DICTIONARY PLANTS)
-===== Credits: Tavarilyn =====================================================
++==== Credits: Tavarilyn ====================================================+
 & dictionary plants
 & dictionary elven plants
 & dictionary flowers
 & dictionary elven flowers
-===== NEWS DICTIONARY PLANTS =================================================
++==== NEWS DICTIONARY PLANTS ================================================+
         Sindarin        English         Quenya
 
         loth            flower          lote/lot
@@ -109,10 +109,10 @@ Diplomats
         brethil         birch           brethil
 
 (continued in NEWS DICTIONARY NUMBERS)
-===== Credits: Tavarilyn =====================================================
++==== Credits: Tavarilyn ====================================================+
 & dictionary numbers
 & dictionary elven numbers
-===== NEWS DICTIONARY NUMBERS ================================================
++==== NEWS DICTIONARY NUMBERS ===============================================+
         Sindarin        English         Quenya
 
         min             one             mine
@@ -130,10 +130,10 @@ Diplomats
         ad-caer         twenty          atta-cainen
 
 (continued in NEWS DICTIONARY SEASONS)
-===== Credits: Tavarilyn =====================================================
++==== Credits: Tavarilyn ====================================================+
 & dictionary seasons
 & dictionary elven seasons
-===== NEWS DICTIONARY SEASONS ================================================
++==== NEWS DICTIONARY SEASONS ===============================================+
         Sindarin        English         Quenya
 
         ethuil          spring          tuile
@@ -146,10 +146,10 @@ Diplomats
         narbeleth       sun-waning
 
 (continued in NEWS DICTIONARY ANIMALS)
-===== Credits: Tavarilyn =====================================================
++==== Credits: Tavarilyn ====================================================+
 & dictionary animals
 & dictionary elven animals
-===== NEWS DICTIONARY ANIMALS ================================================
++==== NEWS DICTIONARY ANIMALS ===============================================+
         Sindarin        English         Quenya
 
         aew             bird            aiwe
@@ -168,4 +168,4 @@ Diplomats
         alph            swan            alqua
         gaur/ngaur      werewolf        gaur/ngaur
         draug           wolf            draug
-===== Credits: Tavarilyn =====================================================
++==== Credits: Tavarilyn ====================================================+

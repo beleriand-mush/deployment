@@ -10,9 +10,9 @@
 & policy features
 & policy rc
 & policy rcs
-===== NEWS RESERVED CHARACTERS ============================================
++==== NEWS RESERVED CHARACTERS ==============================================+
 Topic:        Updated:   Description:
----------------------------------------------------------------------------
++----------------------------------------------------------------------------+
 DEFINITION    28 Mar 04  What is meant by a 'reserved character? (RC)'
 DUTIES        28 Mar 04  How does an RC help out in the game?
 ACQUISITION   28 Mar 04  How to acquire a reserved character
@@ -23,12 +23,12 @@ TEMPORARY     28 Mar 04  Temporary roleplay as a reserved character
 THEME         28 Mar 04  Where to find thematic material on RCs
 
 Type NEWS RC <topic> for more information.
-===========================================================================
++============================================================================+
 & rc definition
 & reserved character definition
 & policy rc definition
 & policy reserved character definition
-===== NEWS RC DEFINITION ==================================================
++==== NEWS RC DEFINITION ====================================================+
 When a player creates a character for the first time, he or she is asked,
 "Please do not use Tolkien names." Those characters named by Tolkien in his
 books--characters such as Beren and Luthien, Celegorm and Curufin, Turin
@@ -45,12 +45,12 @@ It should immediately be stressed that playing an RC is a priviledge, and
 that certain duties come along with that priviledge.
 
 (continued in NEWS RC DUTIES)
-===========================================================================
++============================================================================+
 & rc duties
 & reserved character duties
 & policy rc duties
 & policy reserved character duties
-===== NEWS RC DUTIES ======================================================
++==== NEWS RC DUTIES ========================================================+
 While it may be said that part of what we do on Beleriand is to re-enact
 the books, the true focus of our game is on the new stories of our own,
 original characters who exist within the framework of Tolkien's world and
@@ -72,7 +72,7 @@ than playing an original character. Good RP is its own reward, and good
 RPers will be known among their fellow RPers by their good RP.
 
 (continued in NEWS RC DUTIES 2)
-===========================================================================
++============================================================================+
 & rc duties 2
 & rc duties2
 & reserved character duties 2
@@ -81,7 +81,7 @@ RPers will be known among their fellow RPers by their good RP.
 & policy rc duties2
 & policy reserved character duties 2
 & policy reserved character duties2
-===== NEWS RC DUTIES 2 ====================================================
++==== NEWS RC DUTIES 2 ======================================================+
 RC roles in any given culture are made available according to a formula
 which takes into account the total number of active players in that
 culture. An RC player must therefore make it his primary duty to RP with
@@ -102,12 +102,12 @@ system, this holds doubly true for players of RCs, who ought to take up
 their roles with respect and dignity.
 
 (continued in NEWS RC ACQUISITION)
-===========================================================================
++============================================================================+
 & rc acquisition
 & reserved character acquisition
 & policy rc acquisition
 & policy reserved character acquisition
-===== NEWS RC ACQUISITION =================================================
++==== NEWS RC ACQUISITION ===================================================+
 If you are certain you wish to play a RC role, consult your culture's help
 files and your culture admins to find out your local policy. The following
 might be some helpful general guidelines.
@@ -127,12 +127,12 @@ discretion, the CW may someday ask you if you are interested in filling a
 given role.
 
 (continued in NEWS RC AVAILABILITY)
-===========================================================================
++============================================================================+
 & rc availability
 & reserved character availability
 & policy rc availability
 & policy reserved character availability
-===== NEWS RC AVAILABILITY ================================================
++==== NEWS RC AVAILABILITY ==================================================+
 The following is the procedure for making RC roles available and for
 filling them.
 
@@ -154,12 +154,12 @@ Wizard, who will make the Feature name available and/or set the race of the
 character in question and make other settings as needed.
 
 (continued in NEWS RC LOSING)
-===========================================================================
++============================================================================+
 & rc losing
 & reserved character losing
 & policy rc losing
 & policy reserved character losing
-===== NEWS RC LOSING ======================================================
++==== NEWS RC LOSING ========================================================+
 There are many different reasons a player may lose a RC role, including:
 
 1) The role was given for a specified length of time, such as a TP or MP or
@@ -181,12 +181,12 @@ the RC Wizard will lock the name and/or remove the race and other special
 settings.
 
 (continued in NEWS RC IC/OOC)
-===========================================================================
++============================================================================+
 & rc ic/ooc
 & reserved character ic/ooc
 & policy rc ic/ooc
 & policy reserved character ic/ooc
-===== NEWS RC IC/OOC ======================================================
++==== NEWS RC IC/OOC ========================================================+
 Not uncommonly, the role of the IC (Feature) Ruler of a culture will be
 played by the culture's CW, as it streamlines the management of the
 culture. Due to a myriad of possibilities, however, it is often someone
@@ -202,12 +202,12 @@ knowledgeable on theme, are still bound by the rulings of their Culture
 Wardens.
 
 (continued in NEWS RC TEMPORARY)
-===========================================================================
++============================================================================+
 & rc temporary
 & reserved character temporary
 & policy rc temporary
 & policy reserved character temporary
-===== NEWS RC TEMPORARY ===================================================
++==== NEWS RC TEMPORARY =====================================================+
 Should the need arise for a reserved role to be filled on an immediate and
 very temporary basis--say, for just one session, or over the course of two
 or three days--a CW may allow any player of his choosing to do so without
@@ -225,12 +225,12 @@ are expected to conduct themselves as any permanent RC in terms of IC
 behavior and OOC conduct.
 
 (continued in NEWS RC THEME)
-===========================================================================
++============================================================================+
 & rc theme
 & reserved character theme
 & policy rc theme
 & policy reserved character theme
-===== NEWS RC THEME =======================================================
++==== NEWS RC THEME =========================================================+
 For a list of all Feature characters by culture, see the Feature List
 Object(#577) in the Library in the Hangout. Enquire with your culture staff
 to see which are open for application.
@@ -251,4 +251,4 @@ Type NEWS SPECIES for more information on these races.
 Druedain         Brethil
 
 Type NEWS MEN DRUADAN for more infomation on this sub-species of Men.
-===========================================================================
++============================================================================+

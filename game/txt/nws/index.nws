@@ -1,6 +1,6 @@
 
 & Entries
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  admin                     admin advancement         admin advancement 2
  admin advancement 3       admin arbiters            admin arbitrators
  admin arbs                admin ca                  admin ca 2
@@ -22,10 +22,10 @@
  building exits 6          building exits2           building exits3
 
 For more, see Entries-2
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-2
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  building exits4           building exits5           building exits6
  building rooms            building tip 01           building tip 1
  building tip01            building tip1             building tips
@@ -47,10 +47,10 @@ For more, see Entries-2
  combat test               combat test 2             combat test 3
 
 For more, see Entries-3
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-3
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  combat test2              combat test3              combat testers
  combat training levels    combat version            conduct
  cultures                  cultures dwarf            cultures dwarves
@@ -72,10 +72,10 @@ For more, see Entries-3
  elves description 2       elves description2        elves intro2
 
 For more, see Entries-4
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-4
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  elves intro3              elves intro4              elves introduction
  elves introduction 2      elves introduction 3      elves introduction 4
  elves introduction2       elves introduction3       elves introduction4
@@ -97,10 +97,10 @@ men genealogies beor 2 of 2                         men genealogies beor2
  men intro2                men introduction          men introduction 2
 
 For more, see Entries-5
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-5
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  men introduction2         men marach                misc
  misc tf                   misc tf index             misc tf ooc macro
  ooc descs                 orcs                      orcs appearance
@@ -122,10 +122,10 @@ policy reserved character availability
 policy reserved character definition
 
 For more, see Entries-6
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-6
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 policy reserved character duties
 policy reserved character duties 2
 policy reserved character duties2
@@ -147,10 +147,10 @@ policy reserved characters                          powers
  rc ic/ooc                 rc losing                 rc temporary
 
 For more, see Entries-7
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-7
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  rc theme                  rcs                       recycling
 reserved character acquisition
 reserved character availability
@@ -172,10 +172,10 @@ reserved character temporary
  theme chronology all      theme chronology1         theme chronology2
 
 For more, see Entries-8
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
 
 & Entries-8
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
  theme chronology3         theme chronology4         theme cultures
  theme cultures dwarf      theme cultures dwarves    theme cultures elf
  theme cultures elves      theme cultures human      theme cultures humans
@@ -192,5 +192,5 @@ For more, see Entries-8
  theme sources 2           theme sources2            theme timeline
  timeline                  werewolves                werewolves 2
  werewolves2
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
++----------------------------------------------------------------------------+
++----------------------------------------------------------------------------+

@@ -3484,7 +3484,7 @@ Type NEWS <topic> for more information.
 & theme books
 +==== NEWS BOOKS ============================================================+
    For a complete list of books by J.R.R. Tolkien, see our web page at:
-                    http://beleriand.mux.net/books.html
+                http://beleriand.middleearth.net/books.html
 
 No attempt is made in these files to duplicate the full list given there.
 Instead, here is a list of those books which are directly relevant to our
@@ -3723,7 +3723,8 @@ of Men. The vastest kingdom of all, though, is that of all evil creatures
 serving Morgoth, whose stronghold is Angband to the north of Beleriand.
 
 These files are designed to help the new player with information on all the
-cultures. See the web for more info at http://beleriand.mux.net/realms.html
+cultures. See the web for more info at:
+    http://beleriand.middleearth.net/realms.html
 
  Topic:            Updated:   Description:
 +----------------------------------------------------------------------------+

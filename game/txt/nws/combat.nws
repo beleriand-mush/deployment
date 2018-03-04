@@ -1,38 +1,38 @@
 & combat
-===== NEWS COMBAT ============================================================
++==== NEWS COMBAT ===========================================================+
  Topic:           Updated:   Description:
-------------------------------------------------------------------------------
++----------------------------------------------------------------------------+
  ROLE PLAY        01 Feb 01  It's all about the Role Play
  RESOURCES        09 May 97  Materials that weapons and stuff can be made of
  STATS            09 May 97  What stats mean to your character
  BEASTS           08 Oct 97  Policy on FIGHTER-flagged puppet
  FAQ              14 Nov 00  Frequently asked questions about combat answered
- TEST	          01 Aug 01  Information about the Combat Test
- TESTERS          01 Aug 01  All about Combat Testers			
+ TEST             01 Aug 01  Information about the Combat Test
+ TESTERS          01 Aug 01  All about Combat Testers
  TRAINING LEVELS  19 Oct 07  Starting training levels for special characters
  VERSION          23 Jun 97  Shape of things to come
 
 Type NEWS COMBAT <topic> for more information.
-==============================================================================
++============================================================================+
 & combat role play
-===== NEWS COMBAT ROLE PLAY ==================================================
-The primary purpose of the combat system is to act as an impartial judge 
-between a group of two or more players engaged in combat RP. The combat 
++==== NEWS COMBAT ROLE PLAY =================================================+
+The primary purpose of the combat system is to act as an impartial judge
+between a group of two or more players engaged in combat RP. The combat
 system is by NO means a substitute for Role-Play. In fact while combat RP
 does not require using the combat system, role-play is essential when using
-the combat system. Beleriand is not a Dungeons and Dragons simulation. The 
-game is most fun when poses are vivid and descriptive, using the results of 
-the combat system as a cue to guide the direction of role play. Players who 
+the combat system. Beleriand is not a Dungeons and Dragons simulation. The
+game is most fun when poses are vivid and descriptive, using the results of
+the combat system as a cue to guide the direction of role play. Players who
 fail to role play while they use the combat system will be ruled against in
 any arbitrating decision and may have their combat privileged taken away.
 
 (continued in NEWS COMBAT ROLE PLAY 2)
 
 Please see NEWS COMBAT FAQ for information on becoming combat approved
-==============================================================================
++============================================================================+
 & combat role play 2
 & combat role play2
-===== NEWS COMBAT ROLE PLAY 2 ================================================
++==== NEWS COMBAT ROLE PLAY 2 ===============================================+
 ROLE-PLAYED COMBAT
 Beleriand's combat policy places heavy emphasis on creative RP, realism, and
 descriptive poses, while the Coded System is not expected to take a
@@ -48,24 +48,24 @@ players involved in the scene want an impartial judge to settle their combat,
 but feel that the CS would not properly accomodate their IC situation.
 
 (continued in NEWS COMBAT RESOURCES)
-==============================================================================
++============================================================================+
 & combat resources
-===== NEWS COMBAT RESOURCES ==================================================
++==== NEWS COMBAT RESOURCES =================================================+
 The list of current resources: ARROWS COINS HERBS LEATHER ORE WOOD are part
-of a Basic Resource System in which materials for weapons and armour are 
-used when these things are forged. It is a unit-less system designed to 
+of a Basic Resource System in which materials for weapons and armour are
+used when these things are forged. It is a unit-less system designed to
 facilitate trade and other IC interactions. (More to come)
 
 (continued in NEWS COMBAT STATS)
-==============================================================================
++============================================================================+
 & combat stats
-===== NEWS COMBAT STATS ======================================================
++==== NEWS COMBAT STATS =====================================================+
 A brief primer on what the individual stats mean to your character, in
 alphabetical order:
 
-CONstitution - This indicates the general health and 'well being' of your 
-character. A higher constitution value means your character will heal from 
-wounds faster. In addition higher CON might mean battle wounds are less 
+CONstitution - This indicates the general health and 'well being' of your
+character. A higher constitution value means your character will heal from
+wounds faster. In addition higher CON might mean battle wounds are less
 hindering.
 
 DEXterity - The 'speed' of a character. This stat affects your ability to
@@ -78,16 +78,16 @@ in.
 STRength - Quite obviously, how strong a character is. How hard they hit and
 how much they can carry.
 
-MAX-HP - An indication of how much damage a character can receive. MAX-HP can 
+MAX-HP - An indication of how much damage a character can receive. MAX-HP can
 only be adjusted by Admins.
 
-n-AC - Natural-AC. An indicator of the ability of the species to resist harm 
+n-AC - Natural-AC. An indicator of the ability of the species to resist harm
 from weapons.
 
 (continued in NEWS COMBAT BEASTS)
-==============================================================================
++============================================================================+
 &combat beasts
-===== NEWS COMBAT BEASTS =====================================================
++==== NEWS COMBAT BEASTS ====================================================+
 Beasts are coded objects designed to interact with players in regards to the
 Combat System on Beleriand, they range from such things as Guards of all
 species to animals and monsters. These Beasts are available to the cultures
@@ -108,97 +108,97 @@ player and will not be more then a player, unless we are speaking Dragons or
 something. Beasts are not there to give others a edge, they are there
 because it would make sense to have them there/here in the IC world of Tolkien.
 
-In general, requests should go through the Culture Admins first, then to 
+In general, requests should go through the Culture Admins first, then to
 the ArchArb/Other Wr's with a clear definition of the purpose of the Beast/s,
 reasons and useages.
 
 (continued in NEWS COMBAT FAQ)
-==============================================================================
++============================================================================+
 &combat faq
-===== NEWS COMBAT FAQ ========================================================
-                   Combat Frequently Asked Questions (FAQ)                   
++==== NEWS COMBAT FAQ =======================================================+
+                   Combat Frequently Asked Questions (FAQ)
 
-It's quite clear that a combat system is a degree of difficulty over the 
-pose and @emit commands that we use to RP everyday actions and combat 
-scenarios. With the hope that providing answers to some of the more common 
-questions helps to make the usage of the combat system (CS) easier and more 
+It's quite clear that a combat system is a degree of difficulty over the
+pose and @emit commands that we use to RP everyday actions and combat
+scenarios. With the hope that providing answers to some of the more common
+questions helps to make the usage of the combat system (CS) easier and more
 enjoyable, a few FAQ topics are provided.
 
-They are: 
+They are:
         Test         - The What/Why/Who of the FIGHTER flag test.
         Training     - Weapon training fundamentals.
         Healing      - Healing explained.
         Damage       - Primer on how damage is calculated.
 
 Type NEWS COMBAT FAQ <TOPIC> to read further.
-==============================================================================
++============================================================================+
 & combat test
 & combat faq test
-===== NEWS COMBAT TEST =======================================================
++==== NEWS COMBAT TEST ======================================================+
 Q: How do I get combat approved?
-A: Every player is required to pass a basic combat test to prove they are 
-familiar with the combat system, and capable of RPing combat in a 
-realistic, thematic manner. This test is split into two portions: The 
-written, and the Role-Played. Players can take the written portion of 
-their combat test from the Auto-Arb machine in the Library, which is 
-located just off the OOC Hangout. The written test answers should be 
--mailed, along with a copy of the questions, to the Combat Tester(s) in 
-the player's own culture. The Combat Tester will then contact the player 
-to arrange a time and date for the Role-Played Portion of the Combat Test. 
-Players who have already become Combat Approved with their primary 
-characters, but wish to approve their alts should -mail an ARBiter with 
+A: Every player is required to pass a basic combat test to prove they are
+familiar with the combat system, and capable of RPing combat in a
+realistic, thematic manner. This test is split into two portions: The
+written, and the Role-Played. Players can take the written portion of
+their combat test from the Auto-Arb machine in the Library, which is
+located just off the OOC Hangout. The written test answers should be
+-mailed, along with a copy of the questions, to the Combat Tester(s) in
+the player's own culture. The Combat Tester will then contact the player
+to arrange a time and date for the Role-Played Portion of the Combat Test.
+Players who have already become Combat Approved with their primary
+characters, but wish to approve their alts should -mail an ARBiter with
 the request.
 
 (continued in NEWS COMBAT TEST 2)
-==============================================================================
++============================================================================+
 & combat test 2
 & combat test2
 & combat faq test 2
 & combat faq test2
-===== NEWS COMBAT TEST 2 =====================================================
++==== NEWS COMBAT TEST 2 ====================================================+
 Q: What is the test like?
-A: The Fighter Test is consists of two sections: The written quiz, and a 
-roleplayed combat scene. The written part is made up of questions designed 
-to test the player's familiarity with the NEWS COMBAT and -help combat 
-files, as well as questions regarding the basics of Beleriand theme. The 
-second part of the combat test is usually held in one of the OOC Combat 
-arenas, and consists of an entirely roleplayed scene involving combat. It 
-is the Combat Testers' job to decide whether the player has the necessary 
-RP skills to handle combat believably and thematically, and to hopefully 
+A: The Fighter Test is consists of two sections: The written quiz, and a
+roleplayed combat scene. The written part is made up of questions designed
+to test the player's familiarity with the NEWS COMBAT and -help combat
+files, as well as questions regarding the basics of Beleriand theme. The
+second part of the combat test is usually held in one of the OOC Combat
+arenas, and consists of an entirely roleplayed scene involving combat. It
+is the Combat Testers' job to decide whether the player has the necessary
+RP skills to handle combat believably and thematically, and to hopefully
 offer suggestions on what the player can do to improve these skills.
 
 (continued in NEWS COMBAT TEST 3)
-==============================================================================
++============================================================================+
 & combat test 3
 & combat test3
 & combat faq test 3
 & combat faq test3
-===== NEWS COMBAT TEST 3 =====================================================
++==== NEWS COMBAT TEST 3 ====================================================+
 Q: How is the test graded?
-A: The player taking the Roleplayed combat test is carefully evaluated by 
-the Tester giving it. It is the Tester's responsibility to decide whether 
-the player is in fact ready for the FIGHTER flag by gauging their ability 
-to RP combat thematically and realistically, and by determining if the 
-player is familiar enough with the OOC rules and etiquette of combat RP to 
-merit receiving the FIGHTER flag. A Tester pays attention specifically to 
-the player's ability to visualize the RP scene, their feel for timing 
-concerning their own actions in relation to others around them and the IC 
-world itself, their sense of how possible it is to hit and to wound in the 
-situation at hand, what and how much damage to take from a likely blow, 
-and what kind of movements are possible or impossible in armour of 
-different types and in varying conditions. It is the Tester's duty to help 
-the player improve in these areas by offering advise and suggestions 
-during the test, or possibly by recommending that the player take combat 
-lessons on the subject in which they are lacking. If the Tester feels that 
-the player is not sufficiently skilled in combat RP, or not familiar 
-enough with basic MUSH theme and combat etiquette, the FIGHTER flag will 
-be denied and the player will be urged to take combat lessons either from 
+A: The player taking the Roleplayed combat test is carefully evaluated by
+the Tester giving it. It is the Tester's responsibility to decide whether
+the player is in fact ready for the FIGHTER flag by gauging their ability
+to RP combat thematically and realistically, and by determining if the
+player is familiar enough with the OOC rules and etiquette of combat RP to
+merit receiving the FIGHTER flag. A Tester pays attention specifically to
+the player's ability to visualize the RP scene, their feel for timing
+concerning their own actions in relation to others around them and the IC
+world itself, their sense of how possible it is to hit and to wound in the
+situation at hand, what and how much damage to take from a likely blow,
+and what kind of movements are possible or impossible in armour of
+different types and in varying conditions. It is the Tester's duty to help
+the player improve in these areas by offering advise and suggestions
+during the test, or possibly by recommending that the player take combat
+lessons on the subject in which they are lacking. If the Tester feels that
+the player is not sufficiently skilled in combat RP, or not familiar
+enough with basic MUSH theme and combat etiquette, the FIGHTER flag will
+be denied and the player will be urged to take combat lessons either from
 any available -trainers or from other players of their own culture.
 
 (continued in NEWS COMBAT FAQ TRAINING)
-==============================================================================
++============================================================================+
 & combat faq training
-===== NEWS COMBAT FAQ TRAINING ===============================================
++==== NEWS COMBAT FAQ TRAINING ==============================================+
 Introduction:
 Over time, training increases your skill at using a weapon. All facets of
 combat: ability to hit, accuracy and even defensive skills all are improved
@@ -219,10 +219,10 @@ hold training sessions in the OOC Combat Arena with an available -trainer, and
 only if permission is granted by the player's Cultural admins.
 
 (continued in NEWS COMBAT FAQ TRAINING 2)
-==============================================================================
++============================================================================+
 & combat faq training 2
 & combat faq training2
-===== NEWS COMBAT FAQ TRAINING 2 =============================================
++==== NEWS COMBAT FAQ TRAINING 2 ============================================+
 Q: How often may I train?
 A: In theory, every couple of RL days a player may improve skills by training.
 This depends on the students INTelligence. Those with average INT (100) will
@@ -240,10 +240,10 @@ successful -train does indeed improve your skills towards the next word level.
 See "-Help Combat T L" for an illustration of Word Levels.
 
 (continued in NEWS COMBAT FAQ TRAINING 3)
-==============================================================================
++============================================================================+
 & combat faq training 3
 & combat faq training3
-===== NEWS COMBAT FAQ TRAINING 3 =============================================
++==== NEWS COMBAT FAQ TRAINING 3 ============================================+
 Q: How many weapons can I -train in?
 A: With the same limitations on waiting a couple of days between -training
 sessions, you may train in any number of weapons available to you and your
@@ -261,9 +261,9 @@ culture. It is hoped the above conditions apply of course. The game admins
 will only become involved if there is a problem with the trainer.
 
 (continued in NEWS COMBAT FAQ HEALING)
-==============================================================================
++============================================================================+
 & combat faq healing
-===== NEWS COMBAT FAQ HEALING ================================================
++==== NEWS COMBAT FAQ HEALING ===============================================+
 Q: Who can use the -heal command?
 A: While anyone may use the -heal command, only authorized healers who represent
 those with IC skill will have a reasonable chance of success. Whether it is
@@ -280,10 +280,10 @@ least fair health to be able to use the -heal command. Currently that number is
 half of the healer's total HP's.
 
 (continued in NEWS COMBAT FAQ HEALING 2)
-==============================================================================
++============================================================================+
 & combat faq healing 2
 & combat faq healing2
-===== NEWS COMBAT FAQ HEALING 2 ==============================================
++==== NEWS COMBAT FAQ HEALING 2 =============================================+
 Q: How do I become a healer?
 A: Express the desire to your Culture Admins. Likely you will begin as an
 apprentice, both in skills and position. After some time, you'll be a full
@@ -302,40 +302,40 @@ general, such a recovery occurs much more slowly than under the care of a
 skilled healer.
 
 (continued in NEWS COMBAT FAQ DAMAGE)
-==============================================================================
-& combat faq damage 
-===== NEWS COMBAT FAQ DAMAGE =================================================
++============================================================================+
+& combat faq damage
++==== NEWS COMBAT FAQ DAMAGE ================================================+
 A brief primer on how the combat system works:
 
-A numbered 'range' is calculated for each player. It is a number greater 
-than 0 and is a function of each of the players DEXterity and training in 
-the weapon they currently wield. The exact weighting for this number is 
-not quite settled on, but for now training points contribute somewhat 
-less than DEXterity in this figure. In addition a 'reach' number is 
+A numbered 'range' is calculated for each player. It is a number greater
+than 0 and is a function of each of the players DEXterity and training in
+the weapon they currently wield. The exact weighting for this number is
+not quite settled on, but for now training points contribute somewhat
+less than DEXterity in this figure. In addition a 'reach' number is
 calculated for the attacker. This number again is a function of the players
-training points and DEXterity. So that leaves us with these values: 
+training points and DEXterity. So that leaves us with these values:
           attack_range ... f(DEX,training)
           attack_reach ... f(training,DEX)
           defend_range ... f(training,DEX)
 Now a random number is generated for each player between 0 and *_range for
-each player. In the case of the attacker his/her number will be between 0 
-and MIN(attack_range, defense_range). If the difference in these two 
-numbers is less than attack_reach - this attack has resulted in a hit and 
+each player. In the case of the attacker his/her number will be between 0
+and MIN(attack_range, defense_range). If the difference in these two
+numbers is less than attack_reach - this attack has resulted in a hit and
 damage must now be calculated.
 
 (continued in NEWS COMBAT FAQ DAMAGE 2)
-==============================================================================
++============================================================================+
 & combat faq damage 2
 & combat faq damage2
-===== NEWS COMBAT FAQ DAMAGE 2 ===============================================
-Now that we have a 'hit' number which is less than 'attack_reach', we can 
++==== NEWS COMBAT FAQ DAMAGE 2 ==============================================+
+Now that we have a 'hit' number which is less than 'attack_reach', we can
 use this number to calculate damages. Firstly the 'brunt' of the attack is
 calculated as a percentage of the difference between 'attack reach' and the
 'hit' number. This is multiplied by the damage of the weapon. Then the
-damage is further multiplied by weighted values of the attackers STRength 
+damage is further multiplied by weighted values of the attackers STRength
 and training. Finally it is divided by the defenders effective AC (armour
 class)..which is in itself the defenders AC plus possible bonuses for
-training. 
+training.
 
 So to try and put this in equation form:
 
@@ -345,35 +345,35 @@ damage = damage * (f(attacker_STR) + f(attacker_training))
 damage = damage / (defender_AC + f(defender_training))
 
 (continued in NEWS COMBAT TESTERS)
-==============================================================================
++============================================================================+
 & combat testers
-===== NEWS COMBAT TESTERS ====================================================
-	Combat Testers are -trainers authorized to give the Role-Played 
-portion of Beleriand's Combat Test to players in their own culture. It is 
-their responsibility to test whether new players are familiar and 
-proficient enough with the etiquette and rules of Combat RP to receive the 
-Fighter flag. Upon applying for the RPd combat test, a new player should 
-contact his culture's combat tester(s) and arrange a time and date for a 
++==== NEWS COMBAT TESTERS ===================================================+
+        Combat Testers are -trainers authorized to give the Role-Played
+portion of Beleriand's Combat Test to players in their own culture. It is
+their responsibility to test whether new players are familiar and
+proficient enough with the etiquette and rules of Combat RP to receive the
+Fighter flag. Upon applying for the RPd combat test, a new player should
+contact his culture's combat tester(s) and arrange a time and date for a
 RPd testing session.
-	The RPd portion of the test is played out in the OOC Combat 
-Hangout, and is not usually considered In Character Role Play. The entire 
-testing session, including OOC commentary from the Combat Tester and 
+        The RPd portion of the test is played out in the OOC Combat
+Hangout, and is not usually considered In Character Role Play. The entire
+testing session, including OOC commentary from the Combat Tester and
 player, should be logged and saved.
-	Afterwards, the Combat Tester should notify Beleriand's ARBiters 
-and the CAs of his culture to make note of whether the player passed the 
-RPd portion of the test, and to give some indication of what areas they 
-should practice and improve upon. Combat Testers are chosen and appointed 
+        Afterwards, the Combat Tester should notify Beleriand's ARBiters
+and the CAs of his culture to make note of whether the player passed the
+RPd portion of the test, and to give some indication of what areas they
+should practice and improve upon. Combat Testers are chosen and appointed
 by their Culture Wardens.
 
 (continued in NEWS COMBAT TRAINING LEVELS)
-==============================================================================
-& combat training levels 
-===== NEWS COMBAT TRAINING LEVELS ============================================
++============================================================================+
+& combat training levels
++==== NEWS COMBAT TRAINING LEVELS ===========================================+
 These are suggested guidelines for starting training levels for different
 kinds of characters.
 
 Greater Feature   - 1 Master and 2 Expert (these may be adjusted manually)
-Lesser Feature    - 1 Expert and 2 Adept. 
+Lesser Feature    - 1 Expert and 2 Adept.
 -Trainers         - 1 Adept and 2 Proficient.
 CW (Military)     - 1 Expert, 1 Adept, 1 Proficient
 CW (Non-Military) - 2 Apprentice
@@ -387,16 +387,16 @@ Players           - Can have two weapons. The first training gives a bonus, so
 Healers           - Proficient or Adept healing skill
 
 (continued in NEWS COMBAT VERSION)
-==============================================================================
++============================================================================+
 & combat version
-===== NEWS COMBAT VERSION ====================================================
++==== NEWS COMBAT VERSION ===================================================+
 The code for the combat system was begun in November 1996. In January 1997
 the code was changed and placed on Wizard level objects. After some delays,
 and after moving Beleriand's site, the code was opened for public use around
-March of 97. That was version 1.0, and like many so-called 'dot-ohs' it had 
+March of 97. That was version 1.0, and like many so-called 'dot-ohs' it had
 its share of bugs, which at this writing are fixed. The current version is
 called 1.5, which is more a representation of other features which have been
-added than any particular event or release. A brief history of those changes 
+added than any particular event or release. A brief history of those changes
 and future versions follows:
 
 Version  Date         Features
@@ -407,9 +407,9 @@ Version  Date         Features
   1.4    May 97       Attack command changes
   1.5    May 97       More weapons, resources code enhanced
   1.6    June 97      Shoot command (bows), limited 'beta beasts'
-                      internal changes to forge 
+                      internal changes to forge
   1.7    October 97   Enhanced attack command hunting beasts.
   1.8    In Progress  Many enhancements and tweakings.
   1.9    Planning     More resources, resource objects
   2.0    Dreaming     Possible introduction of attack weight estimates.
-==============================================================================
++============================================================================+

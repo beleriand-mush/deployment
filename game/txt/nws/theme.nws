@@ -1,7 +1,7 @@
 & theme
-===== NEWS THEME ==========================================================
++==== NEWS THEME ============================================================+
  Topic:         Updated:   Description:
----------------------------------------------------------------------------
++----------------------------------------------------------------------------+
  BOOKS          19 Oct 07  A complete listing of all Middle-earth books.
  CANON          19 Oct 07  When a conflict arises between resources.
  RESOURCES      19 Oct 07  Which resources are most pertinent to our theme.
@@ -17,13 +17,13 @@
 
  CHARACTERS     10 May 97  Tips on creating your character.
 
-Type NEWS <topic> for more information. 
-===========================================================================
+Type NEWS <topic> for more information.
++============================================================================+
 & books
 & theme books
-===== NEWS BOOKS ==========================================================
++==== NEWS BOOKS ============================================================+
    For a complete list of books by J.R.R. Tolkien, see our web page at:
-                    http://beleriand.mux.net/books.html
+               http://beleriand.middleearth.net/books.html
 
 No attempt is made in these files to duplicate the full list given there.
 Instead, here is a list of those books which are directly relevant to our
@@ -42,12 +42,12 @@ theme:
 * The Children of Hurin (CH)
 
 For more information, see NEWS BOOKS 2 and NEWS RESOURCES
-===========================================================================
++============================================================================+
 & books 2
 & books2
 & theme books 2
 & theme books2
-===== NEWS BOOKS 2 ========================================================
++==== NEWS BOOKS 2 ==========================================================+
 Companion Volumes
 
 * The Complete Guide to Middle-earth, by Robert Foster (Foster)
@@ -56,14 +56,14 @@ Companion Volumes
 * The History of Middle-earth Index (Index)
 
 The above are resources by third-party authors who compiled their
-information from research of Tolkien's works. All of the above are fairly 
+information from research of Tolkien's works. All of the above are fairly
 reliable, and certainly handy reference material here on this game. They
 are not considered quotable resources on this game, but rather tools for
 researching Tolkien.
-===========================================================================
++============================================================================+
 & canon
 & theme canon
-===== NEWS CANON ==========================================================
++==== NEWS CANON ============================================================+
 The question of canon is a tricky one, so here we have tried to break it
 down as completely and concisely as possible, to provide a clear method of
 settling discrepancies between resources.
@@ -80,12 +80,12 @@ settling discrepancies between resources.
    be the Thematic version. Therefore:
 
 (continued in NEWS CANON 2)
-===========================================================================
++============================================================================+
 & canon 2
 & canon2
 & theme canon 2
 & theme canon2
-===== NEWS CANON 2 ========================================================
++==== NEWS CANON 2 ==========================================================+
 3) The 1977 Silmarillion is the "Standard". It is a reasonably consistent
    version of the mythology. If anything from a source contradicts
    something in The Silmarillion, it shall not be considered Thematic.
@@ -107,12 +107,12 @@ settling discrepancies between resources.
    Dwarves and Elves are subtly different. Also consider the dialogue used
 
 (continued in NEWS CANON 3)
-===========================================================================
++============================================================================+
 & canon 3
 & canon3
 & theme canon 3
 & theme canon3
-===== NEWS CANON 3 ========================================================
++==== NEWS CANON 3 ==========================================================+
    in The Silmarillion, which is a more archaic style than that of LR.
    These are examples of things to keep in mind. All Canonical resources
    are taken into account, but ultimately it must fit in with The
@@ -129,10 +129,10 @@ settling discrepancies between resources.
    becomes a real part of the game's theme as soon as it enters into RP,
    unless it is later judged to be unthematic because of conflicts with
    Canon).
-===========================================================================
++============================================================================+
 & resources
 & theme resources
-===== NEWS RESOURCES ======================================================
++==== NEWS RESOURCES ========================================================+
 See NEWS BOOKS for a complete list of Middle-earth books.
 See NEWS CANON for a discussion of The Silmarillion and its central role in
 our theme, but that file more specifically addresses disputes between
@@ -150,12 +150,12 @@ certainly recommended that you do so, but if not, at least we can point out
 the highlights that are most relevant to the MUSH.
 
 (continued in NEWS RESOURCES 2)
-===========================================================================
++============================================================================+
 & resources 2
 & resources2
 & theme resources 2
 & theme resources2
-===== NEWS RESOURCES 2 ====================================================
++==== NEWS RESOURCES 2 ======================================================+
 UNFINISHED TALES contains the longest of the Great Tales, the tragic saga
 named Narn i Hin Hurin, or the Tale of the Children of Hurin. A prose
 narrative of great importance and yet easy to read, it is also the most
@@ -179,12 +179,12 @@ really good story with a lot of great info for Brethil, told in full
 narrative form.
 
 (continued in NEWS RESOURCES 3)
-===========================================================================
++============================================================================+
 & resources 3
 & resources3
 & theme resources 3
 & theme resources3
-===== NEWS RESOURCES 3 ====================================================
++==== NEWS RESOURCES 3 ======================================================+
 THE BOOK OF LOST TALES Part Two contains Tolkien's first version of the
 mythology, and while it is early and does not quite match the flavour of
 The Silmarillion, it does include full versions of all the Great Tales,
@@ -203,10 +203,10 @@ interest. THE LORD OF THE RINGS, particularly the Appendices, contains a
 lot of essential information which is never repeated elsewhere. Finally,
 THE LETTERS OF J.R.R. TOLKIEN provides a window into the author's mind and
 is an indispensable tool for interpreting his works.
-===========================================================================
++============================================================================+
 & sources
 & theme sources
-===== NEWS SOURCES ========================================================
++==== NEWS SOURCES ==========================================================+
 In order to understand the relationship between Beleriand MUSH and
 Tolkien's novels, let us imagine that a real Beleriand existed in history,
 or that a real Beleriand exists in another world, it matters not which.
@@ -223,12 +223,12 @@ Real Beleriand. For it is a real world, and while we know a few tales of
 Beleriand, there are many other tales to be told.
 
 (continued in NEWS SOURCES 2)
-===========================================================================
++============================================================================+
 & sources 2
 & sources2
 & theme sources 2
 & theme sources2
-===== NEWS SOURCES 2 ======================================================
++==== NEWS SOURCES 2 ========================================================+
 Beleriand MUSH is another world which is not the same as Real Beleriand but
 it is close. In most cases it is as close as we can possibly make it to
 Real Beleriand. In fact, we could say that up till the Year of the Sun 450
@@ -249,23 +249,24 @@ the goal of the game is to play in Tolkien's world, and the utmost care
 will be taken to make sure that our world mirrors that world as much as
 possible, recreating scenes from the books and filling in the gaps wherever
 we please.
-===========================================================================
++============================================================================+
 & cultures
 & theme cultures
-===== NEWS CULTURES =======================================================
++==== NEWS CULTURES =========================================================+
 Each character in Beleriand MUSH must choose a homeland, a realm or culture
 that he is from. This not only provides your character with a home base for
 roleplay, but also helps shape your character's background and identity,
-his place in the vast scheme of the factions of Beleriand. There are 
-currently four realms of the Elves, one Dwarven kingdom, and two nations 
-of Men. The vastest kingdom of all, though, is that of all evil creatures 
+his place in the vast scheme of the factions of Beleriand. There are
+currently four realms of the Elves, one Dwarven kingdom, and two nations
+of Men. The vastest kingdom of all, though, is that of all evil creatures
 serving Morgoth, whose stronghold is Angband to the north of Beleriand.
 
 These files are designed to help the new player with information on all the
-cultures. See the web for more info at http://beleriand.mux.net/realms.html
+cultures. See the web for more info at:
+   http://beleriand.middleearth.net/realms.html
 
  Topic:            Updated:   Description:
----------------------------------------------------------------------------
++----------------------------------------------------------------------------+
  CULTURES ELVES    26 Oct 07  Realms of the Elven Kings.
  CULTURES DWARVES  26 Oct 07  Realms of the Dwarf-lords.
  CULTURES MEN      26 Oct 07  Realms of the Mortal Men.
@@ -273,15 +274,15 @@ cultures. See the web for more info at http://beleriand.mux.net/realms.html
  CULTURES JOIN     21 Dec 02  How to join a culture.
 
 See NEWS CULTURES <topic> for more information.
-===========================================================================
++============================================================================+
 & cultures elf
 & cultures elves
 & theme cultures elf
 & theme cultures elves
-===== NEWS CULTURES ELVES =================================================
++==== NEWS CULTURES ELVES ===================================================+
 MITHRIM
-In Hithlum in the North, Mithrim is the seat of the High King of the 
-Noldor, Fingon, son of Fingolfin, and his people are hardy and valiant. 
+In Hithlum in the North, Mithrim is the seat of the High King of the
+Noldor, Fingon, son of Fingolfin, and his people are hardy and valiant.
 Mithrim is inhabited by both Noldor and Sindar.
 
 NARGOTHROND
@@ -298,12 +299,12 @@ The great Sindarin kingdom of Beleriand, Doriath is ruled by Thingol and
 wise Melian. A guarded realm of the Sindar and Laiquendi Elves.
 
 See NEWS ELVES for more information.
-===========================================================================
++============================================================================+
 & cultures dwarf
 & cultures dwarves
 & theme cultures dwarf
 & theme cultures dwarves
-===== NEWS CULTURES DWARVES ===============================================
++==== NEWS CULTURES DWARVES =================================================+
 BELEGOST
 On the northern side of Mount Dolmed in the Blue Mountains lies Belegost,
 or Gabilgathol, home of Azaghal and the Broadbeam Dwarves.
@@ -313,7 +314,7 @@ On the southern side of Mount Dolmed in the Blue Mountains lies Nogrod,
 or Tumunzahar, home of Naugladur and the Firebeard Dwarves.
 
 See NEWS DWARVES for more information.
-===========================================================================
++============================================================================+
 & cultures human
 & cultures man
 & cultures humans
@@ -322,7 +323,7 @@ See NEWS DWARVES for more information.
 & theme cultures man
 & theme cultures humans
 & theme cultures men
-===== NEWS CULTURES MEN ===================================================
++==== NEWS CULTURES MEN =====================================================+
 BRETHIL
 The Forest of Brethil is the home of Halmir and the Haladin (the Second
 House of the Edain), and also to the Druedain. They are fiercely
@@ -333,14 +334,14 @@ Dor-lomin in Hithlum is home to Galdor and the great Third House of the
 Edain. They are closely allied with the lords of Mithrim.
 
 See NEWS MEN for more information.
-===========================================================================
++============================================================================+
 & cultures orc
 & cultures orcs
 & cultures other
 & theme cultures orc
 & theme cultures orcs
 & theme cultures other
-===== NEWS CULTURES OTHER =================================================
++==== NEWS CULTURES OTHER ===================================================+
 ANGBAND
 The Hells of Iron, home of evil, stronghold of the north where dwells
 Morgoth the Evil Vala and his Orcs and other minions. This realm also
@@ -349,14 +350,14 @@ includes Tol-in-Gaurhoth, the Wizard's Isle, where dwell the Werewolves.
 See NEWS ORCS and NEWS WEREWOLVES for more information.
 
 CRISSAEGRIM
-High mountain peaks from whence the Great Eagles of Manwe with Thorondor 
+High mountain peaks from whence the Great Eagles of Manwe with Thorondor
 their lord help the oppressed people of Beleriand.
 
 See NEWS GREAT EAGLES for more information.
-===========================================================================
++============================================================================+
 & cultures joining
 & theme cultures joining
-===== NEWS CULTURES JOINING ===============================================
++==== NEWS CULTURES JOINING =================================================+
 Once you have chosen the culture you wish to join, you must contact a
 Culture Admin (CA) of that culture and ask to be signed up. One way to make
 your intentions known is by the -REQUEST command. This will send a mail
@@ -374,12 +375,12 @@ following commands:
 
   -com/join Newbie
   -com Newbie=Hi, will someone help me, please?
-===========================================================================
++============================================================================+
 & timeline
 & chronology
 & theme timeline
 & theme chronology
-===== NEWS TIMELINE =======================================================
++==== NEWS TIMELINE =========================================================+
 Chronology of the Years of the Sun of the years later known as the First
 Age.
 
@@ -388,12 +389,12 @@ See NEWS CHRONOLOGY 2 for years 355-466.
 See NEWS CHRONOLOGY 3 for years 466-496.
 See NEWS CHRONOLOGY 4 for years 497-600.
 See NEWS CHRONOLOGY ALL for the whole thing (long!).
-===========================================================================
++============================================================================+
 & chronology 1
 & chronology1
 & theme chronology 1
 & theme chronology1
-===== NEWS CHRONOLOGY 1 ===================================================
++==== NEWS CHRONOLOGY 1 =====================================================+
 Foster's Chronology of the First Age - Years of the Sun
 
      1 The Years of the Sun begin; the Sunrises in the West. Men awaken.
@@ -415,12 +416,12 @@ c. 306 Maeglin is born.
 c. 310 Finrod meets the Edain in Ossiriand.
 c. 311 Beor enters the service of Finrod.
 c. 330 Aredhel and Eol.
-===========================================================================
++============================================================================+
 & chronology 2
 & chronology2
 & theme chronology 2
 & theme chronology2
-===== NEWS CHRONOLOGY 2 ===================================================
++==== NEWS CHRONOLOGY 2 =====================================================+
 c. 355 Death of Beor.
 c. 365 Bereg of the First House returns to Eriador.
 c. 370 Haleth brings the Haladin to Brethil.
@@ -443,12 +444,12 @@ c. 441 Birth of Hurin.
        Summer: Beren is brought to Menegroth and undertakes the Quest of
        the Silmaril.
        Autumn: Beren in Nargothrond.
-===========================================================================
++============================================================================+
 & chronology 3
 & chronology3
 & theme chronology 3
 & theme chronology3
-===== NEWS CHRONOLOGY 3 ===================================================
++==== NEWS CHRONOLOGY 3 =====================================================+
 466-68 The Quest of the Silmaril. Death of Finrod and Draugluin. Tol Sirion
        cleansed; Sauron flees to Taur-nu-Fuin. Beren recovers a Silmaril.
        The Hunting of the Wolf; death of Beren, Huan, Carcharoth, and
@@ -471,12 +472,12 @@ c. 470 Beren and Luthien in Tol Galen; Dior is born.
        of Tumhalad and the sack of Nargothrond. Death of Orodreth, Gwindor,
        and Finduilas. Turin ensnared by Glaurung. Tuor comes to Nevrast and
        Gondolin. The Fell Winter.
-===========================================================================
++============================================================================+
 & chronology 4
 & chronology4
 & theme chronology 4
 & theme chronology4
-===== NEWS CHRONOLOGY 4 ===================================================
++==== NEWS CHRONOLOGY 4 =====================================================+
    497 Turin in Brethil.
    500 Turin and Nienor wed.
    501 Death of Glaurung, Nienor, Brandir, and Turin.
@@ -497,10 +498,10 @@ c. 543 Tuor and Idril sail West. Earendil becomes lord of the people of the
        born.
 c. 600 Earendil sails into the West. The War of Wrath. Beleriand is Broken.
        Melkor is cast out into the Void.
-===========================================================================
++============================================================================+
 & chronology all
 & theme chronology all
-===== NEWS CHRONOLOGY ALL =================================================
++==== NEWS CHRONOLOGY ALL ===================================================+
 Foster's Chronology of the First Age - Years of the Sun
 
      1 The Years of the Sun begin; the Sunrises in the West. Men awaken.
@@ -586,10 +587,10 @@ c. 543 Tuor and Idril sail West. Earendil becomes lord of the people of the
        born.
 c. 600 Earendil sails into the West. The War of Wrath. Beleriand is Broken.
        Melkor is cast out into the Void.
-===========================================================================
++============================================================================+
 & powers
 & theme powers
-===== NEWS POWERS =========================================================
++==== NEWS POWERS ===========================================================+
 In the beginning Iluvatar made the Ainur, the Holy Ones, of his thought,
 and they made a great Music before him. In this Music the World was begun,
 for Iluvatar made visible the song of the Ainur. And many among them became
@@ -604,10 +605,10 @@ Mandos     Vaire      Lorien     Este       Tulkas     Nessa      Osse
 Uinen      Orome      Vana
 
 See: 'NEWS POWERS <name>' for more information about a specific Vala.
-===========================================================================
++============================================================================+
 & powers manwe
 & theme powers manwe
-===== NEWS POWERS MANWE ===================================================
++==== NEWS POWERS MANWE =====================================================+
 Manwe and Melkor were brethren in the thought of Iluvatar. The mightiest of
 the Valar was in his beginning Melkor; but Manwe is dearest to Iluvatar and
 understands most clearly his purposes. He was appointed to be, in the
@@ -631,10 +632,10 @@ wisdom, birds, and the Vanyar.
 
 Names: Manwe (Q. "Blessed One"); Sulimo (Q. "Breather"); King of Arda, the
 Elder King, Lord of the West.
-===========================================================================
++============================================================================+
 & powers varda
 & theme powers varda
-===== NEWS POWERS VARDA ===================================================
++==== NEWS POWERS VARDA =====================================================+
 Varda is the spouse of Manwe. Too great is her beauty to be declared in the
 words of Men or of Elves; for the light of Iluvatar lives still in her
 face. In light is her power and her joy. Out of the deeps of Ea she came to
@@ -657,10 +658,10 @@ insight.
 Names: Varda (Q. "The Exalted"); Elbereth (S. "Star Queen;" Q. "Elentari");
 Tintalle (Q. "Kindler"); Gilthoniel (S. "Star Kindler"); Lady of the Stars;
 Fanuilos (S. "Ever-white"); Snow-white.
-===========================================================================
++============================================================================+
 & powers melkor
 & theme powers melkor
-===== NEWS POWERS MELKOR ==================================================
++==== NEWS POWERS MELKOR ====================================================+
 Mightiest among the Ainur and he to whom had been given the greatest gifts
 of power and knowledge was Melkor. In the powers and knowledge of all the
 other Valar he has a part, but he turned them to evil purposes, and uses
@@ -697,10 +698,10 @@ his emblem is a field of sable, unblazoned.
 
 Names: Melkor (Q. "He Who Arises in Might;" S. "Belegur"); Morgoth (S.
 "Dark Enemy"); Bauglir (S. "Constrainer); Belegurth (S. "Great Death").
-===========================================================================
++============================================================================+
 & powers ulmo
 & theme powers ulmo
-===== NEWS POWERS ULMO ====================================================
++==== NEWS POWERS ULMO ======================================================+
 Ulmo is the Lord of Waters. He is alone. He dwells nowhere long, but moves
 as he will in all the deep waters about the Earth or under the Earth. He is
 next in might to Manwe, and before Valinor was made he was closest to him
@@ -727,10 +728,10 @@ Ulmo's element is Water. He influences sea, rain, springs, music, and the
 Teleri.
 
 Names: Ulmo (Q. "Pourer, Rainer"); Lord of Waters; King of the Sea.
-===========================================================================
++============================================================================+
 & powers aule
 & theme powers aule
-===== NEWS POWERS AULE ====================================================
++==== NEWS POWERS AULE ======================================================+
 Aule has might little less than Ulmo. His lordship is over all the
 substances of which Arda is made. In the beginning he wrought much in
 fellowship with Manwe and Ulmo; and the fashioning of all lands was his
@@ -760,40 +761,40 @@ Aule's element is Earth. He influences the material earth, skill, lore,
 crafts, creativity, insight, materiality, the Dwarves, and the Noldor.
 
 Names: Aule; the Smith; the Maker (Kh. "Mahal"); the Friend of the Noldor.
-===========================================================================
++============================================================================+
 & powers yavanna
 & theme powers yavanna
-===== NEWS POWERS YAVANNA =================================================
++==== NEWS POWERS YAVANNA ===================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers nienna
 & theme powers nienna
-===== NEWS POWERS NIENNA ==================================================
++==== NEWS POWERS NIENNA ====================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers mandos
 & theme powers mandos
-===== NEWS POWERS MANDOS ==================================================
++==== NEWS POWERS MANDOS ====================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers vaire
 & theme powers vaire
-===== NEWS POWERS VAIRE ===================================================
++==== NEWS POWERS VAIRE =====================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers lorien
 & theme powers lorien
-===== NEWS POWERS LORIEN ==================================================
++==== NEWS POWERS LORIEN ====================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers este
 & theme powers este
-===== NEWS POWERS ESTE ====================================================
++==== NEWS POWERS ESTE ======================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers tulkas
 & theme powers tulkas
-===== NEWS POWERS TULKAS ==================================================
++==== NEWS POWERS TULKAS ====================================================+
 "Greatest in strength and deeds of prowess is Tulkas, who is surnamed
 Astaldo, the Valiant." He was the last of the Vala to come to Arda, lending
 his great strength and hardihood to the Vala against the foe Melkor.
@@ -815,39 +816,39 @@ of bronze and pillars of copper in a wide arcade. In its court men played
 and rivalled one another in doughty feats, and there at times would that
 fair maiden Nessa wife of Tulkas bear goblets of the goodliest wine and
 cooling drinks among the players."
-===========================================================================
++============================================================================+
 & powers nessa
 & theme powers nessa
-===== NEWS POWERS NESSA ===================================================
++==== NEWS POWERS NESSA =====================================================+
 Nessa is the spouse of Tulkas, and sister of Orome. She is lithe and
 fleetfooted. "Deer she loves, and they follow her train wherever she goes
 in the wild; but she can outrun them, swift as an arrow with the wind in
 her hair. In dancing she delights, and she dances in Valimar on lawns of
 never fading green."
-===========================================================================
++============================================================================+
 & powers osse
 & theme powers osse
-===== NEWS POWERS OSSE ====================================================
++==== NEWS POWERS OSSE ======================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers uinen
 & theme powers uinen
-===== NEWS POWERS UINEN ===================================================
++==== NEWS POWERS UINEN =====================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers orome
 & theme powers orome
-===== NEWS POWERS OROME ===================================================
++==== NEWS POWERS OROME =====================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & powers vana
 & theme powers vana
-===== NEWS POWERS VANA ====================================================
++==== NEWS POWERS VANA ======================================================+
 Coming soon...
-===========================================================================
++============================================================================+
 & characters
 & theme characters
-===== NEWS CHARACTERS =====================================================
++==== NEWS CHARACTERS =======================================================+
 When you create a character it must fit in with theme, always. The easiest
 way to check this is through the Culture Admins of your culture, they know
 in general what is accepted or not. Some cases may be too tough and the
@@ -866,4 +867,4 @@ Non-Player Characters and thus, standing out. There's a huge NPC
 visible then they, a special person already. Make yourself even more
 special in acts, words and deeds, make your character come alive...alive in
 the world of Tolkien.
-===========================================================================
++============================================================================+
