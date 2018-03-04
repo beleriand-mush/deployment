@@ -1,14 +1,16 @@
 
-In valleys woven with deceit
-and washed with waters bitter-sweet
-dark magic lurked in gulf and glen;
-but out away beyond the ken
-of mortal sight the eagle's eye
-from dizzy towers that pierced the sky
-might grey and gleaming see afar,
-as sheen on water under star,
-Beleriand, Beleriand,
-the borders of the Elven-land.
++============================================================================+
 
-*********** D I S C O N N E C T E D ***********
+    In valleys woven with deceit
+    and washed with waters bitter-sweet
+    dark magic lurked in gulf and glen;
+    but out away beyond the ken
+    of mortal sight the eagle's eye
+    from dizzy towers that pierced the sky
+    might grey and gleaming see afar,
+    as sheen on water under star,
 
+    Beleriand, Beleriand,
+    the borders of the Elven-land.
+
++=========================  D I S C O N N E C T E D  ========================+
