@@ -1,0 +1,11 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/home/bele/Beleriand/bin/netmushctl start
+WorkingDirectory=/home/bele/Beleriand
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=default.target

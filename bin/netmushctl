@@ -1,11 +1,29 @@
 #!/bin/bash
+# kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
+if [[ true != "$INIT_D_SCRIPT_SOURCED" ]] ; then
+    set "$0" "$@"; INIT_D_SCRIPT_SOURCED=true . /lib/init/init-d-script
+fi
+### BEGIN INIT INFO
+# Provides:          beleriand
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Beleriand MUSH server
+# Description:       Manages Beleriand MUSH daemon
+### END INIT INFO
+
+# Author: Duncan McGreggor <oubiwann@gmail.com>
+
+DESC="Beleriand MUSH server"
 
 MUSH_USER=bele
 BASE_DIR=/home/$MUSH_USER/Beleriand
 BIN_DIR=$BASE_DIR/bin
 GAME_DIR=$BASE_DIR/game
 RC_NAME=beleriand
-NAME="Beleriand MUSH server"
+DAEMON=$BIN_DIR/$RC_NAME
+NAME="$NAME"
 ACTION="$1"
 
 export PATH=$BIND_DIR:$PATH
@@ -46,12 +64,12 @@ function daemon () {
     fi
 }
 
-function start () {
+function do_start () {
     echo "Starting $NAME ..."
     daemon "$@" &> /dev/null && success "Startup" || failure "Startup"
 }
 
-function stop () {
+function do_stop () {
     if [[ `whoami` = "$MUSH_USER" ]]; then
         OUTPUT="`$BIN_DIR/connect`"
     else
@@ -71,7 +89,7 @@ function stop () {
     success "Stop"
 }
 
-function restart () {
+function do_restart () {
     if [[ `whoami` = "$MUSH_USER" ]]; then
         (stop) && \
         (sleep 1; start &> /dev/null) && success "Restart" || failure "Restart"
@@ -81,7 +99,7 @@ function restart () {
 }
 
 
-function status () {
+function do_status () {
     if [[ `whoami` = "$MUSH_USER" ]]; then
 	    OUTPUT="`$BIN_DIR/connect`"
         CHECKED=`check-output "$OUTPUT"`
@@ -103,16 +121,16 @@ function install-rc () {
 
 case "$ACTION" in
     start)
-	start
+	do_start
     ;;
     stop)
-	stop
+	do_stop
     ;;
     status)
-    status
+    	do_status
     ;;
     restart)
-	restart
+	do_restart
     ;;
     setup)
     install-rc
